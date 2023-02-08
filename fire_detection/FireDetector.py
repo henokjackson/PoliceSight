@@ -48,9 +48,9 @@ def Detect(img,net,classes):
 
 def VideoSetup(vidpath):
 
-    net=cv2.dnn.readNet('model.weights', 'yolov3_testing.cfg')
+    net=cv2.dnn.readNet('darknet/model.weights', 'darknet/yolov3_testing.cfg')
     classes = []
-    with open("classes.txt", "r") as f:
+    with open("darknet/classes.txt", "r") as f:
         classes = f.read().splitlines()
 
     #opening video stream
