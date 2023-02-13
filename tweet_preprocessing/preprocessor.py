@@ -1,7 +1,6 @@
 import re
 import csv
 import string
-import pandas as pd
 from langdetect import detect
 
 import nltk
@@ -19,15 +18,14 @@ def Tweet_Preprocess(tweetlist):
     csvfields=['Raw Tweets','Preprocessed Tweets']
     csvfile.writerow(csvfields)
     csvrows=[]
-    
-    #Defining a new list for storing cleaned tweets
-    clean_tweets=[]
 
     #Setting up Stopwords and Lemmetizer
     stopwords_list=set(stopwords.words('english'))
     wnl=WordNetLemmatizer()
 
     for rawtweet in tweetlist:
+
+        #Checking if the tweet is written in english language
         if detect(rawtweet)=='en':
 
             #Converting to lowercase
@@ -51,9 +49,14 @@ def Tweet_Preprocess(tweetlist):
             #Replace combinations of tabs and spaces with single white space
             clean_tweet=re.sub('\s+',' ',clean_tweet)
 
-            #
+            #Remove stop words
             clean_tweet=' '.join([word for word in clean_tweet.split(' ') if word not in stopwords_list])
+            
+            #Perform words lemmetization
             clean_tweet=' '.join([wnl.lemmatize(word) for word in clean_tweet.split(' ')])
+            
+            #Append pre-processed tweet to csvrorws list
             csvrows.append([rawtweet,clean_tweet])
     
+    #write csvrows to csv file
     csvfile.writerows(csvrows)
