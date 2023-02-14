@@ -2,7 +2,7 @@
 #import langdetect
 import tweepy as tp
 import configparser
-import GetOldTweets3 as got
+#import GetOldTweets3 as got
 
 def TweetMiner(limit):
 	#Setting up key config file parser
