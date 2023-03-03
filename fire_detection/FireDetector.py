@@ -20,7 +20,7 @@ def Detect(img,net,classes):
             scores = detection[5:]
             class_id = np.argmax(scores)
             confidence = scores[class_id]
-            if confidence > 0.2:
+            if confidence > 0.5:
                 center_x = int(detection[0]*width)
                 center_y = int(detection[1]*height)
                 w = int(detection[2]*width)
@@ -33,7 +33,7 @@ def Detect(img,net,classes):
                 confidences.append((float(confidence)))
                 class_ids.append(class_id)
 
-    indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.2, 0.4)
+    indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.75)
 
     if len(indexes)>0:
         for i in indexes.flatten():
@@ -48,7 +48,7 @@ def Detect(img,net,classes):
 
 def VideoSetup(vidpath):
 
-    net=cv2.dnn.readNet('darknet/model.weights', 'darknet/yolov3_testing.cfg')
+    net=cv2.dnn.readNet('darknet/model.weights', 'darknet/yolov7_testing.cfg')
     classes = []
     with open("darknet/classes.txt", "r") as f:
         classes = f.read().splitlines()
