@@ -1,2 +1,3 @@
-fire_detection/darknet/model.weights
-fire_detection/darknet/darknet53.conv.74
+tweet_mining/apiconfig.ini
+fire_detection/yolov7/models/best.pt
+accident_detection/yolov7/models/best.pt
