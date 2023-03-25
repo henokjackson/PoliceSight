@@ -79,11 +79,16 @@ def Localize_Fire(frame):
                     norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
                     norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
 
-                    print("norm_Y_Cb : "+str(norm_Y_Cb))
-                    print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    
+                    if norm_Y_Cb>=-1 and norm_Y_Cb<=1:
+                        print("norm_Y_Cb : "+str(norm_Y_Cb))
+
+                    if norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
+                        print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+
 
                     mask[y][x][0]=225
-                    mask[y][x][1]=225
+                    mask[y][x][:""]=225
                     mask[y][x][2]=225
 
                 pixel+=1
