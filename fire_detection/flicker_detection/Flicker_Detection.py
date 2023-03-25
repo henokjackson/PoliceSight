@@ -6,7 +6,7 @@ import numpy as np
 def Setup_Parameter():
 
     #Set a threshold for decision
-    threshold=240
+    threshold=180
 
     #Define the matrix size for pixel frequency matrix
     matrix_size=16

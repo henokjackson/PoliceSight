@@ -12,7 +12,22 @@ def Localize_Fire(frame):
     #frame_rgb=cv.cvtColor(frame,cv.COLOR_BGR2RGB)
     frame_ycbcr=cv.cvtColor(frame,cv.COLOR_BGR2YCR_CB)
 
-    canvas=np.zeros_like(frame)
+    mask=np.zeros_like(frame)
+
+    #Params for Rule set - 0
+    Y_Cb_min=np.min(frame[...][...][0]-frame[...][...][2])
+    Y_Cb_max=np.max(frame[...][...][0]-frame[...][...][2])
+    Cr_Cb_min=np.min(frame[...][...][1]-frame[...][...][2])
+    Cr_Cb_max=np.max(frame[...][...][1]-frame[...][...][2])
+
+    '''
+    Y_min=np.min(frame[...][...][0])
+    Y_max=np.max(frame[...][...][0])
+    Cb_min=np.min(frame[...][...][2])
+    Cb_max=np.max(frame[...][...][2])
+    Cr_min=np.min(frame[...][...][1])
+    Cr_max=np.max(frame[...][...][1])
+    '''
 
     #Rule Set - I
     Y_mean=np.mean(frame[...][...][0])
@@ -27,8 +42,8 @@ def Localize_Fire(frame):
         -(1.7*pow(10,-4)*pow(val,5))
         +(5.16*pow(10,-2)*pow(val,4))
         -(9.10*pow(val,3))
-        +(9.6*pow(10,2)*pow(val,2)
-        -(5.6*pow(10,4)*val))
+        +(9.6*pow(10,2)*pow(val,2))
+        -(5.6*pow(10,4)*val)
         +(1.4*pow(10,6)))
 
     def fl(val):
@@ -49,19 +64,44 @@ def Localize_Fire(frame):
     #iterate each pixel
     for x in range(frame_ycbcr.shape[1]):
         for y in range(frame_ycbcr.shape[0]):
-
             if frame_ycbcr[y][x][0]>frame_ycbcr[y][x][2] and frame_ycbcr[y][x][1]>frame_ycbcr[y][x][2]:
                 if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
 
-            #if frame[y][x][2]>=fu(frame[y][x][1]) and frame[y][x][2]<=fd(frame[y][x][1]) and frame[y][x][2]>=fl(frame[y][x][1]):
+            #if (frame[y][x][2]>=fu(frame[y][x][1])) and (frame[y][x][2]<=fd(frame[y][x][1])) and (frame[y][x][2]<=fl(frame[y][x][1])):
             #if abs(frame_ycbcr[y][x][2]-frame_ycbcr[y][x][1])>200:
-                    canvas[y][x][0]=225
-                    canvas[y][x][1]=225
-                    canvas[y][x][2]=225
+                        #Rule Set - 0
+                    #norm_Y_Cb=2*(((frame[y][x][0]-frame[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
+                    #norm_Cr_Cb=2*(((frame[y][x][1]-frame[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
 
-                    pixel+=1
+                    Y_Cb=frame[y][x][0]-frame[y][x][2]
+                    Cr_Cb=frame[y][x][1]-frame[y][x][2]
 
-    return canvas,pixel
+                    norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
+                    norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
+
+                    print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+
+                    mask[y][x][0]=225
+                    mask[y][x][1]=225
+                    mask[y][x][2]=225
+
+                pixel+=1
+    #mask=cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB)
+    
+    mask=cv.cvtColor(cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB),cv.COLOR_RGB2GRAY)
+    _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
+
+    contours,hierarchy=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_NONE)
+    cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
+    
+    for contour in contours:
+        (x,y,w,h)=cv.boundingRect(contour)
+        cv.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
+
+    
+
+    return mask,frame,pixel
 
 def VideoSetup(vidpath):
 
@@ -80,19 +120,31 @@ def ExtractFrame(vid):
 
     return frame
 
-def Output(in_img,out_img):
+def Resize_Frame(frame,scale_percent):
+    frame=cv.resize(frame,(int(frame.shape[1]*(scale_percent/100)),int(frame.shape[0]*(scale_percent/100))),interpolation=cv.INTER_AREA)
+    return frame
+
+
+def Output(in_img,out_img,mask):
 
     cv.imshow('CCTV 1 Stream Input',in_img)
     cv.imshow('CCTV 1 Stream Ouput',out_img)
+    cv.imshow('CCTV 1 Stream Ouput Mask',mask)
 
 if __name__=="__main__":
 
     #frame counter
     count=0
+
+    #frame resize factor, default=10
+    scale_percent=10
     
     #setting up video stream parameters
     vidpath=input("Video File Path : ")
     vid,status=VideoSetup(vidpath)
+
+    #setup scale factor
+    scale_percent=100-int(input("Enter Downscale Factor (in %) : "))
 
     #checking if video stream is open
     if(status==False):
@@ -110,14 +162,16 @@ if __name__=="__main__":
             if str(type(frame))!="<class 'numpy.ndarray'>":
                 break
 
+            frame=Resize_Frame(frame,scale_percent)
+
             #localize fire
             in_img=frame.copy()
             start=time()
-            out_img,pixel=Localize_Fire(frame)
+            mask,out_img,pixel=Localize_Fire(frame)
             stop=time()
 
             #displaying output
-            Output(in_img,out_img)
+            Output(in_img,out_img,mask)
 
             #counting number of frames iterated
             count+=1
@@ -132,7 +186,7 @@ if __name__=="__main__":
             if cv.waitKey(1) & 0XFF == ord('q'):
                 break
 
-        #cleanup stream
+        #cleanup video stream
         cv.destroyAllWindows()
         vid.release()
 

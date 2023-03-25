@@ -1,3 +1,5 @@
 tweet_mining/apiconfig.ini
 fire_detection/yolov7/models/best.pt
 accident_detection/yolov7/models/best.pt
+fire_detection/color_detection/7.mp4
+fire_detection/yolov7/dataset/test/7.mp4
