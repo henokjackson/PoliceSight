@@ -1,12 +1,16 @@
 import os
-from time import time
 import cv2 as cv
 import numpy as np
-
+from time import time,sleep
 def Localize_Fire(frame):
 
     #pixel count
     pixel=0
+    
+    #norm_val error count
+    norm_error=0
+
+    #n
 
     #convert image from BGR to YCbCr
     #frame_rgb=cv.cvtColor(frame,cv.COLOR_BGR2RGB)
@@ -79,16 +83,21 @@ def Localize_Fire(frame):
                     norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
                     norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
 
-                    
-                    if norm_Y_Cb>=-1 and norm_Y_Cb<=1:
+                    if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
                         print("norm_Y_Cb : "+str(norm_Y_Cb))
-
-                    if norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
                         print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    else:
+                        #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                        #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                        print("Error.. Overflow !")
+                        norm_error+=1
+                        #sleep(1000)
 
+                    #fuzzy rule set
+                    
 
                     mask[y][x][0]=225
-                    mask[y][x][:""]=225
+                    mask[y][x][1]=225
                     mask[y][x][2]=225
 
                 pixel+=1
@@ -106,7 +115,7 @@ def Localize_Fire(frame):
 
     
 
-    return mask,frame,pixel
+    return mask,frame,pixel,norm_error
 
 def VideoSetup(vidpath):
 
@@ -172,7 +181,7 @@ if __name__=="__main__":
             #localize fire
             in_img=frame.copy()
             start=time()
-            mask,out_img,pixel=Localize_Fire(frame)
+            mask,out_img,pixel,norm_error=Localize_Fire(frame)
             stop=time()
 
             #displaying output
@@ -186,6 +195,7 @@ if __name__=="__main__":
             print("Frames Processed : "+str(count))
             print("FPS : "+str(round(1/(stop-start))))
             print("Pixels Detected : "+str(pixel))
+            print("Normalized Value Overflow : "+str(norm_error))
  
             #waiting for quit keypress
             if cv.waitKey(1) & 0XFF == ord('q'):
