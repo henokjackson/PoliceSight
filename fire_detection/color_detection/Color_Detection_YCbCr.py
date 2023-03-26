@@ -10,8 +10,6 @@ def Localize_Fire(frame):
     #norm_val error count
     norm_error=0
 
-    #n
-
     #convert image from BGR to YCbCr
     #frame_rgb=cv.cvtColor(frame,cv.COLOR_BGR2RGB)
     frame_ycbcr=cv.cvtColor(frame,cv.COLOR_BGR2YCR_CB)
@@ -33,11 +31,13 @@ def Localize_Fire(frame):
     Cr_max=np.max(frame[...][...][1])
     '''
 
+    '''
     #Rule Set - I
     Y_mean=np.mean(frame[...][...][0])
     Cb_mean=np.mean(frame[...][...][2])
     Cr_mean=np.mean(frame[...][...][1])
 
+    '''
     #Rule Set - II
     '''
     def fu(val):
@@ -69,7 +69,7 @@ def Localize_Fire(frame):
     for x in range(frame_ycbcr.shape[1]):
         for y in range(frame_ycbcr.shape[0]):
             if frame_ycbcr[y][x][0]>frame_ycbcr[y][x][2] and frame_ycbcr[y][x][1]>frame_ycbcr[y][x][2]:
-                if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
+                #if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
 
             #if (frame[y][x][2]>=fu(frame[y][x][1])) and (frame[y][x][2]<=fd(frame[y][x][1])) and (frame[y][x][2]<=fl(frame[y][x][1])):
             #if abs(frame_ycbcr[y][x][2]-frame_ycbcr[y][x][1])>200:
@@ -77,36 +77,37 @@ def Localize_Fire(frame):
                     #norm_Y_Cb=2*(((frame[y][x][0]-frame[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
                     #norm_Cr_Cb=2*(((frame[y][x][1]-frame[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
 
-                    Y_Cb=frame[y][x][0]-frame[y][x][2]
-                    Cr_Cb=frame[y][x][1]-frame[y][x][2]
+                #fuzzy rule set
+                Y_Cb=frame[y][x][0]-frame[y][x][2]
+                Cr_Cb=frame[y][x][1]-frame[y][x][2]
 
-                    norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
-                    norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
+                norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
+                norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
 
-                    if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
-                        print("norm_Y_Cb : "+str(norm_Y_Cb))
-                        print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                    else:
-                        #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                        #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                        print("Error.. Overflow !")
-                        norm_error+=1
-                        #sleep(1000)
-
-                    #fuzzy rule set
-                    
-
+                if(abs(norm_Y_Cb)>=0 and abs(norm_Y_Cb)<=0.5) and (abs(norm_Cr_Cb)>=0.7 and abs(norm_Cr_Cb)<=1):
                     mask[y][x][0]=225
                     mask[y][x][1]=225
                     mask[y][x][2]=225
+                    pixel+=1
+                '''
+                if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
+                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    continue
+                else:
+                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    #print("Error.. Overflow !")
+                    norm_error+=1
+                    #sleep(1000)
+                '''
 
-                pixel+=1
     #mask=cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB)
     
     mask=cv.cvtColor(cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB),cv.COLOR_RGB2GRAY)
     _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
 
-    contours,hierarchy=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_NONE)
+    contours,hierarchy=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
     cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
     
     for contour in contours:
@@ -195,7 +196,7 @@ if __name__=="__main__":
             print("Frames Processed : "+str(count))
             print("FPS : "+str(round(1/(stop-start))))
             print("Pixels Detected : "+str(pixel))
-            print("Normalized Value Overflow : "+str(norm_error))
+            #print("Normalized Value Overflow : "+str(norm_error))
  
             #waiting for quit keypress
             if cv.waitKey(1) & 0XFF == ord('q'):
