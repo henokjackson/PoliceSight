@@ -2,6 +2,7 @@ import os
 import cv2 as cv
 import numpy as np
 from time import time,sleep
+from matplotlib import pyplot as plt
 def Localize_Fire(frame):
 
     #pixel count
@@ -16,28 +17,42 @@ def Localize_Fire(frame):
 
     mask=np.zeros_like(frame_ycbcr)
 
+    #spliting the channels
+    Y,Cr,Cb=cv.split(frame_ycbcr)
+
     #'''
     #Params for Rule set - 0
-    Y_Cb_min=np.min(frame_ycbcr[...][...][0]-frame_ycbcr[...][...][2])
-    Y_Cb_max=np.max(frame_ycbcr[...][...][0]-frame_ycbcr[...][...][2])
-    Cr_Cb_min=np.min(frame_ycbcr[...][...][1]-frame_ycbcr[...][...][2])
-    Cr_Cb_max=np.max(frame_ycbcr[...][...][1]-frame_ycbcr[...][...][2])
+    Y_Cb_min=np.min(Y-Cb)
+    Y_Cb_max=np.max(Y-Cb)
+    Cr_Cb_min=np.min(Cr-Cb)
+    Cr_Cb_max=np.max(Cr-Cb)
 
-    Y_min=np.min(frame_ycbcr[...][...][0])
-    Y_max=np.max(frame_ycbcr[...][...][0])
-    Cb_min=np.min(frame_ycbcr[...][...][2])
-    Cb_max=np.max(frame_ycbcr[...][...][2])
-    Cr_min=np.min(frame_ycbcr[...][...][1])
-    Cr_max=np.max(frame_ycbcr[...][...][1])
+    '''
+    #Override with constant parameters
+    #min => min-max
+    #max => max-min
+    Y_Cb_min=16-240
+    Y_Cb_max=235-16
+    Cr_Cb_min=16-240
+    Cr_Cb_max=240-16
+    '''
+
+    #Individual parameters
+    Y_min=np.min(Y)
+    Y_max=np.max(Y)
+    Cb_min=np.min(Cb)
+    Cb_max=np.max(Cb)
+    Cr_min=np.min(Cr)
+    Cr_max=np.max(Cr)
     #'''
 
 
-    #'''
+    '''
     #Rule Set - I
     Y_mean=np.mean(frame_ycbcr[...][...][0])
     Cb_mean=np.mean(frame_ycbcr[...][...][2])
     Cr_mean=np.mean(frame_ycbcr[...][...][1])
-    #'''
+    '''
     
 
     '''
@@ -72,36 +87,40 @@ def Localize_Fire(frame):
     for x in range(frame_ycbcr.shape[1]):
         for y in range(frame_ycbcr.shape[0]):
             if frame_ycbcr[y][x][0]>frame_ycbcr[y][x][2] and frame_ycbcr[y][x][1]>frame_ycbcr[y][x][2]:
-                if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
-                    #if (frame_ycbcr[y][x][2]>=fu(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fd(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fl(frame_ycbcr[y][x][1])):
+                #if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
+                    
+                #if (frame_ycbcr[y][x][2]>=fu(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fd(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fl(frame_ycbcr[y][x][1])):
 
-                    #Rule Set - 0
-                    norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
-                    norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
+                '''
+                #Rule Set - 0
+                norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
+                norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
+                '''
 
-                    Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
-                    Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
+                Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
+                Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
 
-                    norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
-                    norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
-
-                    if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
-                        #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                        #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                        if(abs(norm_Y_Cb)>=0.5 and abs(norm_Y_Cb)<=1) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=1):
-                        #if(abs(norm_Y_Cb)>=0 and abs(norm_Y_Cb)<=1):
-                            mask[y][x][0]=225
-                            mask[y][x][1]=225
-                            mask[y][x][2]=225
-                            pixel+=1
-                        #'''
-                    else:
-                        #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                        #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                        #print("Error.. Overflow !")
-                        norm_error+=1
-                        #sleep(1000)
-                    #'''
+                norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
+                norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
+                
+                if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
+                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=1) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=1):
+                    #if(abs(norm_Y_Cb)>=0 and abs(norm_Y_Cb)<=1):
+                #'''
+                        mask[y][x][0]=225
+                        mask[y][x][1]=225
+                        mask[y][x][2]=225
+                        pixel+=1
+                #'''
+                else:
+                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    #print("Error.. Overflow !")
+                    norm_error+=1
+                    sleep(1000)
+                #'''
 
     #mask=cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB)
     
@@ -168,6 +187,14 @@ if __name__=="__main__":
         exit(0)
     else:
 
+        #plotter parameters
+        X=[]
+        Y=[]
+        plt.ylim([0,int(vid.get(cv.CAP_PROP_FRAME_WIDTH))*(scale_percent/100)*int(vid.get(cv.CAP_PROP_FRAME_HEIGHT))*(scale_percent/100)])
+        plt.xlabel("Time")
+        plt.ylabel("Fire Pixels Detected")
+        plt.title("YCbCr Fire Detection Model")
+
         #iterating through each frame of the stream
         while(True):
 
@@ -191,6 +218,14 @@ if __name__=="__main__":
 
             #counting number of frames iterated
             count+=1
+
+            #updating plotter values
+            X.append(count)
+            Y.append(pixel)
+
+            #plotting
+            plt.plot(X,Y,color='red')
+            plt.pause(0.00001)
 
             #printing frame info
             os.system('clear')
