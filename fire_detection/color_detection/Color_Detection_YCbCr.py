@@ -37,6 +37,7 @@ def Localize_Fire(frame):
     Cr_Cb_max=240-16
     '''
 
+    '''
     #Individual parameters
     Y_min=np.min(Y)
     Y_max=np.max(Y)
@@ -44,7 +45,7 @@ def Localize_Fire(frame):
     Cb_max=np.max(Cb)
     Cr_min=np.min(Cr)
     Cr_max=np.max(Cr)
-    #'''
+    '''
 
 
     '''
@@ -86,41 +87,44 @@ def Localize_Fire(frame):
     #iterate each pixel
     for x in range(frame_ycbcr.shape[1]):
         for y in range(frame_ycbcr.shape[0]):
+            '''
             if frame_ycbcr[y][x][0]>frame_ycbcr[y][x][2] and frame_ycbcr[y][x][1]>frame_ycbcr[y][x][2]:
                 #if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
                     
                 #if (frame_ycbcr[y][x][2]>=fu(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fd(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fl(frame_ycbcr[y][x][1])):
 
-                '''
-                #Rule Set - 0
-                norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
-                norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
-                '''
+            '''
+            #Rule Set - 0
+            '''
+            norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
+            norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
+            '''
 
-                Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
-                Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
+            Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
+            Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
 
-                norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
-                norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
-                
-                if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
-                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                    if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=1) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=1):
-                    #if(abs(norm_Y_Cb)>=0 and abs(norm_Y_Cb)<=1):
-                #'''
-                        mask[y][x][0]=225
-                        mask[y][x][1]=225
-                        mask[y][x][2]=225
-                        pixel+=1
-                #'''
-                else:
-                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                    #print("Error.. Overflow !")
-                    norm_error+=1
-                    sleep(1000)
-                #'''
+            norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
+            norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
+
+            if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
+                #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                #if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.7) and (abs(norm_Cr_Cb)>=0.5 and abs(norm_Cr_Cb)<=1):
+                #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
+                if(abs(norm_Y_Cb)>=0 and abs(norm_Y_Cb)<=0.2) and (abs(norm_Cr_Cb)>=0 and abs(norm_Cr_Cb)<=0.7):
+            
+                    mask[y][x][0]=225
+                    mask[y][x][1]=225
+                    mask[y][x][2]=225
+                    pixel+=1
+            #'''
+            else:
+                #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                #print("Error.. Overflow !")
+                norm_error+=1
+                sleep(1000)
+            #'''
 
     #mask=cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB)
     
