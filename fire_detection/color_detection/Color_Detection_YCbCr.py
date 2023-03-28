@@ -17,9 +17,21 @@ def Localize_Fire(frame):
 
     mask=np.zeros_like(frame_ycbcr)
 
+    
     #spliting the channels
     Y,Cr,Cb=cv.split(frame_ycbcr)
 
+    #'''
+    #Since Y ranges from 16 to 235 rather than 16 to 240 (for cb and cr)
+    for i in range(Y.shape[0]):
+        for j in range(Y.shape[1]):
+            Y[i][j]=int((224/219)*(Y[i][j]-16)+16)
+
+
+    #Re-combine the normalized Y channel into the frame
+    frame_ycbcr=cv.merge((Y,Cr,Cb))
+    
+    #'''
     #'''
     #Params for Rule set - 0
     Y_Cb_min=np.min(Y-Cb)
@@ -111,7 +123,7 @@ def Localize_Fire(frame):
                 #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
                 #if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.7) and (abs(norm_Cr_Cb)>=0.5 and abs(norm_Cr_Cb)<=1):
                 #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
-                if(abs(norm_Y_Cb)>=0 and abs(norm_Y_Cb)<=0.2) and (abs(norm_Cr_Cb)>=0 and abs(norm_Cr_Cb)<=0.7):
+                if norm_Cr_Cb>=-0.6 and norm_Cr_Cb<=0 and norm_Y_Cb>=0.2 and norm_Y_Cb<0.6:
             
                     mask[y][x][0]=225
                     mask[y][x][1]=225
