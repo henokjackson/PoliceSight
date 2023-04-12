@@ -7,14 +7,13 @@ from matplotlib import pyplot as plt
 
 #vars to be shared between threads
 #'''
-norm_Y_Cb_LB=0.2
-norm_Y_Cb_UB=0.6
-norm_Cr_Cb_LB=-0.6
-norm_Cr_Cb_UB=0
+norm_Y_Cb_LB=0.1
+norm_Y_Cb_UB=0.4
+norm_Cr_Cb_LB=0
+norm_Cr_Cb_UB=0.3
 #'''
 
 def Localize_Fire(frame):
-
     #pixel count
     pixel=0
     
@@ -141,10 +140,10 @@ def Localize_Fire(frame):
                 if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
                     #print("norm_Y_Cb : "+str(norm_Y_Cb))
                     #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                    if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.4) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=0.3):
+                    #if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.4) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=0.3):
                     #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
                     #if norm_Cr_Cb>=-0.6 and norm_Cr_Cb<=0 and norm_Y_Cb>=0.2 and norm_Y_Cb<0.6:
-                    #if norm_Cr_Cb>=norm_Cr_Cb_LB and norm_Cr_Cb<=norm_Cr_Cb_UB and norm_Y_Cb>=norm_Y_Cb_LB and norm_Y_Cb<=norm_Y_Cb_UB:
+                    if abs(norm_Cr_Cb)>=norm_Cr_Cb_LB and abs(norm_Cr_Cb)<=norm_Cr_Cb_UB:#and abs(norm_Y_Cb)>=norm_Y_Cb_LB and abs(norm_Y_Cb)<=norm_Y_Cb_UB:
                 
                         mask[y][x][0]=225
                         mask[y][x][1]=225
@@ -154,29 +153,40 @@ def Localize_Fire(frame):
                 else:
                     #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
                     #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                    #print("Error.. Overflow !")
                     norm_error+=1
-                    #sleep(1000)
+                    input("Error.. Overflow !, Press Enter to continue...")
                 #'''
 
-    #mask=cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB)
-    
+
+    #Generate a bit mask
     mask=cv.cvtColor(cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB),cv.COLOR_RGB2GRAY)
     _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
 
-    contours,hierarchy=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
+    #'''
+    #Perform morphologcal processing
+    #Setup kernel
+    kernel=np.array([
+    [0, 1, 1, 0],
+    [1, 1, 1, 1],
+    [1, 1, 1, 1],
+    [0, 1, 1, 0]],dtype=np.uint8)
+
+    #Dilation (higher iterations - more larger blobs)
+    mask=cv.dilate(mask,kernel,iterations=2)
+    #'''
+    #Detect contours
+    contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
     cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
     
+    #Estimate contours to rectangles
     for contour in contours:
         (x,y,w,h)=cv.boundingRect(contour)
         cv.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
 
-    
-
     return mask,frame,pixel,norm_error
 
-def VideoSetup(vidpath):
 
+def VideoSetup(vidpath):
     #opening video stream
     vid=cv.VideoCapture(vidpath)
 
@@ -185,12 +195,13 @@ def VideoSetup(vidpath):
 
     return vid,status
 
-def ExtractFrame(vid):
 
+def ExtractFrame(vid):
     #reading the video frame by frame
     ret,frame=vid.read()
 
     return frame
+
 
 def Resize_Frame(frame,scale_percent):
     frame=cv.resize(frame,(int(frame.shape[1]*(scale_percent/100)),int(frame.shape[0]*(scale_percent/100))),interpolation=cv.INTER_AREA)
@@ -198,10 +209,10 @@ def Resize_Frame(frame,scale_percent):
 
 
 def Output(in_img,out_img,mask):
-
     cv.imshow('CCTV 1 Stream Input',in_img)
     cv.imshow('CCTV 1 Stream Ouput',out_img)
     cv.imshow('CCTV 1 Stream Ouput Mask',mask)
+
 
 if __name__=='__main__':
 # def YCbCr_Color_Verifier():
