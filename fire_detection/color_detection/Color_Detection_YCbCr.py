@@ -3,6 +3,16 @@ import cv2 as cv
 import numpy as np
 from time import time,sleep
 from matplotlib import pyplot as plt
+#from Color_Tweak_Tool import Tweaker
+
+#vars to be shared between threads
+#'''
+norm_Y_Cb_LB=0.2
+norm_Y_Cb_UB=0.6
+norm_Cr_Cb_LB=-0.6
+norm_Cr_Cb_UB=0
+#'''
+
 def Localize_Fire(frame):
 
     #pixel count
@@ -21,7 +31,7 @@ def Localize_Fire(frame):
     #spliting the channels
     Y,Cr,Cb=cv.split(frame_ycbcr)
 
-    #'''
+    '''
     #Since Y ranges from 16 to 235 rather than 16 to 240 (for cb and cr)
     for i in range(Y.shape[0]):
         for j in range(Y.shape[1]):
@@ -31,6 +41,7 @@ def Localize_Fire(frame):
     #Re-combine the normalized Y channel into the frame
     frame_ycbcr=cv.merge((Y,Cr,Cb))
     
+    '''
     #'''
     #'''
     #Params for Rule set - 0
@@ -38,6 +49,15 @@ def Localize_Fire(frame):
     Y_Cb_max=np.max(Y-Cb)
     Cr_Cb_min=np.min(Cr-Cb)
     Cr_Cb_max=np.max(Cr-Cb)
+    #'''
+    
+    '''
+    #Params for Rule set - 0 - general apporach
+    Y_Cb_min=16-240
+    Y_Cb_max=235-16
+    Cr_Cb_min=16-240
+    Cr_Cb_max=240-16
+    '''
 
     '''
     #Override with constant parameters
@@ -49,7 +69,7 @@ def Localize_Fire(frame):
     Cr_Cb_max=240-16
     '''
 
-    '''
+    #'''
     #Individual parameters
     Y_min=np.min(Y)
     Y_max=np.max(Y)
@@ -57,14 +77,14 @@ def Localize_Fire(frame):
     Cb_max=np.max(Cb)
     Cr_min=np.min(Cr)
     Cr_max=np.max(Cr)
-    '''
+    #'''
 
 
     '''
     #Rule Set - I
-    Y_mean=np.mean(frame_ycbcr[...][...][0])
-    Cb_mean=np.mean(frame_ycbcr[...][...][2])
-    Cr_mean=np.mean(frame_ycbcr[...][...][1])
+    Y_mean=np.mean(Y)
+    Cb_mean=np.mean(Cb)
+    Cr_mean=np.mean(Cr)
     '''
     
 
@@ -99,44 +119,45 @@ def Localize_Fire(frame):
     #iterate each pixel
     for x in range(frame_ycbcr.shape[1]):
         for y in range(frame_ycbcr.shape[0]):
-            '''
+            #'''
             if frame_ycbcr[y][x][0]>frame_ycbcr[y][x][2] and frame_ycbcr[y][x][1]>frame_ycbcr[y][x][2]:
-                #if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
-                    
+            #if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
+                
                 #if (frame_ycbcr[y][x][2]>=fu(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fd(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fl(frame_ycbcr[y][x][1])):
 
-            '''
-            #Rule Set - 0
-            '''
-            norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
-            norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
-            '''
+                #'''
+                #Rule Set - 0
+                '''
+                norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
+                norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
+                '''
 
-            Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
-            Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
+                Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
+                Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
 
-            norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
-            norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
+                norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
+                norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
 
-            if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
-                #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                #if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.7) and (abs(norm_Cr_Cb)>=0.5 and abs(norm_Cr_Cb)<=1):
-                #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
-                if norm_Cr_Cb>=-0.6 and norm_Cr_Cb<=0 and norm_Y_Cb>=0.2 and norm_Y_Cb<0.6:
-            
-                    mask[y][x][0]=225
-                    mask[y][x][1]=225
-                    mask[y][x][2]=225
-                    pixel+=1
-            #'''
-            else:
-                #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                #print("Error.. Overflow !")
-                norm_error+=1
-                sleep(1000)
-            #'''
+                if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
+                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.4) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=0.3):
+                    #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
+                    #if norm_Cr_Cb>=-0.6 and norm_Cr_Cb<=0 and norm_Y_Cb>=0.2 and norm_Y_Cb<0.6:
+                    #if norm_Cr_Cb>=norm_Cr_Cb_LB and norm_Cr_Cb<=norm_Cr_Cb_UB and norm_Y_Cb>=norm_Y_Cb_LB and norm_Y_Cb<=norm_Y_Cb_UB:
+                
+                        mask[y][x][0]=225
+                        mask[y][x][1]=225
+                        mask[y][x][2]=225
+                        pixel+=1
+                #'''
+                else:
+                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
+                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
+                    #print("Error.. Overflow !")
+                    norm_error+=1
+                    #sleep(1000)
+                #'''
 
     #mask=cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB)
     
@@ -182,7 +203,10 @@ def Output(in_img,out_img,mask):
     cv.imshow('CCTV 1 Stream Ouput',out_img)
     cv.imshow('CCTV 1 Stream Ouput Mask',mask)
 
-if __name__=="__main__":
+if __name__=='__main__':
+# def YCbCr_Color_Verifier():
+    #launch GUI
+    #Tweaker()
 
     #frame counter
     count=0
@@ -207,7 +231,7 @@ if __name__=="__main__":
         X=[]
         Y=[]
         plt.ylim([0,int(vid.get(cv.CAP_PROP_FRAME_WIDTH))*(scale_percent/100)*int(vid.get(cv.CAP_PROP_FRAME_HEIGHT))*(scale_percent/100)])
-        plt.xlabel("Time")
+        plt.xlabel("Frames (Time)")
         plt.ylabel("Fire Pixels Detected")
         plt.title("YCbCr Fire Detection Model")
 
