@@ -12,7 +12,7 @@ def Setup_Parameter():
     matrix_size=16
 
     #Initialize the background subtractor
-    bg_subtractor=cv.createBackgroundSubtractorMOG2(history=10, varThreshold=50, detectShadows=False)
+    bg_subtractor=cv.createBackgroundSubtractorKNN(history=10, detectShadows=False)
 
     # Initialize a variable to store the previous frame
     prev_frame = None

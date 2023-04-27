@@ -124,7 +124,7 @@ class Ui_Color_Tweaker(object):
 
     def retranslateUi(self, Color_Tweaker):
         _translate = QtCore.QCoreApplication.translate
-        Color_Tweaker.setWindowTitle(_translate("Color_Tweaker", "MainWindow"))
+        Color_Tweaker.setWindowTitle(_translate("Color_Tweaker", "YCbCr Color Tweaker"))
         self.Y_Cb_LB.setTitle(_translate("Color_Tweaker", "Y_Cb Lower Bound"))
         self.label.setText(_translate("Color_Tweaker", "-1"))
         self.label_2.setText(_translate("Color_Tweaker", "0"))

@@ -164,7 +164,7 @@ def Localize_Fire(frame):
 
     #'''
     #Perform morphologcal processing
-    #Setup kernel
+    #Setup kernel - circular kernel
     kernel=np.array([
     [0, 1, 1, 0],
     [1, 1, 1, 1],
@@ -172,7 +172,7 @@ def Localize_Fire(frame):
     [0, 1, 1, 0]],dtype=np.uint8)
 
     #Dilation (higher iterations - more larger blobs)
-    mask=cv.dilate(mask,kernel,iterations=2)
+    mask=cv.dilate(mask,kernel,iterations=3)
     #'''
     #Detect contours
     contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
@@ -261,6 +261,7 @@ if __name__=='__main__':
             #localize fire
             in_img=frame.copy()
             start=time()
+
             mask,out_img,pixel,norm_error=Localize_Fire(frame)
             stop=time()
 
