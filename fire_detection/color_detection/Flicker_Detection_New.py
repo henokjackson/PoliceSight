@@ -2,7 +2,7 @@ import os
 from time import time
 import cv2 as cv
 import numpy as np
-
+from Color_Detection_YCbCr import Localize_Fire
 def Setup_Parameters(fps):
     
     #Perform morphologcal processing
@@ -33,7 +33,7 @@ def Bg_Subtract(curr_frame,bg_subtractor):
     # Convert the frame to grayscale
     gray=cv.cvtColor(curr_frame,cv.COLOR_BGR2GRAY)
 
-    return gray.copy(),fg_mask
+    return fg_mask
 
 def VideoSetup(vidpath):
 
@@ -107,19 +107,39 @@ if __name__=="__main__":
             frame=cv.GaussianBlur(frame,(5,5),1)
             
             #Generate Foreground Mask
-            prev_frame,mask=Bg_Subtract(frame,bg_subtractor)
+            mask1=Bg_Subtract(frame,bg_subtractor)
 
-            #Perform Morphological Processing
-            mask=cv.morphologyEx(mask,cv.MORPH_CLOSE,kernel)
+            #Generate Color Mask
+            mask2,_,_,_=Localize_Fire(frame)
 
-            #Detect contours
-            contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
-            #cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
-            
-            #Estimate contours to rectangles
-            for contour in contours:
-                (x,y,w,h)=cv.boundingRect(contour)
-                cv.rectangle(in_img,(x,y),(x+w,y+h),(0,0,255),2)
+            #Output(mask1,mask2)
+
+            mask=np.zeros_like(mask1)
+
+            #Calculate Intersection of Two Masks
+            for x in range(mask1.shape[0]):
+                for y in range(mask2.shape[1]):
+                    if mask1[x][y]==mask2[x][y]:
+                        mask[x][y]=mask1[x][y]
+                    else:
+                        mask[x][y]=0
+
+            #mask=np.intersect1d(mask1,mask2)
+
+           
+            if mask.size!=0:
+                #Perform Morphological Processing
+                mask=cv.morphologyEx(mask,cv.MORPH_CLOSE,kernel)
+                #Detect contours
+                contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
+                #cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
+                
+                #Estimate contours to rectangles
+                for contour in contours:
+                    (x,y,w,h)=cv.boundingRect(contour)
+                    cv.rectangle(in_img,(x,y),(x+w,y+h),(0,0,255),2)
+            else:
+                mask=np.zeros_like(mask1)
             stop=time()
 
             #displaying output

@@ -24,7 +24,7 @@ def Localize_Fire(frame):
     #frame_rgb=cv.cvtColor(frame,cv.COLOR_BGR2RGB)
     frame_ycbcr=cv.cvtColor(frame,cv.COLOR_BGR2YCR_CB)
 
-    mask=np.zeros_like(frame_ycbcr)
+    mask=np.zeros(([frame_ycbcr.shape[0],frame_ycbcr.shape[1]]))
 
     
     #spliting the channels
@@ -144,10 +144,7 @@ def Localize_Fire(frame):
                     #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
                     #if norm_Cr_Cb>=-0.6 and norm_Cr_Cb<=0 and norm_Y_Cb>=0.2 and norm_Y_Cb<0.6:
                     if abs(norm_Cr_Cb)>=norm_Cr_Cb_LB and abs(norm_Cr_Cb)<=norm_Cr_Cb_UB:#and abs(norm_Y_Cb)>=norm_Y_Cb_LB and abs(norm_Y_Cb)<=norm_Y_Cb_UB:
-                
-                        mask[y][x][0]=225
-                        mask[y][x][1]=225
-                        mask[y][x][2]=225
+                        mask[y][x]=225
                         pixel+=1
                 #'''
                 else:
@@ -156,11 +153,6 @@ def Localize_Fire(frame):
                     norm_error+=1
                     input("Error.. Overflow !, Press Enter to continue...")
                 #'''
-
-
-    #Generate a bit mask
-    mask=cv.cvtColor(cv.cvtColor(mask,cv.COLOR_YCR_CB2RGB),cv.COLOR_RGB2GRAY)
-    _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
 
     #'''
     #Perform morphologcal processing
@@ -173,6 +165,10 @@ def Localize_Fire(frame):
 
     #Dilation (higher iterations - more larger blobs)
     mask=cv.dilate(mask,kernel,iterations=3)
+
+    #Typecast to uint8
+    mask=np.array(mask,np.uint8)
+
     #'''
     #Detect contours
     contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
@@ -182,6 +178,9 @@ def Localize_Fire(frame):
     for contour in contours:
         (x,y,w,h)=cv.boundingRect(contour)
         cv.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
+
+    #Binary Thresholding -  Channel Reduction
+    _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
 
     return mask,frame,pixel,norm_error
 
@@ -261,7 +260,6 @@ if __name__=='__main__':
             #localize fire
             in_img=frame.copy()
             start=time()
-
             mask,out_img,pixel,norm_error=Localize_Fire(frame)
             stop=time()
 
