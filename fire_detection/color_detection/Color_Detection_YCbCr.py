@@ -3,294 +3,238 @@ import cv2 as cv
 import numpy as np
 from time import time,sleep
 from matplotlib import pyplot as plt
-#from Color_Tweak_Tool import Tweaker
 
-#vars to be shared between threads
-#'''
+#Color Channel Thresholds - Global
 norm_Y_Cb_LB=0.1
 norm_Y_Cb_UB=0.4
 norm_Cr_Cb_LB=0
 norm_Cr_Cb_UB=0.3
-#'''
 
-def Localize_Fire(frame):
-    #pixel count
+def Setup_Parameters(kern_size):
+    
+    #Setting Parameters For Morphologcal Processing
+    #Generate Kernel Using Built-In Function -> Circular Kernel
+    kernel=cv.getStructuringElement(cv.MORPH_ELLIPSE,(kern_size,kern_size))
+
+    #Return The Kernel
+    return kernel
+
+def Color_Detection(frame):
+    #Initialize Fire-Pixel Counter
     pixel=0
     
-    #norm_val error count
+    #Initialize Normalization Error/Overflow Counter
     norm_error=0
 
-    #convert image from BGR to YCbCr
-    #frame_rgb=cv.cvtColor(frame,cv.COLOR_BGR2RGB)
+    #Convert Frame From BGR to YCbCr
     frame_ycbcr=cv.cvtColor(frame,cv.COLOR_BGR2YCR_CB)
 
+    #Initialize Zero-Filled Mask Of Frame Size
     mask=np.zeros(([frame_ycbcr.shape[0],frame_ycbcr.shape[1]]))
 
-    
-    #spliting the channels
+    #Splitting All Channels
     Y,Cr,Cb=cv.split(frame_ycbcr)
 
-    '''
-    #Since Y ranges from 16 to 235 rather than 16 to 240 (for cb and cr)
-    for i in range(Y.shape[0]):
-        for j in range(Y.shape[1]):
-            Y[i][j]=int((224/219)*(Y[i][j]-16)+16)
 
-
-    #Re-combine the normalized Y channel into the frame
-    frame_ycbcr=cv.merge((Y,Cr,Cb))
-    
-    '''
-    #'''
-    #'''
-    #Params for Rule set - 0
-    Y_Cb_min=np.min(Y-Cb)
-    Y_Cb_max=np.max(Y-Cb)
+    #Calculating Min and Max Bounds Of Each Rule
+    #Y_Cb_min=np.min(Y-Cb)
+    #Y_Cb_max=np.max(Y-Cb)
     Cr_Cb_min=np.min(Cr-Cb)
     Cr_Cb_max=np.max(Cr-Cb)
-    #'''
-    
-    '''
-    #Params for Rule set - 0 - general apporach
-    Y_Cb_min=16-240
-    Y_Cb_max=235-16
-    Cr_Cb_min=16-240
-    Cr_Cb_max=240-16
-    '''
 
-    '''
-    #Override with constant parameters
-    #min => min-max
-    #max => max-min
-    Y_Cb_min=16-240
-    Y_Cb_max=235-16
-    Cr_Cb_min=16-240
-    Cr_Cb_max=240-16
-    '''
-
-    #'''
-    #Individual parameters
-    Y_min=np.min(Y)
-    Y_max=np.max(Y)
-    Cb_min=np.min(Cb)
-    Cb_max=np.max(Cb)
-    Cr_min=np.min(Cr)
-    Cr_max=np.max(Cr)
-    #'''
-
-
-    '''
-    #Rule Set - I
-    Y_mean=np.mean(Y)
-    Cb_mean=np.mean(Cb)
-    Cr_mean=np.mean(Cr)
-    '''
-    
-
-    '''
-    #Rule Set - II
-    def fu(val):
-        return (-(2.6*pow(10,-10)*pow(val,7))
-        +(3.3*pow(10,-7)*pow(val,6))
-        -(1.7*pow(10,-4)*pow(val,5))
-        +(5.16*pow(10,-2)*pow(val,4))
-        -(9.10*pow(val,3))
-        +(9.6*pow(10,2)*pow(val,2))
-        -(5.6*pow(10,4)*val)
-        +(1.4*pow(10,6)))
-
-    def fl(val):
-        return (-(6.77*pow(10,-8)*pow(val,5))
-        +(5.5*pow(10,-5)*pow(val,4))
-        -(1.76*pow(10,-2)*pow(val,3))
-        +(2.78*pow(val,2))
-        -(2.15*pow(10,2)*val)
-        +(6.62*pow(10,3)))
-
-    def fd(val):
-        return ((1.81*pow(10,-4)*pow(val,4))
-        -(1.02*pow(10,-1)*pow(val,3))
-        +(2.17*10*pow(val,2))
-        -(2.05*pow(10,3)*val)
-        +(7.29*pow(10,4)))
-    '''
-
-    #iterate each pixel
+    #Iterate Through Each Pixel
     for x in range(frame_ycbcr.shape[1]):
         for y in range(frame_ycbcr.shape[0]):
-            #'''
+
+            #Check Basic Rule
             if frame_ycbcr[y][x][0]>frame_ycbcr[y][x][2] and frame_ycbcr[y][x][1]>frame_ycbcr[y][x][2]:
-            #if frame_ycbcr[y][x][0]>Y_mean and frame_ycbcr[y][x][2]<Cb_mean and frame_ycbcr[y][x][1]>Cr_mean:
-                
-                #if (frame_ycbcr[y][x][2]>=fu(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fd(frame_ycbcr[y][x][1])) and (frame_ycbcr[y][x][2]<=fl(frame_ycbcr[y][x][1])):
-
-                #'''
-                #Rule Set - 0
-                '''
-                norm_Y_Cb=2*(((frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2])-(Y_min-Cb_max))/((Y_max-Cb_min)-(Y_min-Cb_max)))-1
-                norm_Cr_Cb=2*(((frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2])-(Cr_min-Cb_max))/((Cr_max-Cb_min)-(Cr_min-Cb_max)))-1
-                '''
-
-                Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
+                #Y_Cb=frame_ycbcr[y][x][0]-frame_ycbcr[y][x][2]
                 Cr_Cb=frame_ycbcr[y][x][1]-frame_ycbcr[y][x][2]
 
-                norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
+                #Perform Normalization To Range [-1,1]
+                #norm_Y_Cb=(2*((Y_Cb-Y_Cb_min)/(Y_Cb_max-Y_Cb_min)))-1
                 norm_Cr_Cb=(2*((Cr_Cb-Cr_Cb_min)/(Cr_Cb_max-Cr_Cb_min)))-1
 
-                if norm_Y_Cb>=-1 and norm_Y_Cb<=1 and norm_Cr_Cb>=-1 and norm_Cr_Cb<=1:
-                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                    #if(abs(norm_Y_Cb)>=0.1 and abs(norm_Y_Cb)<=0.4) and (abs(norm_Cr_Cb)>=0.0 and abs(norm_Cr_Cb)<=0.3):
-                    #if(abs(norm_Y_Cb)>=0.0 and abs(norm_Y_Cb)<=0.5):
-                    #if norm_Cr_Cb>=-0.6 and norm_Cr_Cb<=0 and norm_Y_Cb>=0.2 and norm_Y_Cb<0.6:
-                    if abs(norm_Cr_Cb)>=norm_Cr_Cb_LB and abs(norm_Cr_Cb)<=norm_Cr_Cb_UB:#and abs(norm_Y_Cb)>=norm_Y_Cb_LB and abs(norm_Y_Cb)<=norm_Y_Cb_UB:
-                        mask[y][x]=225
-                        pixel+=1
-                #'''
-                else:
-                    #print("norm_Cr_Cb : "+str(norm_Cr_Cb))
-                    #print("norm_Y_Cb : "+str(norm_Y_Cb))
-                    norm_error+=1
-                    input("Error.. Overflow !, Press Enter to continue...")
-                #'''
-
-    #'''
-    #Perform morphologcal processing
-    #Setup kernel - circular kernel
-    kernel=np.array([
-    [0, 1, 1, 0],
-    [1, 1, 1, 1],
-    [1, 1, 1, 1],
-    [0, 1, 1, 0]],dtype=np.uint8)
-
-    #Dilation (higher iterations - more larger blobs)
-    mask=cv.dilate(mask,kernel,iterations=3)
-
-    #Typecast to uint8
-    mask=np.array(mask,np.uint8)
-
-    #'''
-    #Detect contours
-    contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
-    cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
-    
-    #Estimate contours to rectangles
-    for contour in contours:
-        (x,y,w,h)=cv.boundingRect(contour)
-        cv.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
-
+                if abs(norm_Cr_Cb)>=norm_Cr_Cb_LB and abs(norm_Cr_Cb)<=norm_Cr_Cb_UB: #and abs(norm_Y_Cb)>=norm_Y_Cb_LB and abs(norm_Y_Cb)<=norm_Y_Cb_UB:
+                    mask[y][x]=225
+                    pixel+=1
+                    
     #Binary Thresholding -  Channel Reduction
     _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
-
-    return mask,frame,pixel,norm_error
-
+    return mask,pixel
 
 def VideoSetup(vidpath):
-    #opening video stream
+
+    #Creating Video Stream Object
     vid=cv.VideoCapture(vidpath)
 
-    #checking stream status
+    #Checking Stream Status
     status=vid.isOpened()
 
     return vid,status
 
 
 def ExtractFrame(vid):
-    #reading the video frame by frame
+
+    #Extracting Frame From Video Stream
     ret,frame=vid.read()
 
     return frame
 
 
 def Resize_Frame(frame,scale_percent):
+    
+    #Downscale The Frame
     frame=cv.resize(frame,(int(frame.shape[1]*(scale_percent/100)),int(frame.shape[0]*(scale_percent/100))),interpolation=cv.INTER_AREA)
+    
     return frame
 
 
-def Output(in_img,out_img,mask):
-    cv.imshow('CCTV 1 Stream Input',in_img)
-    cv.imshow('CCTV 1 Stream Ouput',out_img)
-    cv.imshow('CCTV 1 Stream Ouput Mask',mask)
+def Mask_Process(kernel,mask):
+
+    ####################################
+    # Perform Morphological Processing #
+    ####################################
+
+    #Perform Closing Morphological Operation -> Form Blobs
+    mask=cv.morphologyEx(mask,cv.MORPH_CLOSE,kernel)
+
+    ##############################
+    # Region Boundary Estimation #
+    ##############################
+
+    #Typecast to uint8
+    mask=np.array(mask,np.uint8)
+
+    #Binary Thresholding -  Channel Reduction
+    _,mask=cv.threshold(mask,128,255,cv.THRESH_BINARY)
+
+    return mask
+
+def Setup_Plotter(vid,scale_percent):
+    
+    #Create Axes List
+    X=[]
+    Y=[]
+    
+    #Setting Axes Limits
+    plt.ylim([0,int(vid.get(cv.CAP_PROP_FRAME_WIDTH))*(scale_percent/100)*int(vid.get(cv.CAP_PROP_FRAME_HEIGHT))*(scale_percent/100)])
+    
+    #Setting Axes Labels
+    plt.xlabel("Frames (Time)")
+    plt.ylabel("Fire Pixels Detected")
+
+    #Setting Plot Title
+    plt.title("YCbCr Fire Detection Model")
+
+    return plt,X,Y
+
+def Plot_Graph(count,pixel,X,Y):
+
+    #Updating Plot List Values 
+    X.append(count)
+    Y.append(pixel)
+
+    #Plotting Graph
+    plt.plot(X,Y,color='red')
+    plt.pause(0.00001)
+
+def Output(in_img,out_img,mask,msg1,msg2,msg3):
+
+    #Display Input
+    cv.imshow(msg1,in_img)
+
+    #Display Output
+    cv.imshow(msg2,out_img)
+
+    #Display Output Mask
+    cv.imshow(msg3,mask)
 
 
 if __name__=='__main__':
-# def YCbCr_Color_Verifier():
-    #launch GUI
-    #Tweaker()
 
-    #frame counter
+    #Initialize Frame Counter
     count=0
-
-    #frame resize factor, default=10
-    scale_percent=10
     
-    #setting up video stream parameters
+    #Setting Up Video Stream Parameters
     vidpath=input("Video File Path : ")
     vid,status=VideoSetup(vidpath)
 
-    #setup scale factor
+    #Setting Downscale Factor(%)
     scale_percent=100-int(input("Enter Downscale Factor (in %) : "))
 
-    #checking if video stream is open
+    plot_enable=input("Enable Real-Time Plotting ? [Y/N] : ")
+
+    #Checking If Stream Is Open
     if(status==False):
         print("Error, Failed to Open Video Stream !")
         exit(0)
+
     else:
 
-        #plotter parameters
-        X=[]
-        Y=[]
-        plt.ylim([0,int(vid.get(cv.CAP_PROP_FRAME_WIDTH))*(scale_percent/100)*int(vid.get(cv.CAP_PROP_FRAME_HEIGHT))*(scale_percent/100)])
-        plt.xlabel("Frames (Time)")
-        plt.ylabel("Fire Pixels Detected")
-        plt.title("YCbCr Fire Detection Model")
+        #Setting Up Image Processing Parameters
+        kernel=Setup_Parameters(kern_size=5)
 
-        #iterating through each frame of the stream
+        #Setting Plotter Parameters
+        if plot_enable=='Y' or plot_enable=='y':
+            plt,X,Y=Setup_Plotter()
+
+        #Iterate Through Each Frame
         while(True):
 
-            #extract frame
+            #Extract a Frame
             frame=ExtractFrame(vid)
             
-            #checking if the extracted frame is valid
+            #Checking If Extracted Frame Is Valid
             if str(type(frame))!="<class 'numpy.ndarray'>":
                 break
 
+            #Downscaling Frame Size
             frame=Resize_Frame(frame,scale_percent)
 
-            #localize fire
+            ####################################
+            # Extracting Fire-Coloured Regions #
+            ####################################
+
+            #Keep Original Frame Copy
             in_img=frame.copy()
+
+            #Start Timer For Calculating Real-Time FPS
             start=time()
-            mask,out_img,pixel,norm_error=Localize_Fire(frame)
+
+            #Detect Fire-Colored Pixels
+            mask,pixel=Color_Detection(frame)
+
+            #Stop Timer
             stop=time()
 
-            #displaying output
-            Output(in_img,out_img,mask)
+            #Perform Mask Processing
+            mask,out_img=Mask_Process(kernel,mask,frame)
 
-            #counting number of frames iterated
+            #Displaying Input, Mask and Final Output
+            Output(in_img,out_img,mask,"Input","Output","Color Mask")
+            #Output(mask1,mask2,"Foreground Mask","Color Mask")
+
+            #Counting No. Of Frames Processed
             count+=1
+            
+            #Plotting Graph
+            if plot_enable=='Y' or plot_enable=='y':
+                Plot_Graph(count,pixel,X,Y)
 
-            #updating plotter values
-            X.append(count)
-            Y.append(pixel)
-
-            #plotting
-            plt.plot(X,Y,color='red')
-            plt.pause(0.00001)
-
-            #printing frame info
+            #Printing Debug Info
             os.system('clear')
             print("Frames Processed : "+str(count))
             print("FPS : "+str(round(1/(stop-start))))
             print("Pixels Detected : "+str(pixel))
-            print("Normalized Value Overflow : "+str(norm_error))
  
-            #waiting for quit keypress
+            #Waiting For Keypress -> Quit OpenCV 'imshow()' Window
             if cv.waitKey(1) & 0XFF == ord('q'):
                 break
 
-        #cleanup video stream
+        #Close Video Stream and Cleanup
         cv.destroyAllWindows()
         vid.release()
 
-        #success
+        #Print Success Message
         print("Done Parsing Frames.")

@@ -1,96 +1,165 @@
 import os
 import cv2 as cv
-from time import time
 import numpy as np
-from yolov7.detect import YOLODetect
-from flicker_detection.Flicker_Detection import Setup_Parameter,Flicker_Detect
-from color_detection.Color_Detection_YCbCr import Localize_Fire
+from time import time,sleep
+from flicker_detection.Motion_Detection import Background_Subtraction,VideoSetup,Resize_Frame,Setup_Parameters
+from color_detection.Color_Detection_YCbCr import Color_Detection,Setup_Plotter,ExtractFrame,Plot_Graph
 
-def VideoSetup(vidpath):
+def Region_Draw(mask,frame):
+    
+    #Detect Contours
+    contours,_=cv.findContours(mask,cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
+    cv.drawContours(frame,contours,-1,(255,0,0),2,cv.LINE_4)
 
-    #opening video stream
-    vid=cv.VideoCapture(vidpath)
+    #Bounding Box List
+    boxes=[]
 
-    #checking stream status
-    status=vid.isOpened()
+    #Estimate Detected Contours To Rectangles
+    for contour in contours:
+        (x,y,w,h)=cv.boundingRect(contour)
+        boxes.append((x,y,w,h))
+        cv.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
 
-    return vid,status
+    return frame,boxes
 
-def ExtractFrame(vid):
+def Output(in_img,fg_mask,color_mask,mask,out_img,msg1,msg2,msg3,msg4,msg5):
 
-    #reading the video frame by frame
-    ret,frame=vid.read()
+    #Display Input
+    cv.imshow(msg1,in_img)
 
-    return frame
+    #Display Foreground Mask
+    cv.imshow(msg2,fg_mask)
 
+    #Display Color Mask
+    cv.imshow(msg3,color_mask)
 
-if __name__=="__main__":
+    #Display Fused Mask
+    cv.imshow(msg4,mask)
 
-    #frame counter
+    #Display Output
+    cv.imshow(msg5,out_img)
+
+if __name__=='__main__':
+
+    #Initialize Frame Counter
     count=0
     
-    #setting up video stream parameters
+    #Setting Up Video Stream Parameters
     vidpath=input("Video File Path : ")
-    vid,status=VideoSetup(vidpath)
+    vid,status,fps=VideoSetup(vidpath)
 
-    #checking if video stream is open
+    #Setting Downscale Factor(%)
+    scale_percent=100-int(input("Enter Downscale Factor (in %) : "))
+
+    plot_enable=input("Enable Real-Time Plotting ? [Y/N] : ")
+
+    #Checking If Stream Is Open
     if(status==False):
         print("Error, Failed to Open Video Stream !")
         exit(0)
+
     else:
+        
+        #Setting Plotter Parameters
+        if plot_enable=='Y' or plot_enable=='y':
+            plt,X,Y=Setup_Plotter(vid,scale_percent)
 
-        #Flicker Detection Intial Setup
-        prev_frame,bg_subtractor,matrix_size,threshold=Setup_Parameter()
+        #Setting Up Image Processing Parameters
+        kernel,bg_subtractor=Setup_Parameters(kern_size=10)
 
+        #Iterate Through Each Frame
         while(True):
 
-            #extract frame
+            #Extract a Frame
             frame=ExtractFrame(vid)
             
-            #checking if the extracted frame is valid
+            #Checking If Extracted Frame Is Valid
             if str(type(frame))!="<class 'numpy.ndarray'>":
                 break
 
-            #Log start time
-            start=time()
-            
-            #keep a copy of every frame
+            #Downscaling Frame Size
+            frame=Resize_Frame(frame,scale_percent)
+
+            ####################################
+            # Extracting Fire-Coloured Regions #
+            ####################################
+
+            #Keep Original Frame Copy
             in_img=frame.copy()
+            out_img=frame.copy()
 
+            #Start Timer For Calculating Real-Time FPS
+            start=time()
 
-            # out_img_1     ->      flicker detection output
-            # out_img_2     ->      color detection output    
-
-
-            #flicker detection
-            prev_frame,out_img_1,fire=Flicker_Detect(frame,prev_frame,bg_subtractor,matrix_size,threshold)
-
-            #checking if flicker was detected
-
-            #if fire was detected
-            if fire==True:
-                
-                #color model verification
-                out_img_2,_=Localize_Fire(out_img_1)
-
+            #Detect Fire-Colored Pixels
+            color_mask,pixel=Color_Detection(frame)
             
-            #log end time
-            stop=time()
-            #counting number of frames iterated
-            count+=1
+            #Perform Closing Morphological Operation
+            color_mask=cv.morphologyEx(color_mask,cv.MORPH_CLOSE,kernel)
 
-            #printing frame info
+            #Typecast to uint8
+            color_mask=np.array(color_mask,np.uint8)
+
+            #Remove Noise
+            frame=cv.GaussianBlur(frame,(5,5),1)
+
+            #Generate Foreground Mask
+            fg_mask=Background_Subtraction(frame,bg_subtractor)
+
+            #Stop Timer
+            stop=time()
+
+            #Initialize Empty Mask For Fusion
+            mask=np.zeros_like(fg_mask)
+
+            #Calculate Intersection of Foreground Mask and Color Mask
+            for x in range(mask.shape[0]):
+                for y in range(mask.shape[1]):
+                    if fg_mask[x][y]==color_mask[x][y]:
+                        mask[x][y]=fg_mask[x][y]
+                    else:
+                        mask[x][y]=0
+
+            #Checking If Generated Fused Mask Is Empty
+            if mask.size!=0:
+
+                #Perform Closing Morphological Operation
+                mask=cv.morphologyEx(mask,cv.MORPH_CLOSE,kernel)
+
+                #Region Boundary Estimation
+                out_img,boxes=Region_Draw(mask,out_img)
+            
+            else:
+
+                #If Fused Mask Is Empty -> Generate a Zero-Filled Mask
+                mask=np.zeros_like(fg_mask)
+
+            #Counting No. Of Frames Processed
+            count+=1
+            
+            #Displaying Input, Mask and Final Output
+            Output(in_img,fg_mask,color_mask,mask,out_img,"CCTV Input","Foreground Mask","Color Mask","Fused Mask","Output")
+
+            #Plotting Graph
+            if plot_enable=='Y' or plot_enable=='y':
+                Plot_Graph(count,pixel,X,Y)
+
+            #Printing Debug Info
             os.system('clear')
             print("Frames Processed : "+str(count))
             print("FPS : "+str(round(1/(stop-start))))
+            print("Fire-Colored Pixels Detected : "+str(pixel))
+            print("No. Of Bounding Boxes Generated : "+str(len(boxes)))
+            print("Bounding Boxes : "+str(boxes))
+
  
-            #waiting for quit keypress
+            #Waiting For Keypress -> Quit OpenCV 'imshow()' Window
             if cv.waitKey(1) & 0XFF == ord('q'):
                 break
 
-        #cleanup stream
+        #Close Video Stream and Cleanup
         cv.destroyAllWindows()
         vid.release()
 
-        #success
+        #Print Success Message
         print("Done Parsing Frames.")
