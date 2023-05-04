@@ -34,7 +34,7 @@ def VideoSetup(vidpath):
     #Obtaining FPS
     fps=vid.get(cv.CAP_PROP_FPS)
 
-    return vid,status,abs(fps)
+    return vid,status,round(fps)
 
 def ExtractFrame(vid):
 

@@ -2,8 +2,24 @@ import os
 import cv2 as cv
 import numpy as np
 from time import time,sleep
-from flicker_detection.Motion_Detection import Background_Subtraction,VideoSetup,Resize_Frame,Setup_Parameters
 from color_detection.Color_Detection_YCbCr import Color_Detection,Setup_Plotter,ExtractFrame,Plot_Graph
+from flicker_detection.Motion_Detection import Background_Subtraction,VideoSetup,Resize_Frame,Setup_Parameters
+
+global w1
+global w2
+global detected_frames
+global frame_count_threshold
+global vid_length
+
+detected_frames=0
+frame_count_threshold=5
+vid_length=5
+w1=4
+w2=3
+def Video_Write(fps,video_buffer,size):
+    vid_output=cv.VideoWriter("vid.mp4",cv.VideoWriter_fourcc('m','p','4','v'),fps,size)
+    for frame in video_buffer:
+        vid_output.write(frame)
 
 def Region_Draw(mask,frame):
     
@@ -39,18 +55,60 @@ def Output(in_img,fg_mask,color_mask,mask,out_img,msg1,msg2,msg3,msg4,msg5):
     #Display Output
     cv.imshow(msg5,out_img)
 
+def Area_Randomness_Check(box1,box2):
+    global detected_frames
+    box1_area=box1[0][2]*box1[0][3]
+    box2_area=box2[0][2]*box2[0][3]
+    area_ratio=box2_area/box1_area
+    print("\n#############################")
+    print("# Box Area Randomness Check #")
+    print("#############################")
+    print("Previous Frame Area : "+str(box1_area))
+    print("Current Frame Area : "+str(box2_area))
+    print("Area Randomness Ratio : "+str(area_ratio))
+    
+    if area_ratio!=1 or area_ratio!=0:
+        detected_frames=detected_frames+w1
+
+def Box_Randomness_Check(box1,box2):
+    global detected_frames
+    count_ratio=box2/box1
+    print("\n##############################")
+    print("# Box Count Randomness Check #")
+    print("##############################")
+    print("Previous Frame Box Count : "+str(box1))
+    print("Current Frame Box Count : "+str(box2))
+    print("Box Count Randomness Ratio : "+str(count_ratio))
+    
+    if count_ratio!=1 or count_ratio!=0:
+        detected_frames=detected_frames+w2
+
 if __name__=='__main__':
 
     #Initialize Frame Counter
     count=0
     
+    #Initialize Fire-Detected Frame Pointer
+    pointer=-1
+
+    #Initialize Save Video Buffer
+    video_buffer=[]
+
+    #Initialize Frame Queue
+    frame_queue=[None,None]
+
     #Setting Up Video Stream Parameters
     vidpath=input("Video File Path : ")
     vid,status,fps=VideoSetup(vidpath)
+    size=(int(vid.get(cv.CAP_PROP_FRAME_WIDTH)),int(vid.get(cv.CAP_PROP_FRAME_HEIGHT)))
+
+    #Calculate Video Buffer Size
+    video_buffer_max_size=fps*vid_length
 
     #Setting Downscale Factor(%)
     scale_percent=100-int(input("Enter Downscale Factor (in %) : "))
 
+    #Enable / Disable Real-Time Plotting
     plot_enable=input("Enable Real-Time Plotting ? [Y/N] : ")
 
     #Checking If Stream Is Open
@@ -77,6 +135,9 @@ if __name__=='__main__':
             if str(type(frame))!="<class 'numpy.ndarray'>":
                 break
 
+            #Keep Original Image Copy
+            frame_org=frame.copy()
+
             #Downscaling Frame Size
             frame=Resize_Frame(frame,scale_percent)
 
@@ -84,7 +145,7 @@ if __name__=='__main__':
             # Extracting Fire-Coloured Regions #
             ####################################
 
-            #Keep Original Frame Copy
+            #Keep Resized Frame Copy
             in_img=frame.copy()
             out_img=frame.copy()
 
@@ -137,13 +198,6 @@ if __name__=='__main__':
             #Counting No. Of Frames Processed
             count+=1
             
-            #Displaying Input, Mask and Final Output
-            Output(in_img,fg_mask,color_mask,mask,out_img,"CCTV Input","Foreground Mask","Color Mask","Fused Mask","Output")
-
-            #Plotting Graph
-            if plot_enable=='Y' or plot_enable=='y':
-                Plot_Graph(count,pixel,X,Y)
-
             #Printing Debug Info
             os.system('clear')
             print("Frames Processed : "+str(count))
@@ -152,7 +206,54 @@ if __name__=='__main__':
             print("No. Of Bounding Boxes Generated : "+str(len(boxes)))
             print("Bounding Boxes : "+str(boxes))
 
- 
+            #First Two Frames Check
+            if count==1:
+                #Queueing Frame
+                frame_queue[0]=(mask,pixel,boxes)
+            elif count==2:
+                #Queueing Frame
+                frame_queue[1]=(mask,pixel,boxes)
+            
+            #Skip For First Frame
+            if count!=1:
+                #Check Type Of Randomness
+                if len(frame_queue[0][2])==len(frame_queue[1][2])==1:
+                    #Checking Of Current Frame Pointer Is Invalid
+                    #Checking Area Randomness In Consecutive Frames
+                    Area_Randomness_Check(frame_queue[0][2],frame_queue[1][2])
+
+                elif len(frame_queue[0][2])!=0 and len(frame_queue[1][2])!=0:
+                    #Checking Box Count Randomness In Consecutive Frames
+                    Box_Randomness_Check(len(frame_queue[0][2]),len(frame_queue[1][2]))
+
+                frame_queue[0]=frame_queue[1]
+                frame_queue[1]=(mask,pixel,boxes)
+
+            detected_frames=round(detected_frames)
+
+            #Queueing Frames To Video Buffer
+            if detected_frames>0:
+                #Append The Frame
+                video_buffer.append(frame_org)
+                detected_frames=detected_frames-1
+                if detected_frames==0 or len(video_buffer)==video_buffer_max_size:
+                    print("Queue Ready !")
+                    Video_Write(fps,video_buffer,size)
+                    detected_frames=0
+                    video_buffer.clear()
+
+            #Printing Debug Info
+            print("Fire-Detected Frame Counts : "+str(detected_frames))
+            print("Video File Length : "+str(len(video_buffer)/fps)+"s")
+            print("Target File Length : "+str(vid_length)+"s")
+
+            #Displaying Input, Mask and Final Output
+            Output(in_img,fg_mask,color_mask,mask,out_img,"CCTV Input","Foreground Mask","Color Mask","Fused Mask","Output")
+
+            #Plotting Graph
+            if plot_enable=='Y' or plot_enable=='y':
+                Plot_Graph(count,pixel,X,Y)
+
             #Waiting For Keypress -> Quit OpenCV 'imshow()' Window
             if cv.waitKey(1) & 0XFF == ord('q'):
                 break
