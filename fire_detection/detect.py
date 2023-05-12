@@ -18,10 +18,10 @@ class opt:
     conf_thres=0.25
     iou_thres=0.45
     device=''
-    view_img=True
+    view_img=False
     save_txt=False
     save_conf=False
-    nosave=True
+    nosave=False
     no_trace=True
     project='./'
     name='out'
@@ -47,9 +47,9 @@ def Load_YOLO(weights,device):
     return model
 
 def detect(source,model,half,device):
-    save_img=False
+    save_img=True
     view_img, save_txt, imgsz, trace = opt.view_img, opt.save_txt, opt.img_size, not opt.no_trace
-    save_img = not opt.nosave and not source.endswith('.txt')  # save inference images
+    #save_img = not opt.nosave and not source.endswith('.txt')  # save inference images
     webcam = source.isnumeric() or source.endswith('.txt') or source.lower().startswith(
         ('rtsp://', 'rtmp://', 'http://', 'https://'))
 

@@ -30,11 +30,12 @@ vid_length=3
 detected_frames=0
 frame_count_threshold=5
 
-def YOLO(sav_path,weights):
+def YOLO(sav_path):
     global half
     global model
     global device
     global loaded
+    global weights
 
     #Checking GPU Variables
     if loaded==False:
@@ -51,13 +52,15 @@ def Image_Write(video_buffer,sav_path):
     for i,frame in enumerate(video_buffer):
         cv.imwrite("./"+str(sav_path)+"/"+str(i)+".png",frame)
 
-    YOLO(sav_path)
-
 def Video_Write(fps,video_buffer,size):
-    vid_output=cv.VideoWriter("./"+str(sav_path)+".mp4",cv.VideoWriter_fourcc('m','p','4','v'),fps,size)
+    vid_output=cv.VideoWriter("./vids/"+str(sav_path)+".mp4",cv.VideoWriter_fourcc('m','p','4','v'),fps,size)
     for frame in video_buffer:
         vid_output.write(frame)
     print("Written To File !")
+
+    yolo_detect_thread=threading.Thread(target=YOLO,name="YOLO Thread",args=("vids/",))
+    yolo_detect_thread.start()
+
 
 def Region_Draw(mask,frame):
     
@@ -240,7 +243,7 @@ if __name__=='__main__':
             count+=1
             
             #Printing Debug Info
-            os.system('clear')
+            #os.system('clear')
             print("Frames Processed : "+str(count))
             print("FPS : "+str(round(1/(stop-start))))
             print("Fire-Colored Pixels Detected : "+str(pixel))
@@ -280,11 +283,11 @@ if __name__=='__main__':
                 if detected_frames==0 and len(video_buffer)>=video_buffer_max_size:
                     print("Queue Ready !")
                     #Setting Up Multithreading For VideoWriter + YOLODetect()
-                    img_write_thread=threading.Thread(target=Image_Write,name='Image Writer',args=(video_buffer.copy(),sav_path))
+                    #img_write_thread=threading.Thread(target=Image_Write,name='Image Writer',args=(video_buffer.copy(),sav_path))
                     vid_write_thread=threading.Thread(target=Video_Write,name='Video Writer',args=(fps,video_buffer.copy(),size))
                     
                     #Starting All Threads
-                    img_write_thread.start()
+                    #img_write_thread.start()
                     vid_write_thread.start()
                     
                     #Resetting Variables
@@ -296,6 +299,7 @@ if __name__=='__main__':
             print("Fire-Detected Frame Counts : "+str(detected_frames))
             print("Video File Length : "+str(len(video_buffer)/fps)+"s")
             print("Target File Length : "+str(vid_length)+"s")
+            print("\n\n")
 
             #Displaying Input, Mask and Final Output
             Output(in_img,fg_mask,color_mask,mask,out_img,"CCTV Input","Foreground Mask","Color Mask","Fused Mask","Output")
