@@ -1,25 +1,63 @@
 import os
+import threading
 import cv2 as cv
 import numpy as np
 from time import time,sleep
+from detect import YOLODetect,Load_YOLO,Initialize
 from color_detection.Color_Detection_YCbCr import Color_Detection,Setup_Plotter,ExtractFrame,Plot_Graph
 from flicker_detection.Motion_Detection import Background_Subtraction,VideoSetup,Resize_Frame,Setup_Parameters
 
 global w1
 global w2
+global half
+global model
+global device
+global loaded
+global weights
+global vid_length
 global detected_frames
 global frame_count_threshold
-global vid_length
 
+half=None
+model=None
+device=None
+loaded=False
+weights='models/best.pt'
+
+w1=2
+w2=1
+vid_length=3
 detected_frames=0
 frame_count_threshold=5
-vid_length=5
-w1=4
-w2=3
+
+def YOLO(sav_path,weights):
+    global half
+    global model
+    global device
+    global loaded
+
+    #Checking GPU Variables
+    if loaded==False:
+        device,half=Initialize()
+        model=Load_YOLO(weights,device)
+        loaded=True
+    
+    #Load YOLO Model
+    if device!=None and half!=None and loaded==True:
+        YOLODetect("./"+str(sav_path),weights,model,half,device)
+
+def Image_Write(video_buffer,sav_path):
+    os.mkdir("./"+str(sav_path))
+    for i,frame in enumerate(video_buffer):
+        cv.imwrite("./"+str(sav_path)+"/"+str(i)+".png",frame)
+
+    YOLO(sav_path)
+
 def Video_Write(fps,video_buffer,size):
-    vid_output=cv.VideoWriter("vid.mp4",cv.VideoWriter_fourcc('m','p','4','v'),fps,size)
+    vid_output=cv.VideoWriter("./"+str(sav_path)+".mp4",cv.VideoWriter_fourcc('m','p','4','v'),fps,size)
     for frame in video_buffer:
         vid_output.write(frame)
+    print("Written To File !")
 
 def Region_Draw(mask,frame):
     
@@ -94,6 +132,9 @@ if __name__=='__main__':
     #Initialize Save Video Buffer
     video_buffer=[]
 
+    #Setting Video Save Path
+    sav_path=0
+    
     #Initialize Frame Queue
     frame_queue=[None,None]
 
@@ -236,11 +277,20 @@ if __name__=='__main__':
                 #Append The Frame
                 video_buffer.append(frame_org)
                 detected_frames=detected_frames-1
-                if detected_frames==0 or len(video_buffer)==video_buffer_max_size:
+                if detected_frames==0 and len(video_buffer)>=video_buffer_max_size:
                     print("Queue Ready !")
-                    Video_Write(fps,video_buffer,size)
+                    #Setting Up Multithreading For VideoWriter + YOLODetect()
+                    img_write_thread=threading.Thread(target=Image_Write,name='Image Writer',args=(video_buffer.copy(),sav_path))
+                    vid_write_thread=threading.Thread(target=Video_Write,name='Video Writer',args=(fps,video_buffer.copy(),size))
+                    
+                    #Starting All Threads
+                    img_write_thread.start()
+                    vid_write_thread.start()
+                    
+                    #Resetting Variables
                     detected_frames=0
                     video_buffer.clear()
+                    sav_path=sav_path+1
 
             #Printing Debug Info
             print("Fire-Detected Frame Counts : "+str(detected_frames))
