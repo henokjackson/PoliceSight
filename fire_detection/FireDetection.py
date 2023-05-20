@@ -245,7 +245,7 @@ if __name__=='__main__':
             print("Fire-Colored Pixels Detected : "+str(pixel))
             print("No. Of Bounding Boxes Generated : "+str(len(boxes)))
             print("Bounding Boxes : "+str(boxes))
-            '''
+
             #First Two Frames Check
             if count==1:
                 #Queueing Frame
@@ -294,14 +294,10 @@ if __name__=='__main__':
             print("Video File Length : "+str(len(video_buffer)/fps)+"s")
             print("Target File Length : "+str(vid_length)+"s")
             print("\n\n")
-            '''
+
             #Displaying Input, Mask and Final Output
             Output(in_img,fg_mask,color_mask,mask,out_img,"CCTV Input","Foreground Mask","Color Mask","Fused Mask","Output")
-            cv.imwrite("in_img.jpg",in_img)
-            cv.imwrite("fg_mask.jpg",fg_mask)
-            cv.imwrite("color_mask.jpg",color_mask)
-            cv.imwrite("mask.jpg",mask)
-            cv.imwrite("out_img.jpg",out_img)
+
             
             #Plotting Graph
             if plot_enable=='Y' or plot_enable=='y':
