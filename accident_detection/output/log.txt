@@ -1,0 +1,2951 @@
+2 fires, Done. (375.7ms) Inference, (41.6ms) NMS
+2 fires, Done. (341.4ms) Inference, (1.8ms) NMS
+2 fires, Done. (358.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (340.5ms) Inference, (1.6ms) NMS
+2 fires, Done. (312.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (334.5ms) Inference, (1.7ms) NMS
+2 fires, Done. (315.5ms) Inference, (1.6ms) NMS
+2 fires, Done. (302.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (305.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (300.6ms) Inference, (28.4ms) NMS
+1 fire, Done. (312.7ms) Inference, (1.6ms) NMS
+1 fire, Done. (344.6ms) Inference, (11.9ms) NMS
+1 fire, Done. (320.1ms) Inference, (1.6ms) NMS
+1 fire, Done. (312.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (303.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (249.1ms) Inference, (1.6ms) NMS
+1 fire, Done. (345.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (303.8ms) Inference, (1.7ms) NMS
+1 fire, Done. (337.5ms) Inference, (28.5ms) NMS
+1 fire, Done. (344.7ms) Inference, (28.2ms) NMS
+1 fire, Done. (331.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (299.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (307.5ms) Inference, (28.4ms) NMS
+1 fire, Done. (309.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (339.7ms) Inference, (11.9ms) NMS
+1 fire, Done. (322.7ms) Inference, (1.7ms) NMS
+1 fire, Done. (301.7ms) Inference, (1.7ms) NMS
+1 fire, Done. (289.1ms) Inference, (1.6ms) NMS
+1 fire, Done. (266.7ms) Inference, (17.0ms) NMS
+1 fire, Done. (331.9ms) Inference, (28.2ms) NMS
+1 fire, Done. (356.9ms) Inference, (1.6ms) NMS
+1 fire, Done. (348.7ms) Inference, (1.6ms) NMS
+1 fire, Done. (374.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (360.0ms) Inference, (1.9ms) NMS
+1 fire, Done. (353.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (364.4ms) Inference, (1.9ms) NMS
+1 fire, Done. (365.3ms) Inference, (1.6ms) NMS
+1 fire, Done. (398.9ms) Inference, (6.8ms) NMS
+2 fires, Done. (357.9ms) Inference, (2.5ms) NMS
+2 fires, Done. (429.4ms) Inference, (2.4ms) NMS
+2 fires, Done. (395.5ms) Inference, (1.6ms) NMS
+2 fires, Done. (366.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (373.7ms) Inference, (20.4ms) NMS
+2 fires, Done. (413.8ms) Inference, (1.6ms) NMS
+2 fires, Done. (410.9ms) Inference, (11.8ms) NMS
+2 fires, Done. (365.0ms) Inference, (1.6ms) NMS
+2 fires, Done. (356.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (303.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (393.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (311.1ms) Inference, (51.2ms) NMS
+1 fire, Done. (413.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (437.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (379.8ms) Inference, (1.7ms) NMS
+1 fire, Done. (409.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (324.5ms) Inference, (11.8ms) NMS
+1 fire, Done. (328.0ms) Inference, (17.1ms) NMS
+1 fire, Done. (363.1ms) Inference, (2.5ms) NMS
+1 fire, Done. (356.4ms) Inference, (1.8ms) NMS
+1 fire, Done. (358.3ms) Inference, (1.6ms) NMS
+1 fire, Done. (357.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (363.7ms) Inference, (1.6ms) NMS
+2 fires, Done. (403.5ms) Inference, (11.9ms) NMS
+2 fires, Done. (406.1ms) Inference, (27.9ms) NMS
+1 fire, Done. (400.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (355.3ms) Inference, (11.9ms) NMS
+1 fire, Done. (388.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (357.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (358.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (349.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (362.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (300.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (347.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (354.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (363.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (353.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (353.8ms) Inference, (11.8ms) NMS
+1 fire, Done. (358.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (377.6ms) Inference, (36.5ms) NMS
+1 fire, Done. (344.6ms) Inference, (11.8ms) NMS
+1 fire, Done. (361.2ms) Inference, (27.5ms) NMS
+1 fire, Done. (389.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (408.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (363.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (420.7ms) Inference, (11.8ms) NMS
+1 fire, Done. (325.7ms) Inference, (27.7ms) NMS
+1 fire, Done. (356.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (433.9ms) Inference, (2.4ms) NMS
+2 fires, Done. (412.8ms) Inference, (11.9ms) NMS
+2 fires, Done. (362.8ms) Inference, (1.9ms) NMS
+1 fire, Done. (379.5ms) Inference, (1.9ms) NMS
+1 fire, Done. (392.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (312.9ms) Inference, (1.6ms) NMS
+1 fire, Done. (437.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (289.3ms) Inference, (1.6ms) NMS
+Done. (376.4ms) Inference, (0.3ms) NMS
+1 fire, Done. (308.5ms) Inference, (49.2ms) NMS
+2 fires, Done. (455.9ms) Inference, (30.3ms) NMS
+1 fire, Done. (444.1ms) Inference, (38.4ms) NMS
+1 fire, Done. (390.6ms) Inference, (11.8ms) NMS
+1 fire, Done. (367.7ms) Inference, (2.5ms) NMS
+1 fire, Done. (514.8ms) Inference, (2.0ms) NMS
+1 fire, Done. (456.1ms) Inference, (54.6ms) NMS
+1 fire, Done. (347.8ms) Inference, (48.8ms) NMS
+1 fire, Done. (470.3ms) Inference, (1.7ms) NMS
+1 fire, Done. (447.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (343.4ms) Inference, (1.5ms) NMS
+Done. (332.6ms) Inference, (0.3ms) NMS
+1 fire, Done. (365.3ms) Inference, (2.1ms) NMS
+Done. (424.5ms) Inference, (0.4ms) NMS
+Done. (409.8ms) Inference, (0.3ms) NMS
+Done. (444.4ms) Inference, (0.3ms) NMS
+Done. (384.7ms) Inference, (0.3ms) NMS
+Done. (364.8ms) Inference, (0.3ms) NMS
+Done. (374.4ms) Inference, (0.3ms) NMS
+Done. (400.0ms) Inference, (0.3ms) NMS
+Done. (406.3ms) Inference, (0.3ms) NMS
+Done. (308.5ms) Inference, (0.3ms) NMS
+Done. (305.7ms) Inference, (0.3ms) NMS
+Done. (291.0ms) Inference, (0.3ms) NMS
+1 fire, Done. (370.7ms) Inference, (1.5ms) NMS
+Done. (366.6ms) Inference, (0.3ms) NMS
+Done. (277.4ms) Inference, (0.3ms) NMS
+Done. (311.9ms) Inference, (0.3ms) NMS
+2 fires, Done. (322.8ms) Inference, (2.3ms) NMS
+2 fires, Done. (325.9ms) Inference, (1.7ms) NMS
+2 fires, Done. (315.6ms) Inference, (1.6ms) NMS
+2 fires, Done. (298.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (287.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (301.8ms) Inference, (11.8ms) NMS
+2 fires, Done. (300.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (278.4ms) Inference, (27.9ms) NMS
+2 fires, Done. (281.7ms) Inference, (11.8ms) NMS
+2 fires, Done. (231.5ms) Inference, (1.6ms) NMS
+2 fires, Done. (278.0ms) Inference, (11.8ms) NMS
+2 fires, Done. (234.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (278.4ms) Inference, (11.8ms) NMS
+2 fires, Done. (208.0ms) Inference, (28.6ms) NMS
+3 fires, Done. (241.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (282.3ms) Inference, (11.9ms) NMS
+3 fires, Done. (288.3ms) Inference, (22.2ms) NMS
+3 fires, Done. (237.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (271.8ms) Inference, (22.2ms) NMS
+3 fires, Done. (278.3ms) Inference, (11.8ms) NMS
+3 fires, Done. (238.7ms) Inference, (1.7ms) NMS
+2 fires, Done. (272.0ms) Inference, (11.9ms) NMS
+2 fires, Done. (277.1ms) Inference, (11.8ms) NMS
+3 fires, Done. (242.9ms) Inference, (1.5ms) NMS
+3 fires, Done. (295.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (293.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (298.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (270.4ms) Inference, (27.3ms) NMS
+2 fires, Done. (242.2ms) Inference, (32.6ms) NMS
+2 fires, Done. (240.9ms) Inference, (1.7ms) NMS
+2 fires, Done. (314.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (301.4ms) Inference, (1.5ms) NMS
+2 fires, Done. (306.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (306.7ms) Inference, (2.2ms) NMS
+2 fires, Done. (305.8ms) Inference, (2.1ms) NMS
+3 fires, Done. (300.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (300.7ms) Inference, (1.5ms) NMS
+3 fires, Done. (282.8ms) Inference, (11.9ms) NMS
+3 fires, Done. (272.9ms) Inference, (11.9ms) NMS
+3 fires, Done. (227.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (267.0ms) Inference, (27.3ms) NMS
+2 fires, Done. (224.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (267.0ms) Inference, (17.0ms) NMS
+2 fires, Done. (223.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (279.3ms) Inference, (12.3ms) NMS
+2 fires, Done. (248.1ms) Inference, (2.4ms) NMS
+2 fires, Done. (285.2ms) Inference, (12.2ms) NMS
+3 fires, Done. (244.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (264.1ms) Inference, (28.2ms) NMS
+1 fire, Done. (229.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (274.9ms) Inference, (28.2ms) NMS
+1 fire, Done. (224.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (296.1ms) Inference, (1.9ms) NMS
+1 fire, Done. (224.0ms) Inference, (1.7ms) NMS
+1 fire, Done. (226.9ms) Inference, (1.8ms) NMS
+1 fire, Done. (238.3ms) Inference, (2.1ms) NMS
+1 fire, Done. (303.5ms) Inference, (1.7ms) NMS
+1 fire, Done. (456.4ms) Inference, (35.1ms) NMS
+1 fire, Done. (548.8ms) Inference, (10.9ms) NMS
+1 fire, Done. (458.2ms) Inference, (78.2ms) NMS
+2 fires, Done. (496.5ms) Inference, (23.1ms) NMS
+2 fires, Done. (584.6ms) Inference, (29.3ms) NMS
+1 fire, Done. (535.5ms) Inference, (32.5ms) NMS
+2 fires, Done. (525.1ms) Inference, (32.6ms) NMS
+1 fire, Done. (511.5ms) Inference, (35.3ms) NMS
+2 fires, Done. (501.8ms) Inference, (35.6ms) NMS
+1 fire, Done. (527.2ms) Inference, (29.9ms) NMS
+2 fires, Done. (517.1ms) Inference, (29.7ms) NMS
+1 fire, Done. (475.2ms) Inference, (2.8ms) NMS
+1 fire, Done. (475.3ms) Inference, (2.7ms) NMS
+1 fire, Done. (540.2ms) Inference, (30.1ms) NMS
+2 fires, Done. (545.1ms) Inference, (25.1ms) NMS
+1 fire, Done. (610.4ms) Inference, (3.6ms) NMS
+2 fires, Done. (590.8ms) Inference, (12.0ms) NMS
+1 fire, Done. (581.5ms) Inference, (29.6ms) NMS
+2 fires, Done. (570.4ms) Inference, (29.8ms) NMS
+2 fires, Done. (493.4ms) Inference, (29.7ms) NMS
+1 fire, Done. (505.3ms) Inference, (29.7ms) NMS
+1 fire, Done. (510.2ms) Inference, (29.9ms) NMS
+2 fires, Done. (520.6ms) Inference, (29.5ms) NMS
+1 fire, Done. (432.3ms) Inference, (29.7ms) NMS
+3 fires, Done. (421.3ms) Inference, (29.7ms) NMS
+1 fire, Done. (531.4ms) Inference, (29.9ms) NMS
+2 fires, Done. (513.5ms) Inference, (29.8ms) NMS
+1 fire, Done. (505.8ms) Inference, (29.8ms) NMS
+3 fires, Done. (494.9ms) Inference, (30.0ms) NMS
+1 fire, Done. (520.2ms) Inference, (31.1ms) NMS
+1 fire, Done. (502.1ms) Inference, (31.6ms) NMS
+1 fire, Done. (451.1ms) Inference, (2.7ms) NMS
+1 fire, Done. (451.8ms) Inference, (2.5ms) NMS
+1 fire, Done. (385.5ms) Inference, (52.2ms) NMS
+1 fire, Done. (386.4ms) Inference, (51.5ms) NMS
+2 fires, Done. (426.7ms) Inference, (2.1ms) NMS
+1 fire, Done. (410.3ms) Inference, (2.5ms) NMS
+1 fire, Done. (478.3ms) Inference, (3.1ms) NMS
+1 fire, Done. (478.6ms) Inference, (2.8ms) NMS
+1 fire, Done. (526.9ms) Inference, (20.3ms) NMS
+1 fire, Done. (532.0ms) Inference, (14.9ms) NMS
+1 fire, Done. (538.1ms) Inference, (5.0ms) NMS
+1 fire, Done. (537.9ms) Inference, (5.3ms) NMS
+1 fire, Done. (511.3ms) Inference, (31.7ms) NMS
+1 fire, Done. (510.7ms) Inference, (31.9ms) NMS
+1 fire, Done. (555.7ms) Inference, (5.3ms) NMS
+2 fires, Done. (555.4ms) Inference, (5.6ms) NMS
+1 fire, Done. (537.7ms) Inference, (30.0ms) NMS
+2 fires, Done. (526.8ms) Inference, (29.9ms) NMS
+1 fire, Done. (518.7ms) Inference, (29.3ms) NMS
+2 fires, Done. (505.8ms) Inference, (28.0ms) NMS
+1 fire, Done. (420.0ms) Inference, (30.1ms) NMS
+3 fires, Done. (430.5ms) Inference, (19.6ms) NMS
+1 fire, Done. (500.4ms) Inference, (2.5ms) NMS
+3 fires, Done. (483.5ms) Inference, (3.0ms) NMS
+1 fire, Done. (523.0ms) Inference, (30.1ms) NMS
+3 fires, Done. (499.1ms) Inference, (29.8ms) NMS
+1 fire, Done. (547.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (529.9ms) Inference, (2.1ms) NMS
+1 fire, Done. (537.9ms) Inference, (5.0ms) NMS
+2 fires, Done. (527.4ms) Inference, (5.0ms) NMS
+1 fire, Done. (535.7ms) Inference, (16.1ms) NMS
+2 fires, Done. (530.3ms) Inference, (11.0ms) NMS
+2 fires, Done. (485.5ms) Inference, (12.8ms) NMS
+2 fires, Done. (476.2ms) Inference, (51.3ms) NMS
+1 fire, Done. (441.7ms) Inference, (2.7ms) NMS
+2 fires, Done. (407.3ms) Inference, (3.4ms) NMS
+1 fire, Done. (515.8ms) Inference, (29.8ms) NMS
+2 fires, Done. (458.0ms) Inference, (30.1ms) NMS
+2 fires, Done. (455.6ms) Inference, (28.1ms) NMS
+2 fires, Done. (447.9ms) Inference, (51.7ms) NMS
+2 fires, Done. (507.3ms) Inference, (12.6ms) NMS
+2 fires, Done. (467.1ms) Inference, (33.2ms) NMS
+2 fires, Done. (468.3ms) Inference, (2.4ms) NMS
+3 fires, Done. (450.5ms) Inference, (12.8ms) NMS
+2 fires, Done. (479.8ms) Inference, (2.5ms) NMS
+2 fires, Done. (461.0ms) Inference, (28.2ms) NMS
+2 fires, Done. (512.6ms) Inference, (2.8ms) NMS
+4 fires, Done. (490.9ms) Inference, (3.0ms) NMS
+1 fire, Done. (468.6ms) Inference, (34.5ms) NMS
+4 fires, Done. (432.1ms) Inference, (35.4ms) NMS
+1 fire, Done. (501.0ms) Inference, (10.6ms) NMS
+3 fires, Done. (491.7ms) Inference, (3.1ms) NMS
+1 fire, Done. (411.8ms) Inference, (2.4ms) NMS
+2 fires, Done. (399.3ms) Inference, (12.9ms) NMS
+1 fire, Done. (508.8ms) Inference, (2.9ms) NMS
+3 fires, Done. (475.7ms) Inference, (2.6ms) NMS
+1 fire, Done. (557.4ms) Inference, (3.9ms) NMS
+2 fires, Done. (490.4ms) Inference, (3.6ms) NMS
+1 fire, Done. (497.8ms) Inference, (29.6ms) NMS
+2 fires, Done. (487.7ms) Inference, (30.1ms) NMS
+1 fire, Done. (385.1ms) Inference, (49.1ms) NMS
+2 fires, Done. (408.0ms) Inference, (22.6ms) NMS
+1 fire, Done. (558.4ms) Inference, (28.9ms) NMS
+2 fires, Done. (513.5ms) Inference, (29.2ms) NMS
+1 fire, Done. (496.2ms) Inference, (29.0ms) NMS
+2 fires, Done. (495.4ms) Inference, (29.9ms) NMS
+1 fire, Done. (504.3ms) Inference, (29.8ms) NMS
+2 fires, Done. (484.5ms) Inference, (30.0ms) NMS
+2 fires, Done. (485.9ms) Inference, (12.6ms) NMS
+1 fire, Done. (506.9ms) Inference, (3.2ms) NMS
+1 fire, Done. (422.7ms) Inference, (52.1ms) NMS
+2 fires, Done. (422.2ms) Inference, (12.5ms) NMS
+1 fire, Done. (448.3ms) Inference, (2.7ms) NMS
+2 fires, Done. (448.0ms) Inference, (2.6ms) NMS
+2 fires, Done. (467.7ms) Inference, (48.7ms) NMS
+1 fire, Done. (515.2ms) Inference, (2.5ms) NMS
+1 fire, Done. (484.9ms) Inference, (2.5ms) NMS
+1 fire, Done. (475.7ms) Inference, (2.5ms) NMS
+1 fire, Done. (534.6ms) Inference, (29.8ms) NMS
+2 fires, Done. (553.0ms) Inference, (29.5ms) NMS
+1 fire, Done. (442.4ms) Inference, (15.1ms) NMS
+2 fires, Done. (450.7ms) Inference, (4.9ms) NMS
+1 fire, Done. (608.7ms) Inference, (3.4ms) NMS
+1 fire, Done. (612.7ms) Inference, (9.7ms) NMS
+1 fire, Done. (468.4ms) Inference, (33.2ms) NMS
+1 fire, Done. (468.7ms) Inference, (34.5ms) NMS
+1 fire, Done. (484.8ms) Inference, (2.5ms) NMS
+1 fire, Done. (497.9ms) Inference, (2.6ms) NMS
+1 fire, Done. (460.5ms) Inference, (2.7ms) NMS
+1 fire, Done. (449.4ms) Inference, (2.6ms) NMS
+1 fire, Done. (469.0ms) Inference, (22.9ms) NMS
+3 fires, Done. (480.6ms) Inference, (2.7ms) NMS
+1 fire, Done. (576.0ms) Inference, (29.0ms) NMS
+3 fires, Done. (575.8ms) Inference, (29.1ms) NMS
+1 fire, Done. (512.2ms) Inference, (30.3ms) NMS
+3 fires, Done. (494.8ms) Inference, (30.5ms) NMS
+1 fire, Done. (585.9ms) Inference, (2.3ms) NMS
+2 fires, Done. (570.7ms) Inference, (2.5ms) NMS
+1 fire, Done. (492.6ms) Inference, (3.1ms) NMS
+2 fires, Done. (481.9ms) Inference, (3.4ms) NMS
+1 fire, Done. (469.2ms) Inference, (30.1ms) NMS
+2 fires, Done. (472.6ms) Inference, (24.8ms) NMS
+1 fire, Done. (469.5ms) Inference, (2.1ms) NMS
+2 fires, Done. (458.8ms) Inference, (1.9ms) NMS
+1 fire, Done. (455.0ms) Inference, (30.0ms) NMS
+2 fires, Done. (443.1ms) Inference, (29.9ms) NMS
+1 fire, Done. (425.6ms) Inference, (29.8ms) NMS
+2 fires, Done. (416.5ms) Inference, (29.9ms) NMS
+1 fire, Done. (470.5ms) Inference, (3.1ms) NMS
+2 fires, Done. (453.3ms) Inference, (2.5ms) NMS
+2 fires, Done. (430.1ms) Inference, (29.7ms) NMS
+2 fires, Done. (430.4ms) Inference, (29.9ms) NMS
+1 fire, Done. (415.0ms) Inference, (3.3ms) NMS
+2 fires, Done. (407.0ms) Inference, (2.7ms) NMS
+2 fires, Done. (519.8ms) Inference, (2.9ms) NMS
+2 fires, Done. (483.9ms) Inference, (2.8ms) NMS
+2 fires, Done. (543.7ms) Inference, (41.2ms) NMS
+1 fire, Done. (547.1ms) Inference, (41.5ms) NMS
+1 fire, Done. (588.3ms) Inference, (62.9ms) NMS
+3 fires, Done. (630.9ms) Inference, (41.3ms) NMS
+2 fires, Done. (612.1ms) Inference, (29.8ms) NMS
+3 fires, Done. (595.8ms) Inference, (30.7ms) NMS
+2 fires, Done. (537.2ms) Inference, (30.3ms) NMS
+2 fires, Done. (524.9ms) Inference, (29.9ms) NMS
+2 fires, Done. (504.7ms) Inference, (43.5ms) NMS
+2 fires, Done. (515.1ms) Inference, (43.6ms) NMS
+2 fires, Done. (426.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (394.8ms) Inference, (2.0ms) NMS
+2 fires, Done. (567.5ms) Inference, (3.6ms) NMS
+2 fires, Done. (522.3ms) Inference, (3.6ms) NMS
+2 fires, Done. (491.9ms) Inference, (3.4ms) NMS
+2 fires, Done. (492.2ms) Inference, (3.1ms) NMS
+2 fires, Done. (527.5ms) Inference, (14.6ms) NMS
+2 fires, Done. (511.9ms) Inference, (30.5ms) NMS
+2 fires, Done. (322.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (319.5ms) Inference, (7.0ms) NMS
+2 fires, Done. (341.5ms) Inference, (11.8ms) NMS
+2 fires, Done. (449.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (399.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (334.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (310.1ms) Inference, (2.7ms) NMS
+1 fire, Done. (356.6ms) Inference, (33.3ms) NMS
+1 fire, Done. (317.3ms) Inference, (1.9ms) NMS
+1 fire, Done. (318.5ms) Inference, (2.4ms) NMS
+1 fire, Done. (316.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (300.7ms) Inference, (2.0ms) NMS
+1 fire, Done. (313.7ms) Inference, (1.9ms) NMS
+1 fire, Done. (364.6ms) Inference, (1.7ms) NMS
+1 fire, Done. (311.8ms) Inference, (1.6ms) NMS
+1 fire, Done. (325.0ms) Inference, (11.8ms) NMS
+1 fire, Done. (325.5ms) Inference, (2.2ms) NMS
+1 fire, Done. (315.8ms) Inference, (2.3ms) NMS
+1 fire, Done. (316.7ms) Inference, (1.9ms) NMS
+1 fire, Done. (321.5ms) Inference, (2.2ms) NMS
+1 fire, Done. (300.0ms) Inference, (1.7ms) NMS
+1 fire, Done. (273.4ms) Inference, (1.9ms) NMS
+1 fire, Done. (314.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (304.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (228.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (218.8ms) Inference, (27.3ms) NMS
+1 fire, Done. (252.7ms) Inference, (1.6ms) NMS
+1 fire, Done. (280.2ms) Inference, (2.1ms) NMS
+1 fire, Done. (286.4ms) Inference, (2.0ms) NMS
+1 fire, Done. (287.1ms) Inference, (2.0ms) NMS
+1 fire, Done. (276.1ms) Inference, (2.2ms) NMS
+1 fire, Done. (269.5ms) Inference, (24.7ms) NMS
+2 fires, Done. (290.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (277.5ms) Inference, (1.9ms) NMS
+1 fire, Done. (250.3ms) Inference, (1.9ms) NMS
+2 fires, Done. (230.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (295.5ms) Inference, (2.1ms) NMS
+2 fires, Done. (303.5ms) Inference, (2.1ms) NMS
+2 fires, Done. (296.9ms) Inference, (2.1ms) NMS
+2 fires, Done. (310.1ms) Inference, (2.4ms) NMS
+2 fires, Done. (390.9ms) Inference, (33.7ms) NMS
+2 fires, Done. (467.7ms) Inference, (36.2ms) NMS
+2 fires, Done. (389.7ms) Inference, (38.3ms) NMS
+1 fire, Done. (365.2ms) Inference, (36.2ms) NMS
+1 fire, Done. (427.1ms) Inference, (20.1ms) NMS
+1 fire, Done. (365.5ms) Inference, (4.6ms) NMS
+1 fire, Done. (399.2ms) Inference, (9.6ms) NMS
+1 fire, Done. (399.2ms) Inference, (10.0ms) NMS
+1 fire, Done. (376.1ms) Inference, (30.3ms) NMS
+2 fires, Done. (370.3ms) Inference, (24.9ms) NMS
+1 fire, Done. (408.8ms) Inference, (15.0ms) NMS
+1 fire, Done. (402.1ms) Inference, (9.7ms) NMS
+1 fire, Done. (388.5ms) Inference, (3.2ms) NMS
+1 fire, Done. (389.2ms) Inference, (2.9ms) NMS
+1 fire, Done. (365.0ms) Inference, (30.7ms) NMS
+1 fire, Done. (362.7ms) Inference, (30.6ms) NMS
+1 fire, Done. (406.4ms) Inference, (31.4ms) NMS
+1 fire, Done. (406.6ms) Inference, (31.3ms) NMS
+1 fire, Done. (397.5ms) Inference, (20.5ms) NMS
+1 fire, Done. (391.0ms) Inference, (15.4ms) NMS
+1 fire, Done. (384.5ms) Inference, (30.1ms) NMS
+1 fire, Done. (395.2ms) Inference, (19.4ms) NMS
+1 fire, Done. (380.1ms) Inference, (33.5ms) NMS
+2 fires, Done. (380.8ms) Inference, (32.8ms) NMS
+2 fires, Done. (361.7ms) Inference, (33.0ms) NMS
+1 fire, Done. (367.7ms) Inference, (27.8ms) NMS
+2 fires, Done. (382.4ms) Inference, (30.3ms) NMS
+2 fires, Done. (398.8ms) Inference, (25.0ms) NMS
+1 fire, Done. (386.2ms) Inference, (2.9ms) NMS
+2 fires, Done. (386.4ms) Inference, (2.8ms) NMS
+1 fire, Done. (409.7ms) Inference, (21.7ms) NMS
+2 fires, Done. (388.9ms) Inference, (32.5ms) NMS
+1 fire, Done. (506.1ms) Inference, (3.6ms) NMS
+2 fires, Done. (497.2ms) Inference, (3.0ms) NMS
+1 fire, Done. (465.7ms) Inference, (24.6ms) NMS
+2 fires, Done. (459.0ms) Inference, (19.7ms) NMS
+1 fire, Done. (402.9ms) Inference, (24.8ms) NMS
+2 fires, Done. (401.3ms) Inference, (14.1ms) NMS
+1 fire, Done. (385.2ms) Inference, (12.7ms) NMS
+2 fires, Done. (384.2ms) Inference, (33.0ms) NMS
+1 fire, Done. (366.5ms) Inference, (29.2ms) NMS
+2 fires, Done. (370.0ms) Inference, (13.4ms) NMS
+1 fire, Done. (418.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (382.0ms) Inference, (2.8ms) NMS
+1 fire, Done. (397.3ms) Inference, (30.6ms) NMS
+2 fires, Done. (389.1ms) Inference, (14.5ms) NMS
+2 fires, Done. (364.0ms) Inference, (33.9ms) NMS
+2 fires, Done. (359.6ms) Inference, (34.6ms) NMS
+2 fires, Done. (359.8ms) Inference, (2.6ms) NMS
+2 fires, Done. (370.9ms) Inference, (2.5ms) NMS
+2 fires, Done. (355.4ms) Inference, (2.4ms) NMS
+2 fires, Done. (356.3ms) Inference, (12.6ms) NMS
+2 fires, Done. (396.4ms) Inference, (30.3ms) NMS
+2 fires, Done. (423.4ms) Inference, (14.5ms) NMS
+2 fires, Done. (322.0ms) Inference, (2.2ms) NMS
+2 fires, Done. (321.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (297.3ms) Inference, (2.0ms) NMS
+2 fires, Done. (297.1ms) Inference, (2.2ms) NMS
+1 fire, Done. (284.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (282.2ms) Inference, (2.3ms) NMS
+2 fires, Done. (274.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (284.7ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.5ms) Inference, (2.1ms) NMS
+1 fire, Done. (270.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (282.9ms) Inference, (2.1ms) NMS
+1 fire, Done. (282.6ms) Inference, (2.0ms) NMS
+2 fires, Done. (282.0ms) Inference, (2.3ms) NMS
+1 fire, Done. (283.8ms) Inference, (2.1ms) NMS
+2 fires, Done. (283.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (282.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (282.8ms) Inference, (2.2ms) NMS
+2 fires, Done. (282.2ms) Inference, (2.2ms) NMS
+2 fires, Done. (273.0ms) Inference, (2.0ms) NMS
+2 fires, Done. (284.7ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.6ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.2ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.5ms) Inference, (2.0ms) NMS
+2 fires, Done. (281.5ms) Inference, (2.3ms) NMS
+2 fires, Done. (283.8ms) Inference, (2.1ms) NMS
+2 fires, Done. (282.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (282.9ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (275.3ms) Inference, (2.1ms) NMS
+2 fires, Done. (284.2ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.2ms) Inference, (2.2ms) NMS
+2 fires, Done. (283.5ms) Inference, (2.1ms) NMS
+1 fire, Done. (284.0ms) Inference, (2.0ms) NMS
+1 fire, Done. (284.6ms) Inference, (2.0ms) NMS
+2 fires, Done. (284.4ms) Inference, (2.2ms) NMS
+1 fire, Done. (283.6ms) Inference, (2.2ms) NMS
+2 fires, Done. (282.3ms) Inference, (2.1ms) NMS
+1 fire, Done. (283.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (273.7ms) Inference, (2.2ms) NMS
+1 fire, Done. (282.6ms) Inference, (2.0ms) NMS
+3 fires, Done. (273.0ms) Inference, (2.3ms) NMS
+1 fire, Done. (283.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (268.9ms) Inference, (1.9ms) NMS
+2 fires, Done. (275.0ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.7ms) Inference, (2.2ms) NMS
+1 fire, Done. (291.8ms) Inference, (2.5ms) NMS
+2 fires, Done. (292.7ms) Inference, (3.0ms) NMS
+2 fires, Done. (289.7ms) Inference, (2.3ms) NMS
+2 fires, Done. (300.6ms) Inference, (2.2ms) NMS
+1 fire, Done. (284.7ms) Inference, (2.2ms) NMS
+2 fires, Done. (285.0ms) Inference, (2.2ms) NMS
+2 fires, Done. (273.7ms) Inference, (2.0ms) NMS
+2 fires, Done. (283.3ms) Inference, (2.1ms) NMS
+1 fire, Done. (281.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (283.5ms) Inference, (2.3ms) NMS
+2 fires, Done. (274.7ms) Inference, (2.6ms) NMS
+2 fires, Done. (284.1ms) Inference, (2.5ms) NMS
+2 fires, Done. (300.2ms) Inference, (3.2ms) NMS
+2 fires, Done. (301.7ms) Inference, (2.6ms) NMS
+2 fires, Done. (339.4ms) Inference, (2.2ms) NMS
+2 fires, Done. (319.5ms) Inference, (2.0ms) NMS
+1 fire, Done. (289.8ms) Inference, (2.4ms) NMS
+2 fires, Done. (289.8ms) Inference, (2.2ms) NMS
+2 fires, Done. (288.4ms) Inference, (2.8ms) NMS
+2 fires, Done. (291.1ms) Inference, (2.3ms) NMS
+1 fire, Done. (284.1ms) Inference, (2.4ms) NMS
+2 fires, Done. (284.4ms) Inference, (2.2ms) NMS
+1 fire, Done. (284.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (275.4ms) Inference, (1.9ms) NMS
+1 fire, Done. (282.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (292.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (290.5ms) Inference, (3.6ms) NMS
+2 fires, Done. (269.6ms) Inference, (3.9ms) NMS
+2 fires, Done. (279.8ms) Inference, (3.5ms) NMS
+2 fires, Done. (290.4ms) Inference, (3.6ms) NMS
+2 fires, Done. (145.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.3ms) Inference, (2.5ms) NMS
+4 fires, Done. (151.4ms) Inference, (2.3ms) NMS
+4 fires, Done. (144.6ms) Inference, (2.1ms) NMS
+2 fires, Done. (149.9ms) Inference, (2.1ms) NMS
+2 fires, Done. (155.3ms) Inference, (1.6ms) NMS
+3 fires, Done. (150.1ms) Inference, (2.6ms) NMS
+3 fires, Done. (151.6ms) Inference, (1.5ms) NMS
+3 fires, Done. (150.6ms) Inference, (1.6ms) NMS
+3 fires, Done. (151.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (148.2ms) Inference, (2.2ms) NMS
+3 fires, Done. (152.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (151.4ms) Inference, (2.6ms) NMS
+2 fires, Done. (154.4ms) Inference, (1.6ms) NMS
+2 fires, Done. (147.8ms) Inference, (2.0ms) NMS
+3 fires, Done. (151.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (163.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (150.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.8ms) Inference, (1.8ms) NMS
+2 fires, Done. (145.9ms) Inference, (1.6ms) NMS
+2 fires, Done. (146.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (141.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+1 fire, Done. (143.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.4ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.2ms) Inference, (1.4ms) NMS
+2 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.2ms) Inference, (1.4ms) NMS
+1 fire, Done. (142.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.4ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.1ms) Inference, (1.4ms) NMS
+1 fire, Done. (141.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (141.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.0ms) Inference, (1.4ms) NMS
+1 fire, Done. (145.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.1ms) Inference, (1.4ms) NMS
+2 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.0ms) Inference, (1.4ms) NMS
+1 fire, Done. (146.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (141.9ms) Inference, (1.4ms) NMS
+1 fire, Done. (143.1ms) Inference, (1.8ms) NMS
+1 fire, Done. (147.3ms) Inference, (1.4ms) NMS
+1 fire, Done. (142.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.3ms) Inference, (1.4ms) NMS
+1 fire, Done. (144.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+2 fires, Done. (142.7ms) Inference, (1.6ms) NMS
+3 fires, Done. (142.5ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.3ms) Inference, (1.4ms) NMS
+2 fires, Done. (143.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (141.9ms) Inference, (1.4ms) NMS
+4 fires, Done. (143.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.0ms) Inference, (1.5ms) NMS
+Done. (142.5ms) Inference, (0.2ms) NMS
+Done. (143.9ms) Inference, (0.2ms) NMS
+Done. (144.1ms) Inference, (0.2ms) NMS
+Done. (142.0ms) Inference, (0.2ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (145.3ms) Inference, (0.2ms) NMS
+Done. (142.8ms) Inference, (0.3ms) NMS
+Done. (142.2ms) Inference, (0.2ms) NMS
+Done. (142.3ms) Inference, (0.2ms) NMS
+Done. (146.0ms) Inference, (0.2ms) NMS
+1 fire, Done. (142.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.1ms) Inference, (1.4ms) NMS
+1 fire, Done. (143.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.0ms) Inference, (1.5ms) NMS
+Done. (144.1ms) Inference, (0.2ms) NMS
+Done. (143.9ms) Inference, (0.2ms) NMS
+Done. (143.2ms) Inference, (0.2ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (142.5ms) Inference, (0.2ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (142.2ms) Inference, (0.2ms) NMS
+Done. (145.8ms) Inference, (0.2ms) NMS
+Done. (146.2ms) Inference, (0.2ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (143.8ms) Inference, (0.2ms) NMS
+Done. (144.1ms) Inference, (0.2ms) NMS
+Done. (142.0ms) Inference, (0.2ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (143.3ms) Inference, (0.2ms) NMS
+Done. (145.1ms) Inference, (0.2ms) NMS
+Done. (142.2ms) Inference, (0.2ms) NMS
+Done. (143.9ms) Inference, (0.2ms) NMS
+Done. (142.0ms) Inference, (0.2ms) NMS
+Done. (143.7ms) Inference, (0.3ms) NMS
+Done. (142.3ms) Inference, (0.2ms) NMS
+Done. (143.8ms) Inference, (0.2ms) NMS
+Done. (143.6ms) Inference, (0.2ms) NMS
+Done. (144.0ms) Inference, (0.2ms) NMS
+Done. (145.7ms) Inference, (0.2ms) NMS
+Done. (142.3ms) Inference, (0.3ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (145.8ms) Inference, (0.2ms) NMS
+Done. (143.1ms) Inference, (0.2ms) NMS
+Done. (141.9ms) Inference, (0.2ms) NMS
+Done. (143.9ms) Inference, (0.2ms) NMS
+1 fire, Done. (143.7ms) Inference, (1.5ms) NMS
+Done. (142.1ms) Inference, (0.2ms) NMS
+Done. (142.3ms) Inference, (0.2ms) NMS
+1 fire, Done. (144.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (145.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+6 fires, Done. (143.9ms) Inference, (1.5ms) NMS
+7 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+5 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.4ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+6 fires, Done. (143.1ms) Inference, (1.5ms) NMS
+6 fires, Done. (143.9ms) Inference, (1.5ms) NMS
+5 fires, Done. (143.7ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.2ms) Inference, (1.4ms) NMS
+5 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+6 fires, Done. (145.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.6ms) Inference, (1.9ms) NMS
+4 fires, Done. (142.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.4ms) Inference, (1.5ms) NMS
+4 fires, Done. (146.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (288.7ms) Inference, (3.0ms) NMS
+2 fires, Done. (292.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (273.7ms) Inference, (1.9ms) NMS
+2 fires, Done. (270.2ms) Inference, (22.7ms) NMS
+2 fires, Done. (294.8ms) Inference, (6.4ms) NMS
+2 fires, Done. (255.1ms) Inference, (27.1ms) NMS
+2 fires, Done. (274.0ms) Inference, (22.0ms) NMS
+2 fires, Done. (268.4ms) Inference, (22.4ms) NMS
+2 fires, Done. (243.4ms) Inference, (1.5ms) NMS
+2 fires, Done. (270.1ms) Inference, (2.2ms) NMS
+1 fire, Done. (244.0ms) Inference, (1.6ms) NMS
+1 fire, Done. (298.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (288.3ms) Inference, (21.6ms) NMS
+1 fire, Done. (297.4ms) Inference, (1.7ms) NMS
+1 fire, Done. (291.2ms) Inference, (1.7ms) NMS
+1 fire, Done. (286.6ms) Inference, (6.9ms) NMS
+1 fire, Done. (299.4ms) Inference, (22.2ms) NMS
+1 fire, Done. (288.2ms) Inference, (6.5ms) NMS
+1 fire, Done. (273.5ms) Inference, (22.0ms) NMS
+1 fire, Done. (275.7ms) Inference, (24.0ms) NMS
+1 fire, Done. (289.1ms) Inference, (1.6ms) NMS
+1 fire, Done. (295.4ms) Inference, (11.8ms) NMS
+1 fire, Done. (283.1ms) Inference, (34.8ms) NMS
+1 fire, Done. (282.9ms) Inference, (2.0ms) NMS
+1 fire, Done. (317.0ms) Inference, (16.7ms) NMS
+1 fire, Done. (283.1ms) Inference, (34.5ms) NMS
+1 fire, Done. (346.3ms) Inference, (1.7ms) NMS
+1 fire, Done. (284.1ms) Inference, (12.2ms) NMS
+1 fire, Done. (290.8ms) Inference, (22.5ms) NMS
+1 fire, Done. (298.7ms) Inference, (1.9ms) NMS
+1 fire, Done. (311.9ms) Inference, (22.0ms) NMS
+1 fire, Done. (333.5ms) Inference, (2.6ms) NMS
+1 fire, Done. (313.8ms) Inference, (22.1ms) NMS
+1 fire, Done. (322.8ms) Inference, (6.4ms) NMS
+1 fire, Done. (310.8ms) Inference, (21.8ms) NMS
+1 fire, Done. (317.0ms) Inference, (21.9ms) NMS
+1 fire, Done. (333.8ms) Inference, (1.6ms) NMS
+1 fire, Done. (303.1ms) Inference, (14.7ms) NMS
+2 fires, Done. (320.3ms) Inference, (1.6ms) NMS
+2 fires, Done. (290.8ms) Inference, (34.0ms) NMS
+2 fires, Done. (288.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (326.1ms) Inference, (1.8ms) NMS
+2 fires, Done. (279.2ms) Inference, (36.2ms) NMS
+2 fires, Done. (326.7ms) Inference, (22.0ms) NMS
+2 fires, Done. (288.0ms) Inference, (39.8ms) NMS
+2 fires, Done. (290.1ms) Inference, (6.9ms) NMS
+2 fires, Done. (396.8ms) Inference, (7.0ms) NMS
+2 fires, Done. (339.1ms) Inference, (22.4ms) NMS
+1 fire, Done. (293.7ms) Inference, (2.6ms) NMS
+1 fire, Done. (401.3ms) Inference, (22.0ms) NMS
+1 fire, Done. (319.6ms) Inference, (21.8ms) NMS
+2 fires, Done. (281.7ms) Inference, (1.6ms) NMS
+1 fire, Done. (350.0ms) Inference, (2.2ms) NMS
+1 fire, Done. (320.2ms) Inference, (22.0ms) NMS
+2 fires, Done. (324.3ms) Inference, (11.9ms) NMS
+1 fire, Done. (341.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (338.9ms) Inference, (1.8ms) NMS
+1 fire, Done. (320.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (316.5ms) Inference, (21.9ms) NMS
+1 fire, Done. (319.5ms) Inference, (22.1ms) NMS
+2 fires, Done. (337.5ms) Inference, (2.0ms) NMS
+2 fires, Done. (278.9ms) Inference, (36.0ms) NMS
+2 fires, Done. (290.8ms) Inference, (2.4ms) NMS
+1 fire, Done. (305.9ms) Inference, (2.0ms) NMS
+1 fire, Done. (316.0ms) Inference, (21.9ms) NMS
+1 fire, Done. (318.9ms) Inference, (22.0ms) NMS
+1 fire, Done. (298.3ms) Inference, (1.9ms) NMS
+1 fire, Done. (288.9ms) Inference, (1.9ms) NMS
+1 fire, Done. (289.3ms) Inference, (1.9ms) NMS
+1 fire, Done. (289.1ms) Inference, (1.9ms) NMS
+1 fire, Done. (288.6ms) Inference, (1.9ms) NMS
+1 fire, Done. (326.7ms) Inference, (21.9ms) NMS
+1 fire, Done. (325.0ms) Inference, (22.2ms) NMS
+1 fire, Done. (346.7ms) Inference, (2.0ms) NMS
+1 fire, Done. (321.3ms) Inference, (22.3ms) NMS
+1 fire, Done. (342.2ms) Inference, (6.6ms) NMS
+1 fire, Done. (322.6ms) Inference, (11.9ms) NMS
+1 fire, Done. (299.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (285.6ms) Inference, (1.7ms) NMS
+1 fire, Done. (296.6ms) Inference, (22.1ms) NMS
+1 fire, Done. (279.7ms) Inference, (1.9ms) NMS
+1 fire, Done. (313.7ms) Inference, (1.7ms) NMS
+1 fire, Done. (309.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (358.3ms) Inference, (2.3ms) NMS
+1 fire, Done. (302.0ms) Inference, (1.8ms) NMS
+1 fire, Done. (292.6ms) Inference, (2.0ms) NMS
+1 fire, Done. (282.5ms) Inference, (2.1ms) NMS
+2 fires, Done. (287.9ms) Inference, (1.9ms) NMS
+2 fires, Done. (285.6ms) Inference, (42.5ms) NMS
+1 fire, Done. (294.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (324.5ms) Inference, (1.7ms) NMS
+1 fire, Done. (318.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (270.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (303.6ms) Inference, (21.8ms) NMS
+Done. (272.7ms) Inference, (0.3ms) NMS
+1 fire, Done. (303.2ms) Inference, (1.6ms) NMS
+2 fires, Done. (306.8ms) Inference, (21.9ms) NMS
+1 fire, Done. (267.2ms) Inference, (1.8ms) NMS
+1 fire, Done. (274.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (270.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (308.9ms) Inference, (21.7ms) NMS
+1 fire, Done. (318.7ms) Inference, (28.4ms) NMS
+1 fire, Done. (306.7ms) Inference, (12.7ms) NMS
+1 fire, Done. (314.5ms) Inference, (1.7ms) NMS
+1 fire, Done. (282.5ms) Inference, (2.3ms) NMS
+1 fire, Done. (293.2ms) Inference, (21.2ms) NMS
+Done. (254.8ms) Inference, (5.4ms) NMS
+1 fire, Done. (257.1ms) Inference, (21.0ms) NMS
+Done. (284.6ms) Inference, (0.3ms) NMS
+Done. (267.2ms) Inference, (0.3ms) NMS
+Done. (236.8ms) Inference, (0.4ms) NMS
+Done. (287.1ms) Inference, (0.3ms) NMS
+Done. (230.1ms) Inference, (0.3ms) NMS
+Done. (267.5ms) Inference, (0.3ms) NMS
+Done. (258.1ms) Inference, (0.3ms) NMS
+Done. (249.4ms) Inference, (0.3ms) NMS
+Done. (247.3ms) Inference, (0.3ms) NMS
+Done. (272.0ms) Inference, (0.3ms) NMS
+Done. (250.8ms) Inference, (0.3ms) NMS
+1 fire, Done. (247.2ms) Inference, (2.2ms) NMS
+Done. (258.8ms) Inference, (0.3ms) NMS
+Done. (240.7ms) Inference, (0.3ms) NMS
+Done. (204.2ms) Inference, (0.3ms) NMS
+Done. (203.9ms) Inference, (0.3ms) NMS
+Done. (246.4ms) Inference, (0.3ms) NMS
+Done. (261.7ms) Inference, (0.3ms) NMS
+Done. (251.3ms) Inference, (0.3ms) NMS
+1 fire, Done. (240.6ms) Inference, (1.6ms) NMS
+1 fire, Done. (242.2ms) Inference, (2.7ms) NMS
+2 fires, Done. (302.2ms) Inference, (22.1ms) NMS
+2 fires, Done. (311.0ms) Inference, (1.7ms) NMS
+2 fires, Done. (306.7ms) Inference, (2.8ms) NMS
+2 fires, Done. (324.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (243.8ms) Inference, (25.8ms) NMS
+2 fires, Done. (289.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (304.0ms) Inference, (1.6ms) NMS
+2 fires, Done. (300.1ms) Inference, (22.7ms) NMS
+2 fires, Done. (272.6ms) Inference, (2.0ms) NMS
+2 fires, Done. (268.1ms) Inference, (1.6ms) NMS
+2 fires, Done. (267.6ms) Inference, (22.4ms) NMS
+2 fires, Done. (312.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (278.8ms) Inference, (6.7ms) NMS
+2 fires, Done. (264.0ms) Inference, (2.4ms) NMS
+3 fires, Done. (314.1ms) Inference, (1.7ms) NMS
+3 fires, Done. (302.3ms) Inference, (2.3ms) NMS
+3 fires, Done. (300.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (300.7ms) Inference, (22.3ms) NMS
+3 fires, Done. (292.7ms) Inference, (1.5ms) NMS
+3 fires, Done. (288.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (279.4ms) Inference, (24.6ms) NMS
+2 fires, Done. (262.1ms) Inference, (2.4ms) NMS
+2 fires, Done. (261.4ms) Inference, (1.9ms) NMS
+3 fires, Done. (252.6ms) Inference, (1.9ms) NMS
+3 fires, Done. (249.8ms) Inference, (1.9ms) NMS
+2 fires, Done. (273.1ms) Inference, (1.9ms) NMS
+3 fires, Done. (296.0ms) Inference, (2.5ms) NMS
+2 fires, Done. (274.2ms) Inference, (2.0ms) NMS
+2 fires, Done. (253.4ms) Inference, (22.5ms) NMS
+2 fires, Done. (257.5ms) Inference, (2.0ms) NMS
+2 fires, Done. (234.6ms) Inference, (1.9ms) NMS
+3 fires, Done. (238.3ms) Inference, (1.8ms) NMS
+2 fires, Done. (239.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (233.7ms) Inference, (1.9ms) NMS
+2 fires, Done. (242.0ms) Inference, (1.8ms) NMS
+3 fires, Done. (244.5ms) Inference, (22.0ms) NMS
+1 fire, Done. (301.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (301.7ms) Inference, (1.9ms) NMS
+3 fires, Done. (321.5ms) Inference, (2.0ms) NMS
+3 fires, Done. (418.4ms) Inference, (2.4ms) NMS
+2 fires, Done. (316.8ms) Inference, (49.8ms) NMS
+2 fires, Done. (363.1ms) Inference, (50.7ms) NMS
+1 fire, Done. (336.2ms) Inference, (38.3ms) NMS
+1 fire, Done. (432.3ms) Inference, (29.9ms) NMS
+2 fires, Done. (364.2ms) Inference, (30.1ms) NMS
+1 fire, Done. (391.7ms) Inference, (2.6ms) NMS
+2 fires, Done. (366.0ms) Inference, (3.2ms) NMS
+1 fire, Done. (397.5ms) Inference, (2.6ms) NMS
+2 fires, Done. (374.8ms) Inference, (2.5ms) NMS
+1 fire, Done. (447.4ms) Inference, (26.1ms) NMS
+2 fires, Done. (400.0ms) Inference, (26.4ms) NMS
+1 fire, Done. (459.1ms) Inference, (24.2ms) NMS
+3 fires, Done. (435.5ms) Inference, (23.7ms) NMS
+1 fire, Done. (476.8ms) Inference, (2.9ms) NMS
+3 fires, Done. (459.2ms) Inference, (2.3ms) NMS
+1 fire, Done. (488.3ms) Inference, (2.7ms) NMS
+1 fire, Done. (470.2ms) Inference, (3.4ms) NMS
+1 fire, Done. (407.3ms) Inference, (2.8ms) NMS
+1 fire, Done. (407.2ms) Inference, (2.9ms) NMS
+1 fire, Done. (432.1ms) Inference, (3.2ms) NMS
+1 fire, Done. (421.5ms) Inference, (3.1ms) NMS
+1 fire, Done. (415.1ms) Inference, (2.9ms) NMS
+1 fire, Done. (415.1ms) Inference, (3.0ms) NMS
+1 fire, Done. (481.2ms) Inference, (3.6ms) NMS
+1 fire, Done. (471.2ms) Inference, (2.6ms) NMS
+1 fire, Done. (410.8ms) Inference, (3.1ms) NMS
+1 fire, Done. (411.2ms) Inference, (2.9ms) NMS
+1 fire, Done. (452.2ms) Inference, (24.4ms) NMS
+1 fire, Done. (475.9ms) Inference, (24.5ms) NMS
+1 fire, Done. (424.1ms) Inference, (7.9ms) NMS
+1 fire, Done. (429.8ms) Inference, (2.8ms) NMS
+1 fire, Done. (425.1ms) Inference, (2.5ms) NMS
+1 fire, Done. (422.7ms) Inference, (3.1ms) NMS
+1 fire, Done. (426.6ms) Inference, (3.0ms) NMS
+1 fire, Done. (414.6ms) Inference, (2.6ms) NMS
+1 fire, Done. (541.4ms) Inference, (23.1ms) NMS
+1 fire, Done. (513.2ms) Inference, (23.1ms) NMS
+2 fires, Done. (428.7ms) Inference, (3.6ms) NMS
+2 fires, Done. (428.3ms) Inference, (3.9ms) NMS
+1 fire, Done. (479.5ms) Inference, (3.9ms) NMS
+1 fire, Done. (479.8ms) Inference, (3.6ms) NMS
+1 fire, Done. (488.6ms) Inference, (3.8ms) NMS
+1 fire, Done. (489.6ms) Inference, (3.3ms) NMS
+2 fires, Done. (475.6ms) Inference, (2.5ms) NMS
+1 fire, Done. (475.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (411.5ms) Inference, (16.2ms) NMS
+2 fires, Done. (422.2ms) Inference, (5.9ms) NMS
+2 fires, Done. (468.3ms) Inference, (2.9ms) NMS
+2 fires, Done. (479.5ms) Inference, (9.6ms) NMS
+2 fires, Done. (421.0ms) Inference, (2.5ms) NMS
+2 fires, Done. (422.2ms) Inference, (28.2ms) NMS
+1 fire, Done. (427.5ms) Inference, (2.6ms) NMS
+2 fires, Done. (438.1ms) Inference, (2.3ms) NMS
+1 fire, Done. (404.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (404.4ms) Inference, (2.7ms) NMS
+1 fire, Done. (434.1ms) Inference, (2.5ms) NMS
+2 fires, Done. (418.2ms) Inference, (3.1ms) NMS
+1 fire, Done. (492.3ms) Inference, (3.3ms) NMS
+3 fires, Done. (480.8ms) Inference, (2.6ms) NMS
+1 fire, Done. (503.1ms) Inference, (2.4ms) NMS
+2 fires, Done. (483.1ms) Inference, (2.7ms) NMS
+1 fire, Done. (497.8ms) Inference, (2.4ms) NMS
+3 fires, Done. (470.6ms) Inference, (2.6ms) NMS
+1 fire, Done. (485.1ms) Inference, (3.1ms) NMS
+1 fire, Done. (425.9ms) Inference, (2.9ms) NMS
+1 fire, Done. (413.4ms) Inference, (2.3ms) NMS
+1 fire, Done. (423.6ms) Inference, (3.0ms) NMS
+1 fire, Done. (474.6ms) Inference, (2.8ms) NMS
+1 fire, Done. (487.0ms) Inference, (3.3ms) NMS
+1 fire, Done. (414.9ms) Inference, (2.3ms) NMS
+2 fires, Done. (414.4ms) Inference, (2.4ms) NMS
+1 fire, Done. (503.9ms) Inference, (2.6ms) NMS
+1 fire, Done. (516.7ms) Inference, (2.7ms) NMS
+1 fire, Done. (476.0ms) Inference, (2.6ms) NMS
+1 fire, Done. (485.9ms) Inference, (2.7ms) NMS
+1 fire, Done. (466.0ms) Inference, (13.1ms) NMS
+1 fire, Done. (488.5ms) Inference, (2.6ms) NMS
+1 fire, Done. (497.5ms) Inference, (2.6ms) NMS
+1 fire, Done. (475.6ms) Inference, (3.3ms) NMS
+1 fire, Done. (406.3ms) Inference, (2.5ms) NMS
+2 fires, Done. (407.2ms) Inference, (25.9ms) NMS
+1 fire, Done. (412.2ms) Inference, (17.8ms) NMS
+2 fires, Done. (389.6ms) Inference, (41.1ms) NMS
+1 fire, Done. (435.4ms) Inference, (2.5ms) NMS
+2 fires, Done. (421.4ms) Inference, (3.2ms) NMS
+1 fire, Done. (431.2ms) Inference, (3.5ms) NMS
+3 fires, Done. (399.2ms) Inference, (27.0ms) NMS
+1 fire, Done. (503.8ms) Inference, (26.9ms) NMS
+3 fires, Done. (375.9ms) Inference, (27.0ms) NMS
+1 fire, Done. (431.6ms) Inference, (3.5ms) NMS
+3 fires, Done. (425.9ms) Inference, (3.0ms) NMS
+1 fire, Done. (447.1ms) Inference, (26.8ms) NMS
+2 fires, Done. (400.2ms) Inference, (26.9ms) NMS
+1 fire, Done. (451.8ms) Inference, (3.8ms) NMS
+2 fires, Done. (449.8ms) Inference, (3.9ms) NMS
+1 fire, Done. (502.9ms) Inference, (3.7ms) NMS
+2 fires, Done. (485.8ms) Inference, (3.6ms) NMS
+1 fire, Done. (500.1ms) Inference, (3.2ms) NMS
+2 fires, Done. (477.1ms) Inference, (3.3ms) NMS
+1 fire, Done. (469.6ms) Inference, (2.9ms) NMS
+2 fires, Done. (457.7ms) Inference, (3.2ms) NMS
+1 fire, Done. (440.9ms) Inference, (23.7ms) NMS
+2 fires, Done. (428.6ms) Inference, (24.0ms) NMS
+1 fire, Done. (412.5ms) Inference, (2.7ms) NMS
+2 fires, Done. (401.0ms) Inference, (2.8ms) NMS
+1 fire, Done. (483.7ms) Inference, (25.8ms) NMS
+2 fires, Done. (482.6ms) Inference, (12.8ms) NMS
+1 fire, Done. (493.1ms) Inference, (3.9ms) NMS
+3 fires, Done. (491.2ms) Inference, (3.6ms) NMS
+1 fire, Done. (509.2ms) Inference, (2.5ms) NMS
+2 fires, Done. (498.8ms) Inference, (3.0ms) NMS
+1 fire, Done. (473.3ms) Inference, (2.7ms) NMS
+4 fires, Done. (467.1ms) Inference, (2.4ms) NMS
+2 fires, Done. (475.1ms) Inference, (2.2ms) NMS
+4 fires, Done. (441.4ms) Inference, (2.3ms) NMS
+1 fire, Done. (435.5ms) Inference, (2.3ms) NMS
+3 fires, Done. (424.6ms) Inference, (3.0ms) NMS
+2 fires, Done. (492.3ms) Inference, (14.2ms) NMS
+2 fires, Done. (436.0ms) Inference, (24.8ms) NMS
+1 fire, Done. (466.4ms) Inference, (3.8ms) NMS
+3 fires, Done. (466.4ms) Inference, (3.9ms) NMS
+1 fire, Done. (498.3ms) Inference, (3.8ms) NMS
+2 fires, Done. (459.9ms) Inference, (4.1ms) NMS
+2 fires, Done. (498.4ms) Inference, (7.8ms) NMS
+2 fires, Done. (493.3ms) Inference, (23.8ms) NMS
+2 fires, Done. (429.6ms) Inference, (3.3ms) NMS
+2 fires, Done. (422.2ms) Inference, (9.1ms) NMS
+2 fires, Done. (432.1ms) Inference, (3.5ms) NMS
+2 fires, Done. (431.4ms) Inference, (4.1ms) NMS
+2 fires, Done. (421.5ms) Inference, (8.0ms) NMS
+2 fires, Done. (405.7ms) Inference, (23.7ms) NMS
+2 fires, Done. (370.5ms) Inference, (12.8ms) NMS
+2 fires, Done. (370.9ms) Inference, (7.4ms) NMS
+2 fires, Done. (426.0ms) Inference, (3.0ms) NMS
+2 fires, Done. (426.0ms) Inference, (3.0ms) NMS
+2 fires, Done. (395.7ms) Inference, (22.8ms) NMS
+2 fires, Done. (394.2ms) Inference, (22.3ms) NMS
+2 fires, Done. (401.3ms) Inference, (2.4ms) NMS
+2 fires, Done. (402.0ms) Inference, (12.8ms) NMS
+2 fires, Done. (405.4ms) Inference, (5.7ms) NMS
+2 fires, Done. (396.5ms) Inference, (59.6ms) NMS
+1 fire, Done. (344.7ms) Inference, (3.9ms) NMS
+2 fires, Done. (442.6ms) Inference, (3.9ms) NMS
+2 fires, Done. (425.5ms) Inference, (3.4ms) NMS
+2 fires, Done. (385.3ms) Inference, (3.7ms) NMS
+1 fire, Done. (368.5ms) Inference, (2.7ms) NMS
+2 fires, Done. (390.7ms) Inference, (3.5ms) NMS
+1 fire, Done. (386.1ms) Inference, (18.5ms) NMS
+1 fire, Done. (391.6ms) Inference, (23.9ms) NMS
+1 fire, Done. (370.0ms) Inference, (23.1ms) NMS
+1 fire, Done. (409.7ms) Inference, (3.3ms) NMS
+1 fire, Done. (459.0ms) Inference, (3.2ms) NMS
+1 fire, Done. (462.5ms) Inference, (23.4ms) NMS
+1 fire, Done. (412.9ms) Inference, (3.9ms) NMS
+1 fire, Done. (412.7ms) Inference, (3.9ms) NMS
+1 fire, Done. (354.1ms) Inference, (3.0ms) NMS
+3 fires, Done. (355.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (358.0ms) Inference, (2.7ms) NMS
+1 fire, Done. (392.4ms) Inference, (3.2ms) NMS
+1 fire, Done. (351.8ms) Inference, (30.3ms) NMS
+3 fires, Done. (372.4ms) Inference, (30.6ms) NMS
+1 fire, Done. (378.4ms) Inference, (2.8ms) NMS
+2 fires, Done. (371.4ms) Inference, (2.6ms) NMS
+2 fires, Done. (395.2ms) Inference, (2.7ms) NMS
+1 fire, Done. (396.9ms) Inference, (7.3ms) NMS
+1 fire, Done. (359.1ms) Inference, (2.5ms) NMS
+2 fires, Done. (359.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (407.1ms) Inference, (3.4ms) NMS
+2 fires, Done. (406.4ms) Inference, (2.5ms) NMS
+2 fires, Done. (350.0ms) Inference, (22.3ms) NMS
+1 fire, Done. (350.0ms) Inference, (22.3ms) NMS
+1 fire, Done. (354.2ms) Inference, (22.6ms) NMS
+2 fires, Done. (354.6ms) Inference, (22.6ms) NMS
+1 fire, Done. (367.4ms) Inference, (23.1ms) NMS
+2 fires, Done. (355.4ms) Inference, (23.1ms) NMS
+2 fires, Done. (345.9ms) Inference, (23.0ms) NMS
+1 fire, Done. (346.8ms) Inference, (23.2ms) NMS
+2 fires, Done. (375.1ms) Inference, (2.5ms) NMS
+1 fire, Done. (362.8ms) Inference, (2.8ms) NMS
+1 fire, Done. (394.8ms) Inference, (23.6ms) NMS
+2 fires, Done. (413.1ms) Inference, (23.5ms) NMS
+1 fire, Done. (348.2ms) Inference, (11.5ms) NMS
+2 fires, Done. (336.1ms) Inference, (22.2ms) NMS
+1 fire, Done. (391.4ms) Inference, (4.3ms) NMS
+3 fires, Done. (373.8ms) Inference, (4.7ms) NMS
+1 fire, Done. (217.4ms) Inference, (21.9ms) NMS
+1 fire, Done. (208.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (236.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (257.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (294.2ms) Inference, (2.1ms) NMS
+2 fires, Done. (366.8ms) Inference, (3.4ms) NMS
+1 fire, Done. (301.2ms) Inference, (51.3ms) NMS
+1 fire, Done. (255.3ms) Inference, (24.2ms) NMS
+2 fires, Done. (242.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (261.4ms) Inference, (27.6ms) NMS
+2 fires, Done. (256.9ms) Inference, (2.3ms) NMS
+2 fires, Done. (260.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (243.7ms) Inference, (22.4ms) NMS
+2 fires, Done. (227.6ms) Inference, (19.6ms) NMS
+2 fires, Done. (257.7ms) Inference, (12.3ms) NMS
+2 fires, Done. (319.2ms) Inference, (3.7ms) NMS
+1 fire, Done. (262.6ms) Inference, (1.6ms) NMS
+1 fire, Done. (277.3ms) Inference, (22.7ms) NMS
+1 fire, Done. (416.6ms) Inference, (10.6ms) NMS
+1 fire, Done. (350.6ms) Inference, (35.5ms) NMS
+1 fire, Done. (358.5ms) Inference, (25.8ms) NMS
+1 fire, Done. (317.5ms) Inference, (28.1ms) NMS
+1 fire, Done. (309.6ms) Inference, (2.8ms) NMS
+2 fires, Done. (366.5ms) Inference, (2.8ms) NMS
+1 fire, Done. (376.2ms) Inference, (2.8ms) NMS
+2 fires, Done. (374.2ms) Inference, (2.2ms) NMS
+1 fire, Done. (384.3ms) Inference, (3.8ms) NMS
+2 fires, Done. (374.8ms) Inference, (3.1ms) NMS
+1 fire, Done. (387.2ms) Inference, (3.2ms) NMS
+2 fires, Done. (374.8ms) Inference, (3.0ms) NMS
+1 fire, Done. (380.4ms) Inference, (27.7ms) NMS
+2 fires, Done. (381.3ms) Inference, (27.5ms) NMS
+2 fires, Done. (388.3ms) Inference, (3.8ms) NMS
+2 fires, Done. (399.9ms) Inference, (3.5ms) NMS
+1 fire, Done. (401.5ms) Inference, (2.9ms) NMS
+2 fires, Done. (401.6ms) Inference, (2.7ms) NMS
+1 fire, Done. (433.3ms) Inference, (24.9ms) NMS
+2 fires, Done. (421.3ms) Inference, (25.2ms) NMS
+1 fire, Done. (382.8ms) Inference, (3.6ms) NMS
+2 fires, Done. (374.0ms) Inference, (3.3ms) NMS
+1 fire, Done. (377.2ms) Inference, (3.7ms) NMS
+2 fires, Done. (354.8ms) Inference, (3.4ms) NMS
+1 fire, Done. (399.4ms) Inference, (3.4ms) NMS
+2 fires, Done. (398.0ms) Inference, (2.8ms) NMS
+1 fire, Done. (422.0ms) Inference, (2.2ms) NMS
+2 fires, Done. (404.8ms) Inference, (3.0ms) NMS
+1 fire, Done. (387.6ms) Inference, (3.1ms) NMS
+2 fires, Done. (383.7ms) Inference, (2.7ms) NMS
+1 fire, Done. (405.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (400.4ms) Inference, (2.9ms) NMS
+2 fires, Done. (358.2ms) Inference, (3.7ms) NMS
+2 fires, Done. (356.3ms) Inference, (3.7ms) NMS
+1 fire, Done. (387.3ms) Inference, (3.5ms) NMS
+2 fires, Done. (387.9ms) Inference, (3.4ms) NMS
+1 fire, Done. (344.8ms) Inference, (4.1ms) NMS
+2 fires, Done. (335.6ms) Inference, (16.5ms) NMS
+1 fire, Done. (317.6ms) Inference, (2.4ms) NMS
+2 fires, Done. (279.5ms) Inference, (2.8ms) NMS
+1 fire, Done. (304.7ms) Inference, (1.9ms) NMS
+2 fires, Done. (299.8ms) Inference, (2.1ms) NMS
+1 fire, Done. (288.3ms) Inference, (2.2ms) NMS
+2 fires, Done. (279.0ms) Inference, (2.3ms) NMS
+1 fire, Done. (285.6ms) Inference, (2.4ms) NMS
+2 fires, Done. (274.4ms) Inference, (2.6ms) NMS
+1 fire, Done. (348.4ms) Inference, (2.8ms) NMS
+2 fires, Done. (337.1ms) Inference, (3.2ms) NMS
+1 fire, Done. (352.9ms) Inference, (2.5ms) NMS
+2 fires, Done. (352.0ms) Inference, (2.3ms) NMS
+1 fire, Done. (327.4ms) Inference, (3.7ms) NMS
+2 fires, Done. (308.2ms) Inference, (3.2ms) NMS
+2 fires, Done. (330.1ms) Inference, (3.3ms) NMS
+2 fires, Done. (345.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (296.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (296.2ms) Inference, (2.2ms) NMS
+2 fires, Done. (285.4ms) Inference, (2.0ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.2ms) NMS
+2 fires, Done. (302.9ms) Inference, (3.2ms) NMS
+2 fires, Done. (303.5ms) Inference, (2.5ms) NMS
+2 fires, Done. (289.0ms) Inference, (2.1ms) NMS
+2 fires, Done. (289.2ms) Inference, (1.9ms) NMS
+1 fire, Done. (143.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.9ms) Inference, (2.0ms) NMS
+1 fire, Done. (150.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.2ms) Inference, (2.5ms) NMS
+2 fires, Done. (149.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.3ms) Inference, (1.7ms) NMS
+2 fires, Done. (148.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (151.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.9ms) Inference, (1.8ms) NMS
+3 fires, Done. (145.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (141.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (142.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.6ms) NMS
+2 fires, Done. (146.8ms) Inference, (1.6ms) NMS
+1 fire, Done. (143.4ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (149.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.7ms) Inference, (1.7ms) NMS
+2 fires, Done. (144.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (145.8ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.2ms) Inference, (1.5ms) NMS
+2 fires, Done. (152.5ms) Inference, (1.7ms) NMS
+2 fires, Done. (163.2ms) Inference, (2.1ms) NMS
+4 fires, Done. (144.3ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.4ms) NMS
+2 fires, Done. (144.7ms) Inference, (1.9ms) NMS
+2 fires, Done. (142.6ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.7ms) Inference, (1.5ms) NMS
+3 fires, Done. (145.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (147.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (151.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (164.5ms) Inference, (1.5ms) NMS
+3 fires, Done. (147.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.4ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.2ms) Inference, (1.6ms) NMS
+2 fires, Done. (143.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.2ms) Inference, (1.7ms) NMS
+2 fires, Done. (145.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (147.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.7ms) Inference, (1.7ms) NMS
+1 fire, Done. (168.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (174.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (174.4ms) Inference, (1.8ms) NMS
+2 fires, Done. (173.8ms) Inference, (1.6ms) NMS
+2 fires, Done. (170.4ms) Inference, (1.7ms) NMS
+2 fires, Done. (169.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.9ms) Inference, (1.6ms) NMS
+2 fires, Done. (151.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (158.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (173.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (151.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.3ms) Inference, (2.0ms) NMS
+2 fires, Done. (152.2ms) Inference, (2.7ms) NMS
+2 fires, Done. (158.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.8ms) Inference, (2.4ms) NMS
+2 fires, Done. (144.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (164.8ms) Inference, (1.6ms) NMS
+2 fires, Done. (177.9ms) Inference, (1.7ms) NMS
+2 fires, Done. (180.1ms) Inference, (1.8ms) NMS
+1 fire, Done. (179.0ms) Inference, (2.6ms) NMS
+1 fire, Done. (178.0ms) Inference, (1.8ms) NMS
+1 fire, Done. (156.4ms) Inference, (2.3ms) NMS
+1 fire, Done. (154.9ms) Inference, (2.5ms) NMS
+1 fire, Done. (148.2ms) Inference, (1.7ms) NMS
+1 fire, Done. (170.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (176.4ms) Inference, (2.3ms) NMS
+1 fire, Done. (177.4ms) Inference, (1.9ms) NMS
+2 fires, Done. (177.8ms) Inference, (2.0ms) NMS
+2 fires, Done. (169.4ms) Inference, (1.5ms) NMS
+2 fires, Done. (147.1ms) Inference, (1.7ms) NMS
+2 fires, Done. (148.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (146.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (147.8ms) Inference, (3.2ms) NMS
+2 fires, Done. (152.0ms) Inference, (1.6ms) NMS
+2 fires, Done. (146.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.6ms) Inference, (1.5ms) NMS
+1 fire, Done. (147.7ms) Inference, (1.6ms) NMS
+2 fires, Done. (148.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (147.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.3ms) Inference, (1.6ms) NMS
+1 fire, Done. (148.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.6ms) Inference, (1.6ms) NMS
+1 fire, Done. (146.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (146.9ms) Inference, (2.1ms) NMS
+1 fire, Done. (145.6ms) Inference, (1.6ms) NMS
+1 fire, Done. (148.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (145.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (146.8ms) Inference, (2.2ms) NMS
+3 fires, Done. (145.7ms) Inference, (1.5ms) NMS
+3 fires, Done. (147.9ms) Inference, (1.6ms) NMS
+3 fires, Done. (146.0ms) Inference, (1.6ms) NMS
+3 fires, Done. (145.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (147.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (146.9ms) Inference, (1.7ms) NMS
+1 fire, Done. (148.2ms) Inference, (1.6ms) NMS
+2 fires, Done. (148.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (150.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (145.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.1ms) Inference, (1.4ms) NMS
+1 fire, Done. (143.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (147.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (144.6ms) Inference, (1.9ms) NMS
+3 fires, Done. (144.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (146.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (149.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (147.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (144.5ms) Inference, (1.5ms) NMS
+4 fires, Done. (146.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (143.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (148.0ms) Inference, (1.5ms) NMS
+Done. (146.0ms) Inference, (0.3ms) NMS
+Done. (143.1ms) Inference, (0.2ms) NMS
+Done. (143.9ms) Inference, (0.3ms) NMS
+Done. (148.6ms) Inference, (0.3ms) NMS
+Done. (146.6ms) Inference, (0.3ms) NMS
+Done. (149.9ms) Inference, (0.3ms) NMS
+Done. (143.3ms) Inference, (0.3ms) NMS
+Done. (143.2ms) Inference, (0.2ms) NMS
+Done. (144.9ms) Inference, (0.3ms) NMS
+Done. (152.0ms) Inference, (0.3ms) NMS
+1 fire, Done. (150.3ms) Inference, (3.0ms) NMS
+1 fire, Done. (153.8ms) Inference, (2.4ms) NMS
+1 fire, Done. (155.0ms) Inference, (2.0ms) NMS
+2 fires, Done. (154.5ms) Inference, (2.0ms) NMS
+1 fire, Done. (148.3ms) Inference, (2.1ms) NMS
+1 fire, Done. (145.2ms) Inference, (2.0ms) NMS
+1 fire, Done. (154.1ms) Inference, (2.0ms) NMS
+1 fire, Done. (155.0ms) Inference, (1.6ms) NMS
+Done. (156.0ms) Inference, (0.3ms) NMS
+Done. (150.8ms) Inference, (0.3ms) NMS
+Done. (150.3ms) Inference, (0.3ms) NMS
+Done. (149.0ms) Inference, (0.3ms) NMS
+Done. (149.3ms) Inference, (0.3ms) NMS
+Done. (151.2ms) Inference, (0.3ms) NMS
+Done. (150.2ms) Inference, (0.3ms) NMS
+Done. (149.4ms) Inference, (0.5ms) NMS
+Done. (147.5ms) Inference, (0.3ms) NMS
+Done. (143.8ms) Inference, (0.3ms) NMS
+Done. (152.5ms) Inference, (0.3ms) NMS
+Done. (148.2ms) Inference, (0.3ms) NMS
+Done. (147.1ms) Inference, (0.5ms) NMS
+Done. (149.3ms) Inference, (0.3ms) NMS
+Done. (151.5ms) Inference, (0.5ms) NMS
+Done. (153.2ms) Inference, (0.3ms) NMS
+Done. (149.6ms) Inference, (0.3ms) NMS
+Done. (147.3ms) Inference, (0.3ms) NMS
+Done. (145.2ms) Inference, (0.3ms) NMS
+Done. (152.1ms) Inference, (0.3ms) NMS
+Done. (150.4ms) Inference, (0.4ms) NMS
+Done. (144.7ms) Inference, (0.3ms) NMS
+Done. (146.6ms) Inference, (0.3ms) NMS
+Done. (144.3ms) Inference, (0.3ms) NMS
+Done. (147.0ms) Inference, (0.3ms) NMS
+Done. (146.9ms) Inference, (0.4ms) NMS
+Done. (145.9ms) Inference, (0.3ms) NMS
+Done. (151.5ms) Inference, (0.3ms) NMS
+Done. (148.0ms) Inference, (0.3ms) NMS
+Done. (144.6ms) Inference, (0.3ms) NMS
+Done. (148.6ms) Inference, (0.3ms) NMS
+Done. (145.2ms) Inference, (0.3ms) NMS
+Done. (145.6ms) Inference, (0.3ms) NMS
+1 fire, Done. (147.3ms) Inference, (1.5ms) NMS
+Done. (154.7ms) Inference, (0.3ms) NMS
+Done. (155.0ms) Inference, (0.3ms) NMS
+1 fire, Done. (149.5ms) Inference, (1.6ms) NMS
+3 fires, Done. (144.7ms) Inference, (1.6ms) NMS
+2 fires, Done. (145.1ms) Inference, (1.5ms) NMS
+6 fires, Done. (144.0ms) Inference, (1.5ms) NMS
+7 fires, Done. (146.1ms) Inference, (1.5ms) NMS
+5 fires, Done. (146.7ms) Inference, (1.6ms) NMS
+4 fires, Done. (143.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (145.5ms) Inference, (1.5ms) NMS
+6 fires, Done. (153.1ms) Inference, (2.2ms) NMS
+6 fires, Done. (164.2ms) Inference, (1.7ms) NMS
+5 fires, Done. (147.6ms) Inference, (1.5ms) NMS
+5 fires, Done. (157.0ms) Inference, (1.8ms) NMS
+5 fires, Done. (174.8ms) Inference, (1.6ms) NMS
+6 fires, Done. (178.9ms) Inference, (2.9ms) NMS
+5 fires, Done. (175.7ms) Inference, (2.2ms) NMS
+4 fires, Done. (179.9ms) Inference, (2.8ms) NMS
+1 fire, Done. (152.7ms) Inference, (1.5ms) NMS
+4 fires, Done. (149.3ms) Inference, (2.0ms) NMS
+2 fires, Done. (144.1ms) Inference, (1.5ms) NMS
+2 fires, Done. (145.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (145.3ms) Inference, (1.6ms) NMS
+3 fires, Done. (145.0ms) Inference, (1.6ms) NMS
+2 fires, Done. (151.9ms) Inference, (1.5ms) NMS
+5 fires, Done. (148.8ms) Inference, (1.6ms) NMS
+6 fires, Done. (151.7ms) Inference, (1.8ms) NMS
+5 fires, Done. (148.3ms) Inference, (1.5ms) NMS
+5 fires, Done. (152.1ms) Inference, (1.8ms) NMS
+5 fires, Done. (150.9ms) Inference, (1.6ms) NMS
+5 fires, Done. (152.3ms) Inference, (2.6ms) NMS
+5 fires, Done. (152.1ms) Inference, (2.2ms) NMS
+5 fires, Done. (153.1ms) Inference, (2.9ms) NMS
+5 fires, Done. (151.8ms) Inference, (1.6ms) NMS
+5 fires, Done. (152.0ms) Inference, (1.5ms) NMS
+5 fires, Done. (146.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (145.1ms) Inference, (1.5ms) NMS
+1 fire, Done. (336.1ms) Inference, (26.6ms) NMS
+1 fire, Done. (334.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (323.7ms) Inference, (2.6ms) NMS
+2 fires, Done. (301.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (265.5ms) Inference, (1.5ms) NMS
+1 fire, Done. (318.9ms) Inference, (2.7ms) NMS
+1 fire, Done. (306.6ms) Inference, (30.2ms) NMS
+1 fire, Done. (292.9ms) Inference, (26.4ms) NMS
+1 fire, Done. (258.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (279.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (264.3ms) Inference, (1.9ms) NMS
+1 fire, Done. (247.8ms) Inference, (22.3ms) NMS
+1 fire, Done. (275.2ms) Inference, (25.7ms) NMS
+2 fires, Done. (256.1ms) Inference, (23.1ms) NMS
+1 fire, Done. (268.0ms) Inference, (2.0ms) NMS
+2 fires, Done. (277.6ms) Inference, (1.5ms) NMS
+2 fires, Done. (323.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (299.0ms) Inference, (1.6ms) NMS
+1 fire, Done. (384.4ms) Inference, (11.8ms) NMS
+1 fire, Done. (376.6ms) Inference, (23.0ms) NMS
+1 fire, Done. (322.7ms) Inference, (26.9ms) NMS
+1 fire, Done. (324.8ms) Inference, (23.3ms) NMS
+1 fire, Done. (394.4ms) Inference, (2.0ms) NMS
+1 fire, Done. (326.7ms) Inference, (2.3ms) NMS
+1 fire, Done. (314.0ms) Inference, (1.9ms) NMS
+1 fire, Done. (295.6ms) Inference, (2.1ms) NMS
+2 fires, Done. (235.9ms) Inference, (1.6ms) NMS
+3 fires, Done. (294.7ms) Inference, (1.7ms) NMS
+2 fires, Done. (292.7ms) Inference, (1.5ms) NMS
+2 fires, Done. (295.8ms) Inference, (1.6ms) NMS
+2 fires, Done. (300.9ms) Inference, (1.6ms) NMS
+2 fires, Done. (269.1ms) Inference, (1.6ms) NMS
+1 fire, Done. (277.5ms) Inference, (1.7ms) NMS
+1 fire, Done. (284.5ms) Inference, (1.7ms) NMS
+1 fire, Done. (278.0ms) Inference, (2.1ms) NMS
+1 fire, Done. (236.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (271.4ms) Inference, (1.8ms) NMS
+1 fire, Done. (246.0ms) Inference, (27.8ms) NMS
+3 fires, Done. (305.2ms) Inference, (25.5ms) NMS
+3 fires, Done. (270.8ms) Inference, (1.6ms) NMS
+3 fires, Done. (243.2ms) Inference, (25.4ms) NMS
+3 fires, Done. (287.5ms) Inference, (1.9ms) NMS
+3 fires, Done. (247.1ms) Inference, (25.5ms) NMS
+4 fires, Done. (248.5ms) Inference, (25.5ms) NMS
+4 fires, Done. (250.4ms) Inference, (29.6ms) NMS
+3 fires, Done. (260.0ms) Inference, (25.5ms) NMS
+3 fires, Done. (277.2ms) Inference, (2.6ms) NMS
+3 fires, Done. (276.4ms) Inference, (1.7ms) NMS
+3 fires, Done. (328.6ms) Inference, (1.6ms) NMS
+3 fires, Done. (288.9ms) Inference, (2.6ms) NMS
+3 fires, Done. (288.7ms) Inference, (1.6ms) NMS
+3 fires, Done. (288.0ms) Inference, (1.9ms) NMS
+3 fires, Done. (321.1ms) Inference, (1.9ms) NMS
+3 fires, Done. (350.5ms) Inference, (12.5ms) NMS
+3 fires, Done. (311.6ms) Inference, (1.8ms) NMS
+3 fires, Done. (451.9ms) Inference, (4.3ms) NMS
+3 fires, Done. (350.9ms) Inference, (53.5ms) NMS
+3 fires, Done. (381.5ms) Inference, (55.2ms) NMS
+3 fires, Done. (380.6ms) Inference, (23.6ms) NMS
+Done. (517.9ms) Inference, (0.3ms) NMS
+3 fires, Done. (413.5ms) Inference, (30.0ms) NMS
+1 fire, Done. (431.3ms) Inference, (2.0ms) NMS
+3 fires, Done. (350.5ms) Inference, (2.3ms) NMS
+1 fire, Done. (428.2ms) Inference, (27.1ms) NMS
+3 fires, Done. (394.2ms) Inference, (27.2ms) NMS
+1 fire, Done. (349.6ms) Inference, (2.1ms) NMS
+3 fires, Done. (336.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (383.1ms) Inference, (3.1ms) NMS
+1 fire, Done. (409.0ms) Inference, (3.3ms) NMS
+1 fire, Done. (380.9ms) Inference, (3.0ms) NMS
+3 fires, Done. (381.8ms) Inference, (2.9ms) NMS
+1 fire, Done. (402.5ms) Inference, (27.1ms) NMS
+3 fires, Done. (370.9ms) Inference, (26.9ms) NMS
+2 fires, Done. (353.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (342.4ms) Inference, (1.9ms) NMS
+2 fires, Done. (415.5ms) Inference, (12.6ms) NMS
+3 fires, Done. (403.1ms) Inference, (2.6ms) NMS
+3 fires, Done. (340.5ms) Inference, (28.0ms) NMS
+2 fires, Done. (353.9ms) Inference, (27.9ms) NMS
+3 fires, Done. (402.9ms) Inference, (3.5ms) NMS
+1 fire, Done. (379.6ms) Inference, (3.2ms) NMS
+1 fire, Done. (392.8ms) Inference, (2.8ms) NMS
+3 fires, Done. (394.7ms) Inference, (2.8ms) NMS
+1 fire, Done. (395.2ms) Inference, (27.5ms) NMS
+2 fires, Done. (376.1ms) Inference, (27.6ms) NMS
+1 fire, Done. (403.4ms) Inference, (2.8ms) NMS
+3 fires, Done. (400.5ms) Inference, (3.4ms) NMS
+3 fires, Done. (273.9ms) Inference, (1.5ms) NMS
+3 fires, Done. (190.1ms) Inference, (1.6ms) NMS
+3 fires, Done. (157.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (151.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (152.9ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.8ms) Inference, (2.4ms) NMS
+3 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (148.6ms) Inference, (1.5ms) NMS
+3 fires, Done. (152.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.6ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.0ms) Inference, (1.6ms) NMS
+4 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.5ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+3 fires, Done. (147.4ms) Inference, (1.7ms) NMS
+3 fires, Done. (148.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.2ms) Inference, (1.4ms) NMS
+3 fires, Done. (142.6ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+3 fires, Done. (145.0ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.7ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (144.3ms) Inference, (1.5ms) NMS
+3 fires, Done. (145.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.7ms) Inference, (1.5ms) NMS
+4 fires, Done. (152.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (147.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+3 fires, Done. (145.5ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.4ms) Inference, (1.5ms) NMS
+4 fires, Done. (144.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.4ms) Inference, (1.7ms) NMS
+3 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.4ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.3ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.9ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+4 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.9ms) Inference, (1.4ms) NMS
+4 fires, Done. (144.4ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.2ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.6ms) Inference, (1.4ms) NMS
+5 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+6 fires, Done. (142.1ms) Inference, (1.8ms) NMS
+6 fires, Done. (142.3ms) Inference, (1.5ms) NMS
+6 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.4ms) Inference, (1.5ms) NMS
+6 fires, Done. (141.9ms) Inference, (1.5ms) NMS
+6 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+6 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+6 fires, Done. (141.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.4ms) NMS
+5 fires, Done. (145.7ms) Inference, (1.5ms) NMS
+5 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+6 fires, Done. (141.9ms) Inference, (1.4ms) NMS
+5 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+6 fires, Done. (143.7ms) Inference, (1.5ms) NMS
+6 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+6 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+5 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+5 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (144.3ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.6ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (141.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.0ms) Inference, (1.4ms) NMS
+4 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.0ms) Inference, (2.0ms) NMS
+4 fires, Done. (143.4ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.7ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.0ms) Inference, (1.5ms) NMS
+3 fires, Done. (143.2ms) Inference, (1.5ms) NMS
+3 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (277.9ms) Inference, (19.1ms) NMS
+1 fire, Done. (218.9ms) Inference, (18.4ms) NMS
+1 fire, Done. (219.8ms) Inference, (12.5ms) NMS
+2 fires, Done. (261.0ms) Inference, (1.6ms) NMS
+1 fire, Done. (321.7ms) Inference, (2.4ms) NMS
+1 fire, Done. (245.3ms) Inference, (1.8ms) NMS
+1 fire, Done. (276.9ms) Inference, (21.9ms) NMS
+1 fire, Done. (245.1ms) Inference, (16.9ms) NMS
+1 fire, Done. (263.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (257.2ms) Inference, (7.0ms) NMS
+2 fires, Done. (254.4ms) Inference, (19.1ms) NMS
+1 fire, Done. (243.2ms) Inference, (22.3ms) NMS
+1 fire, Done. (260.2ms) Inference, (1.6ms) NMS
+2 fires, Done. (255.0ms) Inference, (2.2ms) NMS
+1 fire, Done. (202.3ms) Inference, (2.5ms) NMS
+2 fires, Done. (290.9ms) Inference, (1.9ms) NMS
+2 fires, Done. (293.9ms) Inference, (20.3ms) NMS
+1 fire, Done. (350.0ms) Inference, (1.5ms) NMS
+1 fire, Done. (350.1ms) Inference, (2.5ms) NMS
+1 fire, Done. (373.4ms) Inference, (3.0ms) NMS
+1 fire, Done. (376.4ms) Inference, (2.3ms) NMS
+1 fire, Done. (444.6ms) Inference, (2.5ms) NMS
+1 fire, Done. (353.6ms) Inference, (2.2ms) NMS
+1 fire, Done. (330.6ms) Inference, (6.7ms) NMS
+1 fire, Done. (210.7ms) Inference, (1.5ms) NMS
+1 fire, Done. (270.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (241.8ms) Inference, (21.6ms) NMS
+3 fires, Done. (207.3ms) Inference, (29.0ms) NMS
+2 fires, Done. (237.4ms) Inference, (21.6ms) NMS
+2 fires, Done. (253.6ms) Inference, (2.2ms) NMS
+2 fires, Done. (232.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (294.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (244.0ms) Inference, (24.9ms) NMS
+1 fire, Done. (221.7ms) Inference, (22.2ms) NMS
+1 fire, Done. (239.8ms) Inference, (1.8ms) NMS
+1 fire, Done. (254.4ms) Inference, (1.8ms) NMS
+1 fire, Done. (244.8ms) Inference, (21.7ms) NMS
+1 fire, Done. (241.0ms) Inference, (2.6ms) NMS
+3 fires, Done. (273.7ms) Inference, (21.2ms) NMS
+3 fires, Done. (272.3ms) Inference, (21.5ms) NMS
+3 fires, Done. (264.0ms) Inference, (2.1ms) NMS
+3 fires, Done. (258.3ms) Inference, (1.7ms) NMS
+3 fires, Done. (241.2ms) Inference, (2.5ms) NMS
+4 fires, Done. (243.9ms) Inference, (2.3ms) NMS
+4 fires, Done. (271.9ms) Inference, (2.6ms) NMS
+3 fires, Done. (287.8ms) Inference, (23.0ms) NMS
+3 fires, Done. (257.7ms) Inference, (1.7ms) NMS
+3 fires, Done. (251.6ms) Inference, (1.6ms) NMS
+3 fires, Done. (248.8ms) Inference, (1.6ms) NMS
+3 fires, Done. (241.8ms) Inference, (21.9ms) NMS
+3 fires, Done. (216.1ms) Inference, (1.9ms) NMS
+3 fires, Done. (249.8ms) Inference, (12.0ms) NMS
+3 fires, Done. (259.6ms) Inference, (1.9ms) NMS
+3 fires, Done. (471.2ms) Inference, (7.1ms) NMS
+3 fires, Done. (421.6ms) Inference, (16.4ms) NMS
+3 fires, Done. (364.8ms) Inference, (15.0ms) NMS
+2 fires, Done. (414.6ms) Inference, (2.7ms) NMS
+3 fires, Done. (314.4ms) Inference, (3.6ms) NMS
+Done. (424.7ms) Inference, (0.4ms) NMS
+3 fires, Done. (391.6ms) Inference, (12.4ms) NMS
+1 fire, Done. (407.3ms) Inference, (2.5ms) NMS
+3 fires, Done. (335.6ms) Inference, (2.9ms) NMS
+1 fire, Done. (415.9ms) Inference, (2.5ms) NMS
+3 fires, Done. (398.2ms) Inference, (2.4ms) NMS
+1 fire, Done. (350.6ms) Inference, (2.6ms) NMS
+3 fires, Done. (339.6ms) Inference, (2.6ms) NMS
+1 fire, Done. (406.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (387.8ms) Inference, (2.3ms) NMS
+1 fire, Done. (398.0ms) Inference, (2.3ms) NMS
+3 fires, Done. (386.9ms) Inference, (2.5ms) NMS
+3 fires, Done. (401.3ms) Inference, (3.1ms) NMS
+1 fire, Done. (419.9ms) Inference, (2.7ms) NMS
+2 fires, Done. (395.8ms) Inference, (2.7ms) NMS
+3 fires, Done. (395.9ms) Inference, (3.2ms) NMS
+2 fires, Done. (412.4ms) Inference, (2.5ms) NMS
+3 fires, Done. (402.0ms) Inference, (2.6ms) NMS
+3 fires, Done. (351.1ms) Inference, (2.6ms) NMS
+2 fires, Done. (352.0ms) Inference, (2.7ms) NMS
+1 fire, Done. (364.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (365.1ms) Inference, (2.6ms) NMS
+1 fire, Done. (368.1ms) Inference, (3.1ms) NMS
+3 fires, Done. (367.0ms) Inference, (3.2ms) NMS
+1 fire, Done. (509.1ms) Inference, (27.8ms) NMS
+3 fires, Done. (484.1ms) Inference, (28.1ms) NMS
+1 fire, Done. (489.0ms) Inference, (12.9ms) NMS
+3 fires, Done. (474.5ms) Inference, (23.9ms) NMS
+2 fires, Done. (446.5ms) Inference, (10.6ms) NMS
+1 fire, Done. (480.4ms) Inference, (12.7ms) NMS
+1 fire, Done. (429.8ms) Inference, (8.8ms) NMS
+3 fires, Done. (443.3ms) Inference, (15.3ms) NMS
+1 fire, Done. (398.2ms) Inference, (3.1ms) NMS
+2 fires, Done. (364.6ms) Inference, (2.7ms) NMS
+3 fires, Done. (427.4ms) Inference, (2.9ms) NMS
+2 fires, Done. (420.5ms) Inference, (2.9ms) NMS
+1 fire, Done. (425.3ms) Inference, (2.9ms) NMS
+3 fires, Done. (419.0ms) Inference, (3.3ms) NMS
+1 fire, Done. (423.6ms) Inference, (2.9ms) NMS
+3 fires, Done. (395.2ms) Inference, (3.2ms) NMS
+3 fires, Done. (423.6ms) Inference, (3.2ms) NMS
+1 fire, Done. (424.8ms) Inference, (3.0ms) NMS
+3 fires, Done. (413.8ms) Inference, (2.6ms) NMS
+3 fires, Done. (413.3ms) Inference, (3.2ms) NMS
+3 fires, Done. (404.3ms) Inference, (3.4ms) NMS
+2 fires, Done. (428.2ms) Inference, (3.1ms) NMS
+3 fires, Done. (423.6ms) Inference, (3.0ms) NMS
+2 fires, Done. (424.2ms) Inference, (3.0ms) NMS
+3 fires, Done. (423.5ms) Inference, (3.7ms) NMS
+3 fires, Done. (391.9ms) Inference, (2.5ms) NMS
+2 fires, Done. (426.8ms) Inference, (3.1ms) NMS
+3 fires, Done. (425.7ms) Inference, (2.5ms) NMS
+3 fires, Done. (425.8ms) Inference, (3.2ms) NMS
+2 fires, Done. (425.1ms) Inference, (3.3ms) NMS
+3 fires, Done. (418.9ms) Inference, (2.9ms) NMS
+3 fires, Done. (418.1ms) Inference, (3.0ms) NMS
+3 fires, Done. (424.8ms) Inference, (3.2ms) NMS
+2 fires, Done. (426.2ms) Inference, (3.1ms) NMS
+3 fires, Done. (421.5ms) Inference, (3.9ms) NMS
+2 fires, Done. (427.2ms) Inference, (3.1ms) NMS
+3 fires, Done. (421.8ms) Inference, (3.3ms) NMS
+3 fires, Done. (428.1ms) Inference, (2.7ms) NMS
+2 fires, Done. (425.3ms) Inference, (2.6ms) NMS
+3 fires, Done. (418.3ms) Inference, (3.4ms) NMS
+4 fires, Done. (422.7ms) Inference, (2.9ms) NMS
+2 fires, Done. (425.4ms) Inference, (2.6ms) NMS
+3 fires, Done. (424.4ms) Inference, (3.2ms) NMS
+4 fires, Done. (391.2ms) Inference, (3.0ms) NMS
+2 fires, Done. (424.9ms) Inference, (3.3ms) NMS
+3 fires, Done. (414.4ms) Inference, (3.0ms) NMS
+4 fires, Done. (413.8ms) Inference, (2.8ms) NMS
+2 fires, Done. (421.5ms) Inference, (2.8ms) NMS
+2 fires, Done. (426.4ms) Inference, (2.6ms) NMS
+3 fires, Done. (414.5ms) Inference, (3.3ms) NMS
+1 fire, Done. (427.6ms) Inference, (2.5ms) NMS
+2 fires, Done. (426.9ms) Inference, (2.8ms) NMS
+3 fires, Done. (407.7ms) Inference, (3.1ms) NMS
+1 fire, Done. (426.2ms) Inference, (3.1ms) NMS
+2 fires, Done. (426.7ms) Inference, (2.8ms) NMS
+3 fires, Done. (403.0ms) Inference, (2.8ms) NMS
+2 fires, Done. (421.8ms) Inference, (2.9ms) NMS
+2 fires, Done. (426.0ms) Inference, (2.8ms) NMS
+3 fires, Done. (382.7ms) Inference, (3.3ms) NMS
+2 fires, Done. (425.3ms) Inference, (2.6ms) NMS
+2 fires, Done. (424.5ms) Inference, (3.0ms) NMS
+3 fires, Done. (386.3ms) Inference, (2.9ms) NMS
+2 fires, Done. (426.6ms) Inference, (3.2ms) NMS
+2 fires, Done. (426.8ms) Inference, (3.2ms) NMS
+3 fires, Done. (373.8ms) Inference, (3.0ms) NMS
+1 fire, Done. (425.1ms) Inference, (2.9ms) NMS
+2 fires, Done. (425.1ms) Inference, (3.3ms) NMS
+3 fires, Done. (399.2ms) Inference, (3.0ms) NMS
+1 fire, Done. (426.1ms) Inference, (2.7ms) NMS
+2 fires, Done. (423.2ms) Inference, (3.0ms) NMS
+3 fires, Done. (375.5ms) Inference, (3.2ms) NMS
+1 fire, Done. (425.2ms) Inference, (3.1ms) NMS
+2 fires, Done. (425.0ms) Inference, (3.0ms) NMS
+3 fires, Done. (381.5ms) Inference, (2.7ms) NMS
+1 fire, Done. (427.3ms) Inference, (2.8ms) NMS
+2 fires, Done. (426.6ms) Inference, (3.2ms) NMS
+3 fires, Done. (394.3ms) Inference, (3.3ms) NMS
+1 fire, Done. (426.2ms) Inference, (2.8ms) NMS
+3 fires, Done. (421.8ms) Inference, (3.1ms) NMS
+3 fires, Done. (373.6ms) Inference, (3.1ms) NMS
+1 fire, Done. (424.1ms) Inference, (2.9ms) NMS
+3 fires, Done. (417.0ms) Inference, (3.3ms) NMS
+3 fires, Done. (413.6ms) Inference, (2.6ms) NMS
+1 fire, Done. (428.0ms) Inference, (3.7ms) NMS
+4 fires, Done. (420.5ms) Inference, (3.5ms) NMS
+4 fires, Done. (420.6ms) Inference, (2.9ms) NMS
+2 fires, Done. (426.9ms) Inference, (2.6ms) NMS
+4 fires, Done. (416.4ms) Inference, (3.1ms) NMS
+4 fires, Done. (419.9ms) Inference, (2.6ms) NMS
+2 fires, Done. (437.4ms) Inference, (3.0ms) NMS
+4 fires, Done. (417.9ms) Inference, (3.3ms) NMS
+4 fires, Done. (417.1ms) Inference, (2.7ms) NMS
+2 fires, Done. (426.1ms) Inference, (3.0ms) NMS
+3 fires, Done. (420.9ms) Inference, (2.9ms) NMS
+4 fires, Done. (384.8ms) Inference, (2.7ms) NMS
+2 fires, Done. (427.1ms) Inference, (2.8ms) NMS
+4 fires, Done. (396.7ms) Inference, (3.0ms) NMS
+3 fires, Done. (426.9ms) Inference, (3.1ms) NMS
+2 fires, Done. (424.7ms) Inference, (3.0ms) NMS
+3 fires, Done. (421.0ms) Inference, (2.7ms) NMS
+4 fires, Done. (421.0ms) Inference, (2.5ms) NMS
+2 fires, Done. (424.3ms) Inference, (3.2ms) NMS
+3 fires, Done. (423.1ms) Inference, (2.8ms) NMS
+4 fires, Done. (416.0ms) Inference, (3.2ms) NMS
+2 fires, Done. (425.3ms) Inference, (2.7ms) NMS
+4 fires, Done. (420.2ms) Inference, (3.0ms) NMS
+4 fires, Done. (404.6ms) Inference, (3.1ms) NMS
+4 fires, Done. (416.7ms) Inference, (3.5ms) NMS
+3 fires, Done. (428.2ms) Inference, (2.9ms) NMS
+4 fires, Done. (420.9ms) Inference, (3.2ms) NMS
+2 fires, Done. (427.8ms) Inference, (3.6ms) NMS
+3 fires, Done. (408.8ms) Inference, (2.8ms) NMS
+3 fires, Done. (428.3ms) Inference, (2.9ms) NMS
+3 fires, Done. (413.9ms) Inference, (2.9ms) NMS
+3 fires, Done. (412.4ms) Inference, (2.7ms) NMS
+4 fires, Done. (424.6ms) Inference, (3.3ms) NMS
+3 fires, Done. (424.7ms) Inference, (3.1ms) NMS
+4 fires, Done. (422.0ms) Inference, (3.1ms) NMS
+4 fires, Done. (425.6ms) Inference, (2.8ms) NMS
+3 fires, Done. (424.9ms) Inference, (2.8ms) NMS
+3 fires, Done. (415.2ms) Inference, (3.2ms) NMS
+4 fires, Done. (420.6ms) Inference, (3.0ms) NMS
+3 fires, Done. (426.8ms) Inference, (3.1ms) NMS
+3 fires, Done. (391.8ms) Inference, (2.8ms) NMS
+3 fires, Done. (426.3ms) Inference, (3.6ms) NMS
+2 fires, Done. (424.7ms) Inference, (2.8ms) NMS
+3 fires, Done. (424.8ms) Inference, (2.7ms) NMS
+4 fires, Done. (424.2ms) Inference, (3.0ms) NMS
+2 fires, Done. (424.9ms) Inference, (3.2ms) NMS
+4 fires, Done. (380.2ms) Inference, (2.8ms) NMS
+3 fires, Done. (426.2ms) Inference, (2.9ms) NMS
+2 fires, Done. (424.2ms) Inference, (2.8ms) NMS
+4 fires, Done. (410.8ms) Inference, (3.4ms) NMS
+4 fires, Done. (415.9ms) Inference, (2.7ms) NMS
+2 fires, Done. (425.4ms) Inference, (3.5ms) NMS
+4 fires, Done. (424.3ms) Inference, (2.8ms) NMS
+5 fires, Done. (419.9ms) Inference, (2.9ms) NMS
+2 fires, Done. (426.1ms) Inference, (2.9ms) NMS
+3 fires, Done. (420.7ms) Inference, (3.3ms) NMS
+4 fires, Done. (418.9ms) Inference, (2.9ms) NMS
+2 fires, Done. (425.1ms) Inference, (2.8ms) NMS
+4 fires, Done. (425.1ms) Inference, (2.9ms) NMS
+4 fires, Done. (389.8ms) Inference, (3.0ms) NMS
+2 fires, Done. (425.7ms) Inference, (2.9ms) NMS
+4 fires, Done. (419.3ms) Inference, (2.9ms) NMS
+4 fires, Done. (422.2ms) Inference, (2.8ms) NMS
+2 fires, Done. (424.1ms) Inference, (3.1ms) NMS
+3 fires, Done. (387.3ms) Inference, (3.2ms) NMS
+4 fires, Done. (418.7ms) Inference, (2.9ms) NMS
+2 fires, Done. (429.1ms) Inference, (2.6ms) NMS
+3 fires, Done. (419.0ms) Inference, (3.3ms) NMS
+4 fires, Done. (422.0ms) Inference, (3.0ms) NMS
+1 fire, Done. (427.1ms) Inference, (2.8ms) NMS
+3 fires, Done. (424.6ms) Inference, (3.2ms) NMS
+4 fires, Done. (404.9ms) Inference, (2.8ms) NMS
+1 fire, Done. (424.4ms) Inference, (2.9ms) NMS
+3 fires, Done. (419.9ms) Inference, (2.9ms) NMS
+4 fires, Done. (391.9ms) Inference, (3.0ms) NMS
+1 fire, Done. (427.5ms) Inference, (3.1ms) NMS
+4 fires, Done. (397.9ms) Inference, (3.1ms) NMS
+4 fires, Done. (424.5ms) Inference, (2.9ms) NMS
+2 fires, Done. (425.2ms) Inference, (3.4ms) NMS
+3 fires, Done. (404.1ms) Inference, (3.2ms) NMS
+6 fires, Done. (416.8ms) Inference, (2.6ms) NMS
+3 fires, Done. (424.7ms) Inference, (3.1ms) NMS
+2 fires, Done. (428.8ms) Inference, (3.5ms) NMS
+6 fires, Done. (396.2ms) Inference, (3.2ms) NMS
+3 fires, Done. (425.6ms) Inference, (2.6ms) NMS
+3 fires, Done. (424.7ms) Inference, (3.0ms) NMS
+5 fires, Done. (408.2ms) Inference, (2.8ms) NMS
+3 fires, Done. (427.7ms) Inference, (2.9ms) NMS
+3 fires, Done. (424.2ms) Inference, (2.7ms) NMS
+6 fires, Done. (389.4ms) Inference, (3.7ms) NMS
+3 fires, Done. (428.8ms) Inference, (3.1ms) NMS
+3 fires, Done. (429.7ms) Inference, (2.8ms) NMS
+6 fires, Done. (398.7ms) Inference, (3.1ms) NMS
+3 fires, Done. (424.6ms) Inference, (3.1ms) NMS
+3 fires, Done. (427.1ms) Inference, (2.8ms) NMS
+6 fires, Done. (408.8ms) Inference, (2.9ms) NMS
+3 fires, Done. (430.6ms) Inference, (3.0ms) NMS
+3 fires, Done. (430.3ms) Inference, (3.0ms) NMS
+6 fires, Done. (396.5ms) Inference, (2.7ms) NMS
+3 fires, Done. (427.6ms) Inference, (3.2ms) NMS
+4 fires, Done. (395.6ms) Inference, (3.0ms) NMS
+4 fires, Done. (428.4ms) Inference, (2.7ms) NMS
+3 fires, Done. (427.7ms) Inference, (3.3ms) NMS
+4 fires, Done. (425.6ms) Inference, (3.0ms) NMS
+5 fires, Done. (427.6ms) Inference, (2.8ms) NMS
+3 fires, Done. (426.3ms) Inference, (2.9ms) NMS
+3 fires, Done. (426.3ms) Inference, (3.2ms) NMS
+5 fires, Done. (396.5ms) Inference, (2.6ms) NMS
+3 fires, Done. (430.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (429.9ms) Inference, (2.9ms) NMS
+6 fires, Done. (397.5ms) Inference, (3.6ms) NMS
+3 fires, Done. (427.0ms) Inference, (2.7ms) NMS
+3 fires, Done. (425.9ms) Inference, (3.3ms) NMS
+5 fires, Done. (382.2ms) Inference, (3.1ms) NMS
+2 fires, Done. (426.1ms) Inference, (3.2ms) NMS
+3 fires, Done. (427.2ms) Inference, (2.7ms) NMS
+6 fires, Done. (396.9ms) Inference, (3.1ms) NMS
+3 fires, Done. (429.9ms) Inference, (3.1ms) NMS
+3 fires, Done. (425.0ms) Inference, (3.2ms) NMS
+6 fires, Done. (396.3ms) Inference, (2.5ms) NMS
+3 fires, Done. (428.0ms) Inference, (2.9ms) NMS
+3 fires, Done. (427.7ms) Inference, (3.5ms) NMS
+6 fires, Done. (394.9ms) Inference, (3.1ms) NMS
+2 fires, Done. (431.1ms) Inference, (3.1ms) NMS
+5 fires, Done. (417.6ms) Inference, (3.4ms) NMS
+3 fires, Done. (431.8ms) Inference, (2.7ms) NMS
+2 fires, Done. (427.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (418.4ms) Inference, (3.8ms) NMS
+5 fires, Done. (422.6ms) Inference, (3.3ms) NMS
+3 fires, Done. (428.9ms) Inference, (3.1ms) NMS
+3 fires, Done. (427.6ms) Inference, (2.6ms) NMS
+5 fires, Done. (390.9ms) Inference, (3.3ms) NMS
+1 fire, Done. (428.2ms) Inference, (2.9ms) NMS
+4 fires, Done. (400.2ms) Inference, (3.2ms) NMS
+3 fires, Done. (426.6ms) Inference, (2.8ms) NMS
+2 fires, Done. (428.7ms) Inference, (3.3ms) NMS
+3 fires, Done. (409.6ms) Inference, (2.9ms) NMS
+4 fires, Done. (412.0ms) Inference, (3.5ms) NMS
+2 fires, Done. (430.2ms) Inference, (3.1ms) NMS
+3 fires, Done. (426.6ms) Inference, (2.9ms) NMS
+4 fires, Done. (425.5ms) Inference, (2.9ms) NMS
+2 fires, Done. (429.2ms) Inference, (3.2ms) NMS
+3 fires, Done. (425.1ms) Inference, (3.1ms) NMS
+4 fires, Done. (408.6ms) Inference, (2.8ms) NMS
+2 fires, Done. (429.4ms) Inference, (2.7ms) NMS
+3 fires, Done. (424.5ms) Inference, (3.2ms) NMS
+4 fires, Done. (423.0ms) Inference, (2.9ms) NMS
+1 fire, Done. (426.8ms) Inference, (3.5ms) NMS
+3 fires, Done. (423.2ms) Inference, (3.2ms) NMS
+4 fires, Done. (405.2ms) Inference, (3.4ms) NMS
+1 fire, Done. (431.1ms) Inference, (2.8ms) NMS
+4 fires, Done. (413.9ms) Inference, (3.0ms) NMS
+3 fires, Done. (423.7ms) Inference, (3.2ms) NMS
+1 fire, Done. (430.0ms) Inference, (2.8ms) NMS
+4 fires, Done. (413.0ms) Inference, (3.0ms) NMS
+3 fires, Done. (413.2ms) Inference, (2.8ms) NMS
+1 fire, Done. (431.1ms) Inference, (2.8ms) NMS
+3 fires, Done. (423.2ms) Inference, (2.9ms) NMS
+4 fires, Done. (422.8ms) Inference, (3.2ms) NMS
+1 fire, Done. (426.5ms) Inference, (3.3ms) NMS
+3 fires, Done. (415.3ms) Inference, (3.2ms) NMS
+4 fires, Done. (414.6ms) Inference, (2.6ms) NMS
+1 fire, Done. (428.0ms) Inference, (2.5ms) NMS
+4 fires, Done. (420.2ms) Inference, (3.0ms) NMS
+3 fires, Done. (421.9ms) Inference, (3.4ms) NMS
+1 fire, Done. (432.1ms) Inference, (2.9ms) NMS
+3 fires, Done. (424.5ms) Inference, (2.7ms) NMS
+4 fires, Done. (419.9ms) Inference, (3.3ms) NMS
+1 fire, Done. (426.4ms) Inference, (3.5ms) NMS
+4 fires, Done. (421.5ms) Inference, (3.1ms) NMS
+3 fires, Done. (425.2ms) Inference, (2.9ms) NMS
+1 fire, Done. (428.0ms) Inference, (2.7ms) NMS
+4 fires, Done. (422.3ms) Inference, (3.4ms) NMS
+3 fires, Done. (419.2ms) Inference, (2.9ms) NMS
+1 fire, Done. (428.5ms) Inference, (2.8ms) NMS
+3 fires, Done. (396.7ms) Inference, (3.3ms) NMS
+4 fires, Done. (423.8ms) Inference, (2.5ms) NMS
+1 fire, Done. (429.8ms) Inference, (2.6ms) NMS
+4 fires, Done. (420.7ms) Inference, (3.0ms) NMS
+3 fires, Done. (422.7ms) Inference, (3.0ms) NMS
+1 fire, Done. (429.3ms) Inference, (2.9ms) NMS
+3 fires, Done. (419.4ms) Inference, (3.3ms) NMS
+4 fires, Done. (422.9ms) Inference, (2.8ms) NMS
+1 fire, Done. (428.6ms) Inference, (2.9ms) NMS
+3 fires, Done. (419.4ms) Inference, (3.3ms) NMS
+4 fires, Done. (382.4ms) Inference, (2.6ms) NMS
+1 fire, Done. (430.4ms) Inference, (2.7ms) NMS
+4 fires, Done. (408.1ms) Inference, (2.9ms) NMS
+3 fires, Done. (426.3ms) Inference, (3.2ms) NMS
+1 fire, Done. (429.6ms) Inference, (2.6ms) NMS
+3 fires, Done. (390.6ms) Inference, (3.0ms) NMS
+4 fires, Done. (422.0ms) Inference, (2.7ms) NMS
+1 fire, Done. (429.7ms) Inference, (2.8ms) NMS
+4 fires, Done. (396.1ms) Inference, (3.1ms) NMS
+3 fires, Done. (424.2ms) Inference, (3.1ms) NMS
+1 fire, Done. (430.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (418.9ms) Inference, (3.7ms) NMS
+4 fires, Done. (422.8ms) Inference, (3.0ms) NMS
+1 fire, Done. (431.1ms) Inference, (3.4ms) NMS
+4 fires, Done. (420.7ms) Inference, (2.9ms) NMS
+3 fires, Done. (427.0ms) Inference, (3.1ms) NMS
+1 fire, Done. (428.0ms) Inference, (3.0ms) NMS
+3 fires, Done. (417.0ms) Inference, (3.1ms) NMS
+3 fires, Done. (424.0ms) Inference, (2.8ms) NMS
+1 fire, Done. (428.6ms) Inference, (2.8ms) NMS
+3 fires, Done. (420.7ms) Inference, (3.1ms) NMS
+3 fires, Done. (419.1ms) Inference, (2.7ms) NMS
+3 fires, Done. (424.2ms) Inference, (4.1ms) NMS
+1 fire, Done. (430.6ms) Inference, (4.2ms) NMS
+3 fires, Done. (424.6ms) Inference, (4.4ms) NMS
+1 fire, Done. (429.9ms) Inference, (3.1ms) NMS
+3 fires, Done. (429.6ms) Inference, (3.2ms) NMS
+3 fires, Done. (399.5ms) Inference, (3.5ms) NMS
+3 fires, Done. (418.0ms) Inference, (3.4ms) NMS
+3 fires, Done. (424.3ms) Inference, (3.7ms) NMS
+3 fires, Done. (428.6ms) Inference, (3.2ms) NMS
+3 fires, Done. (427.7ms) Inference, (3.1ms) NMS
+3 fires, Done. (427.8ms) Inference, (2.8ms) NMS
+3 fires, Done. (429.2ms) Inference, (2.8ms) NMS
+3 fires, Done. (290.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (288.3ms) Inference, (2.4ms) NMS
+3 fires, Done. (284.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (282.7ms) Inference, (1.9ms) NMS
+3 fires, Done. (286.5ms) Inference, (2.2ms) NMS
+3 fires, Done. (277.5ms) Inference, (2.1ms) NMS
+3 fires, Done. (283.9ms) Inference, (2.2ms) NMS
+3 fires, Done. (274.9ms) Inference, (2.1ms) NMS
+2 fires, Done. (286.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (276.5ms) Inference, (2.2ms) NMS
+2 fires, Done. (283.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (267.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (283.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (267.2ms) Inference, (2.0ms) NMS
+3 fires, Done. (285.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (286.2ms) Inference, (2.5ms) NMS
+2 fires, Done. (279.8ms) Inference, (2.0ms) NMS
+3 fires, Done. (288.7ms) Inference, (2.3ms) NMS
+2 fires, Done. (292.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (280.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (275.3ms) Inference, (2.1ms) NMS
+2 fires, Done. (285.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (275.9ms) Inference, (2.1ms) NMS
+3 fires, Done. (286.6ms) Inference, (2.2ms) NMS
+2 fires, Done. (285.5ms) Inference, (2.4ms) NMS
+3 fires, Done. (276.6ms) Inference, (1.9ms) NMS
+2 fires, Done. (286.2ms) Inference, (1.9ms) NMS
+3 fires, Done. (276.1ms) Inference, (2.1ms) NMS
+3 fires, Done. (274.9ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.1ms) Inference, (2.3ms) NMS
+5 fires, Done. (275.9ms) Inference, (2.0ms) NMS
+3 fires, Done. (283.8ms) Inference, (2.3ms) NMS
+5 fires, Done. (274.8ms) Inference, (2.1ms) NMS
+3 fires, Done. (288.6ms) Inference, (2.2ms) NMS
+5 fires, Done. (276.8ms) Inference, (2.1ms) NMS
+3 fires, Done. (284.2ms) Inference, (2.7ms) NMS
+6 fires, Done. (272.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (286.6ms) Inference, (2.1ms) NMS
+5 fires, Done. (279.7ms) Inference, (2.4ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (289.0ms) Inference, (2.3ms) NMS
+3 fires, Done. (290.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (282.0ms) Inference, (2.6ms) NMS
+4 fires, Done. (287.2ms) Inference, (2.4ms) NMS
+3 fires, Done. (270.5ms) Inference, (2.0ms) NMS
+3 fires, Done. (287.2ms) Inference, (2.3ms) NMS
+4 fires, Done. (287.5ms) Inference, (2.4ms) NMS
+5 fires, Done. (286.1ms) Inference, (2.2ms) NMS
+3 fires, Done. (288.6ms) Inference, (2.6ms) NMS
+3 fires, Done. (278.6ms) Inference, (2.1ms) NMS
+5 fires, Done. (287.8ms) Inference, (2.3ms) NMS
+5 fires, Done. (284.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.4ms) Inference, (2.0ms) NMS
+5 fires, Done. (287.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (286.0ms) Inference, (2.3ms) NMS
+4 fires, Done. (290.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (280.8ms) Inference, (2.1ms) NMS
+4 fires, Done. (286.8ms) Inference, (2.8ms) NMS
+3 fires, Done. (274.9ms) Inference, (2.5ms) NMS
+3 fires, Done. (285.9ms) Inference, (2.3ms) NMS
+4 fires, Done. (286.0ms) Inference, (2.3ms) NMS
+3 fires, Done. (286.0ms) Inference, (2.4ms) NMS
+3 fires, Done. (288.5ms) Inference, (2.0ms) NMS
+3 fires, Done. (287.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (277.1ms) Inference, (1.9ms) NMS
+4 fires, Done. (147.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (144.1ms) Inference, (1.5ms) NMS
+5 fires, Done. (146.6ms) Inference, (2.2ms) NMS
+4 fires, Done. (147.8ms) Inference, (2.0ms) NMS
+4 fires, Done. (147.3ms) Inference, (1.5ms) NMS
+4 fires, Done. (144.8ms) Inference, (2.3ms) NMS
+5 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (143.4ms) Inference, (1.5ms) NMS
+5 fires, Done. (147.7ms) Inference, (1.5ms) NMS
+5 fires, Done. (153.4ms) Inference, (1.5ms) NMS
+5 fires, Done. (154.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.4ms) Inference, (1.5ms) NMS
+5 fires, Done. (150.8ms) Inference, (1.6ms) NMS
+4 fires, Done. (153.9ms) Inference, (1.5ms) NMS
+5 fires, Done. (143.2ms) Inference, (1.5ms) NMS
+5 fires, Done. (143.2ms) Inference, (1.5ms) NMS
+5 fires, Done. (143.5ms) Inference, (1.5ms) NMS
+5 fires, Done. (143.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (168.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (144.0ms) Inference, (1.5ms) NMS
+4 fires, Done. (143.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (146.5ms) Inference, (1.6ms) NMS
+2 fires, Done. (146.4ms) Inference, (1.5ms) NMS
+Done. (147.5ms) Inference, (0.3ms) NMS
+Done. (147.6ms) Inference, (0.3ms) NMS
+Done. (147.0ms) Inference, (0.3ms) NMS
+Done. (145.8ms) Inference, (0.3ms) NMS
+Done. (146.0ms) Inference, (0.3ms) NMS
+Done. (147.2ms) Inference, (0.3ms) NMS
+Done. (145.9ms) Inference, (0.3ms) NMS
+Done. (147.0ms) Inference, (0.3ms) NMS
+Done. (146.4ms) Inference, (0.3ms) NMS
+Done. (146.2ms) Inference, (0.3ms) NMS
+Done. (146.9ms) Inference, (0.3ms) NMS
+Done. (146.2ms) Inference, (0.3ms) NMS
+Done. (146.1ms) Inference, (0.3ms) NMS
+Done. (150.6ms) Inference, (0.3ms) NMS
+Done. (147.4ms) Inference, (0.3ms) NMS
+Done. (146.5ms) Inference, (0.3ms) NMS
+Done. (147.0ms) Inference, (0.3ms) NMS
+Done. (146.5ms) Inference, (0.3ms) NMS
+Done. (146.0ms) Inference, (0.3ms) NMS
+Done. (145.8ms) Inference, (0.3ms) NMS
+Done. (163.0ms) Inference, (0.4ms) NMS
+Done. (177.2ms) Inference, (0.3ms) NMS
+Done. (177.9ms) Inference, (0.3ms) NMS
+Done. (177.7ms) Inference, (0.3ms) NMS
+Done. (177.4ms) Inference, (0.9ms) NMS
+Done. (144.8ms) Inference, (0.3ms) NMS
+Done. (146.1ms) Inference, (0.3ms) NMS
+Done. (143.9ms) Inference, (0.3ms) NMS
+Done. (144.8ms) Inference, (0.4ms) NMS
+Done. (145.1ms) Inference, (0.3ms) NMS
+Done. (143.1ms) Inference, (0.2ms) NMS
+Done. (146.6ms) Inference, (0.3ms) NMS
+Done. (143.9ms) Inference, (0.3ms) NMS
+Done. (145.2ms) Inference, (0.3ms) NMS
+Done. (143.7ms) Inference, (0.3ms) NMS
+Done. (143.2ms) Inference, (0.3ms) NMS
+Done. (145.0ms) Inference, (0.3ms) NMS
+Done. (154.7ms) Inference, (0.3ms) NMS
+Done. (147.9ms) Inference, (0.3ms) NMS
+Done. (146.7ms) Inference, (0.3ms) NMS
+Done. (150.1ms) Inference, (0.3ms) NMS
+Done. (144.9ms) Inference, (0.3ms) NMS
+Done. (143.6ms) Inference, (0.3ms) NMS
+Done. (143.8ms) Inference, (0.3ms) NMS
+Done. (144.3ms) Inference, (0.3ms) NMS
+Done. (143.4ms) Inference, (0.3ms) NMS
+Done. (144.0ms) Inference, (0.3ms) NMS
+Done. (145.0ms) Inference, (0.3ms) NMS
+Done. (144.2ms) Inference, (0.3ms) NMS
+Done. (143.2ms) Inference, (0.2ms) NMS
+Done. (143.0ms) Inference, (0.2ms) NMS
+Done. (142.9ms) Inference, (0.3ms) NMS
+Done. (160.0ms) Inference, (0.3ms) NMS
+Done. (150.3ms) Inference, (0.3ms) NMS
+Done. (148.0ms) Inference, (0.3ms) NMS
+Done. (144.6ms) Inference, (0.3ms) NMS
+Done. (328.8ms) Inference, (0.6ms) NMS
+Done. (157.8ms) Inference, (0.4ms) NMS
+Done. (175.9ms) Inference, (0.5ms) NMS
+Done. (178.2ms) Inference, (0.6ms) NMS
+Done. (157.6ms) Inference, (0.3ms) NMS
+1 fire, Done. (146.4ms) Inference, (1.8ms) NMS
+1 fire, Done. (144.4ms) Inference, (1.7ms) NMS
+1 fire, Done. (145.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (155.1ms) Inference, (2.3ms) NMS
+1 fire, Done. (279.4ms) Inference, (1.9ms) NMS
+1 fire, Done. (279.1ms) Inference, (21.0ms) NMS
+1 fire, Done. (268.4ms) Inference, (2.1ms) NMS
+2 fires, Done. (245.1ms) Inference, (21.3ms) NMS
+1 fire, Done. (263.6ms) Inference, (1.8ms) NMS
+1 fire, Done. (272.9ms) Inference, (11.3ms) NMS
+1 fire, Done. (265.2ms) Inference, (2.3ms) NMS
+1 fire, Done. (258.0ms) Inference, (12.3ms) NMS
+1 fire, Done. (258.5ms) Inference, (21.4ms) NMS
+2 fires, Done. (267.9ms) Inference, (18.5ms) NMS
+2 fires, Done. (270.7ms) Inference, (18.9ms) NMS
+1 fire, Done. (256.6ms) Inference, (1.6ms) NMS
+1 fire, Done. (263.9ms) Inference, (1.5ms) NMS
+2 fires, Done. (269.1ms) Inference, (2.1ms) NMS
+1 fire, Done. (267.8ms) Inference, (11.8ms) NMS
+2 fires, Done. (312.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (312.3ms) Inference, (19.7ms) NMS
+1 fire, Done. (334.6ms) Inference, (2.4ms) NMS
+1 fire, Done. (351.3ms) Inference, (1.6ms) NMS
+1 fire, Done. (279.2ms) Inference, (3.8ms) NMS
+1 fire, Done. (360.2ms) Inference, (1.5ms) NMS
+1 fire, Done. (335.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (281.2ms) Inference, (18.5ms) NMS
+1 fire, Done. (259.5ms) Inference, (18.6ms) NMS
+1 fire, Done. (202.8ms) Inference, (2.3ms) NMS
+1 fire, Done. (237.4ms) Inference, (20.5ms) NMS
+2 fires, Done. (263.0ms) Inference, (1.6ms) NMS
+3 fires, Done. (251.6ms) Inference, (1.6ms) NMS
+2 fires, Done. (280.5ms) Inference, (5.7ms) NMS
+2 fires, Done. (246.4ms) Inference, (1.6ms) NMS
+2 fires, Done. (236.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (240.4ms) Inference, (1.7ms) NMS
+1 fire, Done. (234.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (235.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (235.8ms) Inference, (1.6ms) NMS
+1 fire, Done. (237.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (259.3ms) Inference, (1.9ms) NMS
+1 fire, Done. (244.5ms) Inference, (1.5ms) NMS
+3 fires, Done. (262.5ms) Inference, (21.2ms) NMS
+3 fires, Done. (239.4ms) Inference, (1.8ms) NMS
+3 fires, Done. (243.3ms) Inference, (21.3ms) NMS
+3 fires, Done. (252.2ms) Inference, (1.7ms) NMS
+3 fires, Done. (271.1ms) Inference, (21.7ms) NMS
+4 fires, Done. (245.4ms) Inference, (1.5ms) NMS
+4 fires, Done. (310.2ms) Inference, (2.5ms) NMS
+3 fires, Done. (242.5ms) Inference, (1.7ms) NMS
+3 fires, Done. (276.9ms) Inference, (20.5ms) NMS
+3 fires, Done. (257.6ms) Inference, (1.5ms) NMS
+3 fires, Done. (265.8ms) Inference, (1.6ms) NMS
+3 fires, Done. (307.8ms) Inference, (1.8ms) NMS
+3 fires, Done. (292.8ms) Inference, (2.1ms) NMS
+3 fires, Done. (438.4ms) Inference, (21.7ms) NMS
+3 fires, Done. (380.6ms) Inference, (18.7ms) NMS
+3 fires, Done. (358.6ms) Inference, (11.4ms) NMS
+3 fires, Done. (355.8ms) Inference, (19.9ms) NMS
+2 fires, Done. (414.4ms) Inference, (3.7ms) NMS
+3 fires, Done. (348.5ms) Inference, (3.0ms) NMS
+Done. (405.1ms) Inference, (0.6ms) NMS
+3 fires, Done. (393.0ms) Inference, (36.9ms) NMS
+1 fire, Done. (401.8ms) Inference, (3.0ms) NMS
+3 fires, Done. (331.7ms) Inference, (2.4ms) NMS
+1 fire, Done. (390.4ms) Inference, (22.9ms) NMS
+3 fires, Done. (401.8ms) Inference, (2.4ms) NMS
+1 fire, Done. (391.9ms) Inference, (22.9ms) NMS
+3 fires, Done. (393.5ms) Inference, (2.8ms) NMS
+1 fire, Done. (360.4ms) Inference, (3.3ms) NMS
+3 fires, Done. (330.6ms) Inference, (3.6ms) NMS
+1 fire, Done. (394.5ms) Inference, (3.2ms) NMS
+3 fires, Done. (379.2ms) Inference, (3.8ms) NMS
+1 fire, Done. (381.6ms) Inference, (2.4ms) NMS
+3 fires, Done. (331.8ms) Inference, (2.7ms) NMS
+3 fires, Done. (389.2ms) Inference, (2.9ms) NMS
+2 fires, Done. (391.7ms) Inference, (3.2ms) NMS
+2 fires, Done. (392.3ms) Inference, (3.9ms) NMS
+3 fires, Done. (404.8ms) Inference, (3.9ms) NMS
+2 fires, Done. (391.3ms) Inference, (2.7ms) NMS
+3 fires, Done. (389.4ms) Inference, (3.0ms) NMS
+1 fire, Done. (374.4ms) Inference, (27.4ms) NMS
+3 fires, Done. (372.7ms) Inference, (27.6ms) NMS
+1 fire, Done. (545.8ms) Inference, (15.0ms) NMS
+3 fires, Done. (514.4ms) Inference, (20.0ms) NMS
+1 fire, Done. (451.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (421.4ms) Inference, (2.4ms) NMS
+1 fire, Done. (338.0ms) Inference, (2.6ms) NMS
+3 fires, Done. (327.7ms) Inference, (2.8ms) NMS
+1 fire, Done. (320.6ms) Inference, (2.1ms) NMS
+3 fires, Done. (308.5ms) Inference, (2.1ms) NMS
+1 fire, Done. (293.4ms) Inference, (2.7ms) NMS
+2 fires, Done. (276.7ms) Inference, (3.3ms) NMS
+1 fire, Done. (287.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (268.0ms) Inference, (2.3ms) NMS
+1 fire, Done. (285.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (269.0ms) Inference, (1.9ms) NMS
+1 fire, Done. (284.4ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.2ms) Inference, (2.2ms) NMS
+1 fire, Done. (287.2ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.3ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (267.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.8ms) Inference, (2.5ms) NMS
+3 fires, Done. (284.7ms) Inference, (2.5ms) NMS
+2 fires, Done. (287.9ms) Inference, (2.4ms) NMS
+3 fires, Done. (287.6ms) Inference, (2.4ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.4ms) NMS
+3 fires, Done. (285.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (275.2ms) Inference, (1.9ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (283.3ms) Inference, (2.1ms) NMS
+2 fires, Done. (287.2ms) Inference, (2.2ms) NMS
+3 fires, Done. (275.9ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (284.9ms) Inference, (2.1ms) NMS
+2 fires, Done. (285.3ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.4ms) Inference, (2.1ms) NMS
+2 fires, Done. (287.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.3ms) Inference, (2.3ms) NMS
+2 fires, Done. (286.7ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.1ms) Inference, (2.1ms) NMS
+1 fire, Done. (283.5ms) Inference, (2.1ms) NMS
+2 fires, Done. (283.3ms) Inference, (2.3ms) NMS
+1 fire, Done. (285.5ms) Inference, (2.3ms) NMS
+2 fires, Done. (275.8ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.8ms) Inference, (2.1ms) NMS
+2 fires, Done. (281.7ms) Inference, (2.5ms) NMS
+2 fires, Done. (285.4ms) Inference, (2.2ms) NMS
+2 fires, Done. (282.0ms) Inference, (1.9ms) NMS
+1 fire, Done. (283.5ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.2ms) Inference, (2.1ms) NMS
+1 fire, Done. (289.4ms) Inference, (2.5ms) NMS
+2 fires, Done. (277.3ms) Inference, (2.1ms) NMS
+1 fire, Done. (285.2ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.2ms) Inference, (2.3ms) NMS
+1 fire, Done. (285.8ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.7ms) Inference, (2.3ms) NMS
+1 fire, Done. (284.6ms) Inference, (2.0ms) NMS
+2 fires, Done. (282.1ms) Inference, (2.3ms) NMS
+1 fire, Done. (287.5ms) Inference, (2.2ms) NMS
+3 fires, Done. (287.4ms) Inference, (2.3ms) NMS
+1 fire, Done. (284.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (267.8ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.5ms) Inference, (2.2ms) NMS
+4 fires, Done. (268.6ms) Inference, (2.2ms) NMS
+2 fires, Done. (288.7ms) Inference, (2.3ms) NMS
+4 fires, Done. (279.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.2ms) Inference, (2.1ms) NMS
+4 fires, Done. (274.3ms) Inference, (1.9ms) NMS
+2 fires, Done. (284.8ms) Inference, (2.3ms) NMS
+4 fires, Done. (275.3ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.8ms) Inference, (2.1ms) NMS
+4 fires, Done. (270.0ms) Inference, (2.0ms) NMS
+2 fires, Done. (285.8ms) Inference, (2.3ms) NMS
+4 fires, Done. (270.6ms) Inference, (2.1ms) NMS
+2 fires, Done. (285.3ms) Inference, (2.4ms) NMS
+4 fires, Done. (274.5ms) Inference, (2.2ms) NMS
+3 fires, Done. (284.2ms) Inference, (2.3ms) NMS
+4 fires, Done. (272.0ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.8ms) Inference, (2.2ms) NMS
+4 fires, Done. (287.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (283.8ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.1ms) Inference, (2.4ms) NMS
+4 fires, Done. (275.8ms) Inference, (2.5ms) NMS
+4 fires, Done. (285.2ms) Inference, (2.5ms) NMS
+3 fires, Done. (284.6ms) Inference, (2.2ms) NMS
+4 fires, Done. (284.8ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.6ms) Inference, (2.2ms) NMS
+4 fires, Done. (285.5ms) Inference, (2.2ms) NMS
+2 fires, Done. (285.3ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (284.6ms) Inference, (2.0ms) NMS
+2 fires, Done. (289.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (289.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.4ms) Inference, (2.1ms) NMS
+4 fires, Done. (284.4ms) Inference, (2.1ms) NMS
+2 fires, Done. (285.3ms) Inference, (2.5ms) NMS
+4 fires, Done. (276.5ms) Inference, (2.0ms) NMS
+2 fires, Done. (284.6ms) Inference, (2.1ms) NMS
+3 fires, Done. (268.3ms) Inference, (2.1ms) NMS
+2 fires, Done. (286.1ms) Inference, (2.2ms) NMS
+4 fires, Done. (286.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.1ms) Inference, (2.0ms) NMS
+4 fires, Done. (273.9ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.8ms) Inference, (2.0ms) NMS
+3 fires, Done. (276.3ms) Inference, (2.0ms) NMS
+1 fire, Done. (288.5ms) Inference, (2.2ms) NMS
+3 fires, Done. (288.3ms) Inference, (2.2ms) NMS
+1 fire, Done. (285.1ms) Inference, (2.2ms) NMS
+3 fires, Done. (264.0ms) Inference, (2.0ms) NMS
+3 fires, Done. (268.0ms) Inference, (2.5ms) NMS
+1 fire, Done. (285.0ms) Inference, (2.7ms) NMS
+2 fires, Done. (272.7ms) Inference, (2.3ms) NMS
+4 fires, Done. (285.2ms) Inference, (2.0ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.2ms) NMS
+3 fires, Done. (275.6ms) Inference, (2.0ms) NMS
+3 fires, Done. (281.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (284.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (284.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (288.7ms) Inference, (2.0ms) NMS
+3 fires, Done. (288.3ms) Inference, (2.3ms) NMS
+3 fires, Done. (284.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (284.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.5ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.1ms) Inference, (2.5ms) NMS
+3 fires, Done. (285.2ms) Inference, (2.1ms) NMS
+4 fires, Done. (285.2ms) Inference, (2.1ms) NMS
+3 fires, Done. (284.7ms) Inference, (2.1ms) NMS
+4 fires, Done. (284.6ms) Inference, (2.1ms) NMS
+3 fires, Done. (285.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.5ms) Inference, (2.4ms) NMS
+3 fires, Done. (285.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.3ms) Inference, (2.5ms) NMS
+3 fires, Done. (287.5ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.1ms) NMS
+3 fires, Done. (284.7ms) Inference, (2.1ms) NMS
+3 fires, Done. (287.1ms) Inference, (2.0ms) NMS
+3 fires, Done. (276.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (284.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (284.6ms) Inference, (2.2ms) NMS
+2 fires, Done. (285.6ms) Inference, (2.5ms) NMS
+3 fires, Done. (285.3ms) Inference, (2.8ms) NMS
+2 fires, Done. (284.5ms) Inference, (2.3ms) NMS
+3 fires, Done. (273.8ms) Inference, (2.0ms) NMS
+3 fires, Done. (284.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (263.5ms) Inference, (2.3ms) NMS
+1 fire, Done. (287.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.5ms) Inference, (2.4ms) NMS
+3 fires, Done. (269.2ms) Inference, (2.1ms) NMS
+2 fires, Done. (286.0ms) Inference, (2.1ms) NMS
+3 fires, Done. (275.1ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (274.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (274.8ms) Inference, (2.3ms) NMS
+1 fire, Done. (285.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (264.5ms) Inference, (2.1ms) NMS
+1 fire, Done. (286.1ms) Inference, (2.6ms) NMS
+3 fires, Done. (270.4ms) Inference, (4.5ms) NMS
+1 fire, Done. (284.1ms) Inference, (2.2ms) NMS
+3 fires, Done. (226.1ms) Inference, (2.1ms) NMS
+1 fire, Done. (286.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (277.1ms) Inference, (2.2ms) NMS
+1 fire, Done. (285.5ms) Inference, (2.2ms) NMS
+3 fires, Done. (268.4ms) Inference, (2.2ms) NMS
+1 fire, Done. (284.5ms) Inference, (2.1ms) NMS
+3 fires, Done. (268.0ms) Inference, (2.1ms) NMS
+1 fire, Done. (285.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (267.9ms) Inference, (2.2ms) NMS
+1 fire, Done. (286.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (269.7ms) Inference, (2.3ms) NMS
+1 fire, Done. (284.9ms) Inference, (2.1ms) NMS
+3 fires, Done. (267.7ms) Inference, (2.1ms) NMS
+1 fire, Done. (288.2ms) Inference, (2.5ms) NMS
+3 fires, Done. (273.1ms) Inference, (2.3ms) NMS
+1 fire, Done. (284.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (269.2ms) Inference, (2.2ms) NMS
+1 fire, Done. (287.2ms) Inference, (2.2ms) NMS
+3 fires, Done. (278.5ms) Inference, (2.2ms) NMS
+1 fire, Done. (284.5ms) Inference, (2.1ms) NMS
+3 fires, Done. (267.7ms) Inference, (2.1ms) NMS
+1 fire, Done. (285.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (268.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (285.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (270.6ms) Inference, (2.3ms) NMS
+1 fire, Done. (286.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (269.3ms) Inference, (2.4ms) NMS
+1 fire, Done. (287.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (270.9ms) Inference, (2.2ms) NMS
+1 fire, Done. (285.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (269.1ms) Inference, (2.1ms) NMS
+1 fire, Done. (285.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (269.4ms) Inference, (2.4ms) NMS
+1 fire, Done. (286.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (269.5ms) Inference, (2.2ms) NMS
+1 fire, Done. (284.9ms) Inference, (2.2ms) NMS
+3 fires, Done. (278.8ms) Inference, (2.1ms) NMS
+1 fire, Done. (287.2ms) Inference, (2.4ms) NMS
+3 fires, Done. (278.6ms) Inference, (2.1ms) NMS
+3 fires, Done. (284.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (267.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (287.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (286.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.8ms) Inference, (2.2ms) NMS
+3 fires, Done. (286.0ms) Inference, (2.5ms) NMS
+3 fires, Done. (285.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (287.0ms) Inference, (2.7ms) NMS
+3 fires, Done. (287.0ms) Inference, (2.4ms) NMS
+3 fires, Done. (285.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (284.9ms) Inference, (2.8ms) NMS
+2 fires, Done. (288.2ms) Inference, (2.4ms) NMS
+3 fires, Done. (288.1ms) Inference, (2.5ms) NMS
+2 fires, Done. (286.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (277.6ms) Inference, (2.6ms) NMS
+3 fires, Done. (291.3ms) Inference, (3.1ms) NMS
+3 fires, Done. (282.3ms) Inference, (3.2ms) NMS
+2 fires, Done. (294.7ms) Inference, (5.3ms) NMS
+3 fires, Done. (294.8ms) Inference, (4.4ms) NMS
+2 fires, Done. (302.9ms) Inference, (6.4ms) NMS
+3 fires, Done. (292.0ms) Inference, (6.2ms) NMS
+2 fires, Done. (293.5ms) Inference, (4.5ms) NMS
+3 fires, Done. (283.7ms) Inference, (4.7ms) NMS
+2 fires, Done. (294.0ms) Inference, (4.0ms) NMS
+3 fires, Done. (281.9ms) Inference, (3.9ms) NMS
+3 fires, Done. (288.4ms) Inference, (2.6ms) NMS
+3 fires, Done. (278.5ms) Inference, (2.9ms) NMS
+2 fires, Done. (287.4ms) Inference, (2.6ms) NMS
+3 fires, Done. (287.1ms) Inference, (2.5ms) NMS
+2 fires, Done. (288.8ms) Inference, (2.8ms) NMS
+3 fires, Done. (279.7ms) Inference, (2.8ms) NMS
+3 fires, Done. (291.4ms) Inference, (3.2ms) NMS
+3 fires, Done. (281.9ms) Inference, (3.3ms) NMS
+3 fires, Done. (289.5ms) Inference, (3.4ms) NMS
+5 fires, Done. (289.5ms) Inference, (3.5ms) NMS
+3 fires, Done. (288.5ms) Inference, (3.7ms) NMS
+5 fires, Done. (280.1ms) Inference, (3.6ms) NMS
+3 fires, Done. (292.3ms) Inference, (4.2ms) NMS
+5 fires, Done. (280.5ms) Inference, (3.8ms) NMS
+3 fires, Done. (292.0ms) Inference, (4.0ms) NMS
+6 fires, Done. (282.9ms) Inference, (4.0ms) NMS
+3 fires, Done. (291.8ms) Inference, (4.8ms) NMS
+5 fires, Done. (284.2ms) Inference, (4.3ms) NMS
+2 fires, Done. (285.5ms) Inference, (4.1ms) NMS
+3 fires, Done. (296.2ms) Inference, (4.6ms) NMS
+3 fires, Done. (294.1ms) Inference, (4.6ms) NMS
+3 fires, Done. (284.8ms) Inference, (4.2ms) NMS
+3 fires, Done. (294.1ms) Inference, (4.4ms) NMS
+4 fires, Done. (294.6ms) Inference, (4.4ms) NMS
+3 fires, Done. (296.3ms) Inference, (6.2ms) NMS
+4 fires, Done. (294.8ms) Inference, (5.4ms) NMS
+3 fires, Done. (302.3ms) Inference, (6.3ms) NMS
+5 fires, Done. (300.6ms) Inference, (6.3ms) NMS
+3 fires, Done. (294.5ms) Inference, (6.0ms) NMS
+5 fires, Done. (286.0ms) Inference, (5.5ms) NMS
+3 fires, Done. (360.0ms) Inference, (31.1ms) NMS
+5 fires, Done. (359.0ms) Inference, (25.5ms) NMS
+3 fires, Done. (908.4ms) Inference, (31.7ms) NMS
+5 fires, Done. (894.7ms) Inference, (32.0ms) NMS
+4 fires, Done. (842.0ms) Inference, (37.7ms) NMS
+3 fires, Done. (859.9ms) Inference, (26.9ms) NMS
+4 fires, Done. (859.2ms) Inference, (31.9ms) NMS
+3 fires, Done. (861.7ms) Inference, (31.0ms) NMS
+4 fires, Done. (663.2ms) Inference, (4.4ms) NMS
+3 fires, Done. (663.3ms) Inference, (3.9ms) NMS
+3 fires, Done. (289.9ms) Inference, (3.1ms) NMS
+3 fires, Done. (289.5ms) Inference, (3.1ms) NMS
+3 fires, Done. (145.9ms) Inference, (2.0ms) NMS
+4 fires, Done. (144.5ms) Inference, (1.8ms) NMS
+4 fires, Done. (144.9ms) Inference, (1.7ms) NMS
+5 fires, Done. (148.2ms) Inference, (1.8ms) NMS
+4 fires, Done. (146.5ms) Inference, (1.8ms) NMS
+4 fires, Done. (149.1ms) Inference, (2.4ms) NMS
+4 fires, Done. (148.0ms) Inference, (2.5ms) NMS
+5 fires, Done. (149.0ms) Inference, (2.5ms) NMS
+5 fires, Done. (150.0ms) Inference, (2.3ms) NMS
+5 fires, Done. (146.3ms) Inference, (2.2ms) NMS
+5 fires, Done. (148.4ms) Inference, (2.1ms) NMS
+5 fires, Done. (146.6ms) Inference, (2.1ms) NMS
+4 fires, Done. (150.0ms) Inference, (2.5ms) NMS
+5 fires, Done. (145.8ms) Inference, (1.9ms) NMS
+4 fires, Done. (147.8ms) Inference, (1.9ms) NMS
+5 fires, Done. (151.5ms) Inference, (2.3ms) NMS
+5 fires, Done. (149.2ms) Inference, (3.0ms) NMS
+5 fires, Done. (150.8ms) Inference, (2.5ms) NMS
+5 fires, Done. (164.8ms) Inference, (4.4ms) NMS
+4 fires, Done. (196.3ms) Inference, (4.8ms) NMS
+3 fires, Done. (174.7ms) Inference, (4.0ms) NMS
+4 fires, Done. (165.4ms) Inference, (4.2ms) NMS
+4 fires, Done. (166.2ms) Inference, (4.0ms) NMS
+3 fires, Done. (192.3ms) Inference, (4.7ms) NMS
+2 fires, Done. (201.7ms) Inference, (5.8ms) NMS
+Done. (225.2ms) Inference, (1.0ms) NMS
+Done. (235.7ms) Inference, (0.9ms) NMS
+Done. (237.3ms) Inference, (1.3ms) NMS
+Done. (306.7ms) Inference, (1.5ms) NMS
+Done. (206.4ms) Inference, (0.8ms) NMS
+Done. (195.4ms) Inference, (0.8ms) NMS
+Done. (176.7ms) Inference, (0.7ms) NMS
+Done. (165.2ms) Inference, (0.7ms) NMS
+Done. (156.5ms) Inference, (0.7ms) NMS
+Done. (178.5ms) Inference, (0.7ms) NMS
+Done. (173.8ms) Inference, (0.7ms) NMS
+Done. (165.7ms) Inference, (0.7ms) NMS
+Done. (195.1ms) Inference, (0.9ms) NMS
+Done. (218.8ms) Inference, (0.8ms) NMS
+Done. (234.1ms) Inference, (1.3ms) NMS
+Done. (348.1ms) Inference, (2.7ms) NMS
+Done. (759.4ms) Inference, (2.9ms) NMS
+Done. (716.4ms) Inference, (2.7ms) NMS
+Done. (803.3ms) Inference, (2.7ms) NMS
+Done. (739.7ms) Inference, (2.9ms) NMS
+Done. (722.0ms) Inference, (2.9ms) NMS
+Done. (702.6ms) Inference, (1.0ms) NMS
+Done. (160.2ms) Inference, (0.5ms) NMS
+Done. (152.3ms) Inference, (0.4ms) NMS
+Done. (156.2ms) Inference, (0.4ms) NMS
+Done. (149.7ms) Inference, (0.4ms) NMS
+Done. (149.3ms) Inference, (0.4ms) NMS
+Done. (148.0ms) Inference, (0.4ms) NMS
+Done. (151.4ms) Inference, (0.4ms) NMS
+Done. (150.9ms) Inference, (0.4ms) NMS
+Done. (151.4ms) Inference, (0.4ms) NMS
+Done. (156.9ms) Inference, (0.5ms) NMS
+Done. (156.6ms) Inference, (0.5ms) NMS
+Done. (149.9ms) Inference, (0.5ms) NMS
+Done. (157.8ms) Inference, (0.5ms) NMS
+Done. (152.1ms) Inference, (0.5ms) NMS
+Done. (157.5ms) Inference, (0.5ms) NMS
+Done. (148.4ms) Inference, (0.5ms) NMS
+Done. (150.2ms) Inference, (0.4ms) NMS
+Done. (148.6ms) Inference, (0.3ms) NMS
+Done. (149.4ms) Inference, (0.4ms) NMS
+Done. (148.6ms) Inference, (0.3ms) NMS
+Done. (147.4ms) Inference, (0.4ms) NMS
+Done. (150.1ms) Inference, (0.3ms) NMS
+Done. (149.6ms) Inference, (0.4ms) NMS
+Done. (153.8ms) Inference, (0.4ms) NMS
+Done. (149.8ms) Inference, (0.4ms) NMS
+Done. (148.3ms) Inference, (0.4ms) NMS
+Done. (149.3ms) Inference, (0.4ms) NMS
+Done. (153.7ms) Inference, (0.4ms) NMS
+Done. (150.0ms) Inference, (0.4ms) NMS
+Done. (146.2ms) Inference, (0.4ms) NMS
+Done. (153.9ms) Inference, (0.4ms) NMS
+Done. (174.2ms) Inference, (0.7ms) NMS
+Done. (195.6ms) Inference, (1.4ms) NMS
+1 fire, Done. (298.2ms) Inference, (38.0ms) NMS
+1 fire, Done. (275.9ms) Inference, (23.6ms) NMS
+1 fire, Done. (237.0ms) Inference, (24.7ms) NMS
+2 fires, Done. (242.9ms) Inference, (23.7ms) NMS
+1 fire, Done. (263.1ms) Inference, (22.0ms) NMS
+1 fire, Done. (333.2ms) Inference, (25.8ms) NMS
+1 fire, Done. (281.8ms) Inference, (1.5ms) NMS
+1 fire, Done. (277.3ms) Inference, (1.5ms) NMS
+1 fire, Done. (278.2ms) Inference, (23.4ms) NMS
+2 fires, Done. (280.4ms) Inference, (1.6ms) NMS
+2 fires, Done. (269.0ms) Inference, (1.7ms) NMS
+1 fire, Done. (252.6ms) Inference, (8.6ms) NMS
+1 fire, Done. (243.0ms) Inference, (23.2ms) NMS
+2 fires, Done. (219.9ms) Inference, (1.5ms) NMS
+1 fire, Done. (254.3ms) Inference, (1.5ms) NMS
+2 fires, Done. (234.9ms) Inference, (2.0ms) NMS
+2 fires, Done. (245.5ms) Inference, (1.6ms) NMS
+1 fire, Done. (373.7ms) Inference, (23.1ms) NMS
+1 fire, Done. (282.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (345.8ms) Inference, (12.1ms) NMS
+1 fire, Done. (346.7ms) Inference, (3.3ms) NMS
+1 fire, Done. (464.2ms) Inference, (1.6ms) NMS
+1 fire, Done. (323.0ms) Inference, (1.7ms) NMS
+1 fire, Done. (392.5ms) Inference, (2.0ms) NMS
+1 fire, Done. (423.7ms) Inference, (22.3ms) NMS
+1 fire, Done. (281.3ms) Inference, (22.7ms) NMS
+2 fires, Done. (287.5ms) Inference, (1.6ms) NMS
+3 fires, Done. (270.5ms) Inference, (1.5ms) NMS
+2 fires, Done. (304.9ms) Inference, (1.6ms) NMS
+2 fires, Done. (321.4ms) Inference, (1.6ms) NMS
+2 fires, Done. (313.2ms) Inference, (25.9ms) NMS
+2 fires, Done. (277.4ms) Inference, (1.5ms) NMS
+1 fire, Done. (324.0ms) Inference, (2.0ms) NMS
+1 fire, Done. (291.3ms) Inference, (3.3ms) NMS
+1 fire, Done. (311.7ms) Inference, (1.9ms) NMS
+1 fire, Done. (315.0ms) Inference, (22.4ms) NMS
+1 fire, Done. (224.6ms) Inference, (23.1ms) NMS
+1 fire, Done. (246.7ms) Inference, (1.5ms) NMS
+3 fires, Done. (245.1ms) Inference, (1.5ms) NMS
+3 fires, Done. (253.8ms) Inference, (2.7ms) NMS
+3 fires, Done. (254.8ms) Inference, (2.1ms) NMS
+3 fires, Done. (277.8ms) Inference, (1.5ms) NMS
+3 fires, Done. (272.9ms) Inference, (1.6ms) NMS
+4 fires, Done. (376.8ms) Inference, (34.9ms) NMS
+4 fires, Done. (268.1ms) Inference, (2.2ms) NMS
+3 fires, Done. (250.9ms) Inference, (22.8ms) NMS
+3 fires, Done. (316.8ms) Inference, (1.6ms) NMS
+3 fires, Done. (198.6ms) Inference, (25.5ms) NMS
+3 fires, Done. (208.8ms) Inference, (28.2ms) NMS
+3 fires, Done. (213.0ms) Inference, (2.4ms) NMS
+3 fires, Done. (379.8ms) Inference, (22.5ms) NMS
+3 fires, Done. (402.1ms) Inference, (1.9ms) NMS
+3 fires, Done. (381.7ms) Inference, (13.1ms) NMS
+3 fires, Done. (331.2ms) Inference, (2.0ms) NMS
+3 fires, Done. (416.5ms) Inference, (7.7ms) NMS
+3 fires, Done. (344.3ms) Inference, (4.7ms) NMS
+3 fires, Done. (328.0ms) Inference, (25.3ms) NMS
+3 fires, Done. (347.6ms) Inference, (34.1ms) NMS
+2 fires, Done. (386.0ms) Inference, (27.1ms) NMS
+3 fires, Done. (321.3ms) Inference, (27.8ms) NMS
+Done. (447.7ms) Inference, (0.4ms) NMS
+3 fires, Done. (446.7ms) Inference, (56.3ms) NMS
+1 fire, Done. (470.4ms) Inference, (2.5ms) NMS
+3 fires, Done. (388.2ms) Inference, (2.4ms) NMS
+1 fire, Done. (466.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (433.3ms) Inference, (26.0ms) NMS
+1 fire, Done. (421.6ms) Inference, (2.6ms) NMS
+3 fires, Done. (402.7ms) Inference, (3.5ms) NMS
+1 fire, Done. (391.8ms) Inference, (2.7ms) NMS
+3 fires, Done. (367.8ms) Inference, (3.2ms) NMS
+1 fire, Done. (378.5ms) Inference, (2.6ms) NMS
+3 fires, Done. (355.7ms) Inference, (3.0ms) NMS
+3 fires, Done. (387.5ms) Inference, (3.4ms) NMS
+1 fire, Done. (388.8ms) Inference, (3.1ms) NMS
+2 fires, Done. (367.5ms) Inference, (4.0ms) NMS
+3 fires, Done. (368.4ms) Inference, (3.2ms) NMS
+2 fires, Done. (472.2ms) Inference, (2.9ms) NMS
+3 fires, Done. (462.3ms) Inference, (3.3ms) NMS
+2 fires, Done. (340.5ms) Inference, (2.9ms) NMS
+3 fires, Done. (330.9ms) Inference, (2.5ms) NMS
+1 fire, Done. (399.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (373.3ms) Inference, (2.3ms) NMS
+1 fire, Done. (467.2ms) Inference, (29.0ms) NMS
+3 fires, Done. (444.5ms) Inference, (28.3ms) NMS
+1 fire, Done. (689.2ms) Inference, (3.1ms) NMS
+2 fires, Done. (662.8ms) Inference, (3.5ms) NMS
+1 fire, Done. (442.0ms) Inference, (6.8ms) NMS
+3 fires, Done. (450.1ms) Inference, (29.1ms) NMS
+1 fire, Done. (439.0ms) Inference, (3.0ms) NMS
+2 fires, Done. (373.2ms) Inference, (2.5ms) NMS
+1 fire, Done. (307.3ms) Inference, (2.1ms) NMS
+2 fires, Done. (297.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (283.9ms) Inference, (2.5ms) NMS
+3 fires, Done. (283.7ms) Inference, (2.4ms) NMS
+1 fire, Done. (289.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (278.9ms) Inference, (2.5ms) NMS
+1 fire, Done. (310.6ms) Inference, (2.1ms) NMS
+3 fires, Done. (293.8ms) Inference, (2.4ms) NMS
+1 fire, Done. (284.6ms) Inference, (2.4ms) NMS
+3 fires, Done. (273.9ms) Inference, (2.2ms) NMS
+2 fires, Done. (286.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (270.0ms) Inference, (2.3ms) NMS
+2 fires, Done. (287.0ms) Inference, (3.0ms) NMS
+3 fires, Done. (285.7ms) Inference, (4.2ms) NMS
+2 fires, Done. (305.8ms) Inference, (2.2ms) NMS
+3 fires, Done. (290.1ms) Inference, (2.1ms) NMS
+3 fires, Done. (288.7ms) Inference, (3.1ms) NMS
+2 fires, Done. (306.5ms) Inference, (2.4ms) NMS
+2 fires, Done. (289.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (289.7ms) Inference, (2.2ms) NMS
+2 fires, Done. (283.2ms) Inference, (2.2ms) NMS
+3 fires, Done. (281.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.6ms) Inference, (2.9ms) NMS
+2 fires, Done. (288.5ms) Inference, (3.4ms) NMS
+2 fires, Done. (286.4ms) Inference, (2.3ms) NMS
+2 fires, Done. (262.3ms) Inference, (2.3ms) NMS
+1 fire, Done. (290.6ms) Inference, (2.4ms) NMS
+2 fires, Done. (291.1ms) Inference, (2.0ms) NMS
+1 fire, Done. (289.0ms) Inference, (2.0ms) NMS
+2 fires, Done. (277.8ms) Inference, (2.2ms) NMS
+2 fires, Done. (291.6ms) Inference, (2.3ms) NMS
+2 fires, Done. (291.3ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.5ms) Inference, (2.3ms) NMS
+2 fires, Done. (284.5ms) Inference, (2.3ms) NMS
+2 fires, Done. (281.2ms) Inference, (2.2ms) NMS
+2 fires, Done. (281.6ms) Inference, (1.9ms) NMS
+2 fires, Done. (286.4ms) Inference, (2.4ms) NMS
+2 fires, Done. (286.2ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.7ms) Inference, (2.2ms) NMS
+2 fires, Done. (286.1ms) Inference, (2.1ms) NMS
+1 fire, Done. (265.1ms) Inference, (2.5ms) NMS
+2 fires, Done. (285.6ms) Inference, (3.0ms) NMS
+1 fire, Done. (289.5ms) Inference, (2.3ms) NMS
+2 fires, Done. (289.3ms) Inference, (2.3ms) NMS
+1 fire, Done. (293.6ms) Inference, (1.9ms) NMS
+3 fires, Done. (291.0ms) Inference, (2.3ms) NMS
+1 fire, Done. (286.7ms) Inference, (2.1ms) NMS
+3 fires, Done. (276.8ms) Inference, (2.2ms) NMS
+1 fire, Done. (301.6ms) Inference, (2.4ms) NMS
+4 fires, Done. (286.1ms) Inference, (2.5ms) NMS
+1 fire, Done. (287.9ms) Inference, (2.3ms) NMS
+4 fires, Done. (275.9ms) Inference, (2.2ms) NMS
+1 fire, Done. (288.5ms) Inference, (2.0ms) NMS
+4 fires, Done. (271.7ms) Inference, (2.3ms) NMS
+4 fires, Done. (268.0ms) Inference, (2.7ms) NMS
+2 fires, Done. (284.4ms) Inference, (2.2ms) NMS
+4 fires, Done. (290.3ms) Inference, (2.6ms) NMS
+2 fires, Done. (290.8ms) Inference, (2.8ms) NMS
+2 fires, Done. (280.2ms) Inference, (2.4ms) NMS
+4 fires, Done. (301.0ms) Inference, (2.7ms) NMS
+2 fires, Done. (287.8ms) Inference, (2.5ms) NMS
+4 fires, Done. (277.0ms) Inference, (2.5ms) NMS
+2 fires, Done. (288.1ms) Inference, (3.1ms) NMS
+4 fires, Done. (272.0ms) Inference, (2.9ms) NMS
+2 fires, Done. (315.2ms) Inference, (2.9ms) NMS
+4 fires, Done. (313.1ms) Inference, (2.9ms) NMS
+2 fires, Done. (279.7ms) Inference, (2.3ms) NMS
+2 fires, Done. (289.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (284.9ms) Inference, (2.3ms) NMS
+4 fires, Done. (285.2ms) Inference, (2.3ms) NMS
+4 fires, Done. (298.6ms) Inference, (2.2ms) NMS
+3 fires, Done. (299.3ms) Inference, (2.0ms) NMS
+3 fires, Done. (324.1ms) Inference, (2.4ms) NMS
+4 fires, Done. (325.0ms) Inference, (2.4ms) NMS
+3 fires, Done. (277.1ms) Inference, (2.3ms) NMS
+4 fires, Done. (287.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (308.1ms) Inference, (2.3ms) NMS
+3 fires, Done. (297.1ms) Inference, (2.6ms) NMS
+3 fires, Done. (297.9ms) Inference, (2.4ms) NMS
+3 fires, Done. (297.5ms) Inference, (2.6ms) NMS
+2 fires, Done. (287.1ms) Inference, (2.3ms) NMS
+4 fires, Done. (287.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (287.3ms) Inference, (2.2ms) NMS
+4 fires, Done. (277.9ms) Inference, (2.2ms) NMS
+3 fires, Done. (274.1ms) Inference, (3.2ms) NMS
+2 fires, Done. (283.1ms) Inference, (3.4ms) NMS
+2 fires, Done. (318.9ms) Inference, (2.9ms) NMS
+4 fires, Done. (322.1ms) Inference, (3.3ms) NMS
+2 fires, Done. (286.2ms) Inference, (2.1ms) NMS
+4 fires, Done. (265.1ms) Inference, (1.9ms) NMS
+2 fires, Done. (285.3ms) Inference, (2.3ms) NMS
+3 fires, Done. (273.1ms) Inference, (2.3ms) NMS
+2 fires, Done. (282.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (282.9ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.2ms) Inference, (2.3ms) NMS
+2 fires, Done. (286.2ms) Inference, (2.5ms) NMS
+3 fires, Done. (284.4ms) Inference, (2.2ms) NMS
+1 fire, Done. (286.6ms) Inference, (2.4ms) NMS
+4 fires, Done. (286.5ms) Inference, (2.2ms) NMS
+1 fire, Done. (287.8ms) Inference, (2.5ms) NMS
+3 fires, Done. (281.2ms) Inference, (2.1ms) NMS
+1 fire, Done. (284.4ms) Inference, (2.3ms) NMS
+3 fires, Done. (272.2ms) Inference, (2.3ms) NMS
+2 fires, Done. (286.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (271.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (312.8ms) Inference, (3.2ms) NMS
+2 fires, Done. (312.2ms) Inference, (3.7ms) NMS
+3 fires, Done. (349.7ms) Inference, (3.0ms) NMS
+3 fires, Done. (350.4ms) Inference, (2.7ms) NMS
+3 fires, Done. (352.9ms) Inference, (2.4ms) NMS
+3 fires, Done. (350.0ms) Inference, (3.3ms) NMS
+3 fires, Done. (352.3ms) Inference, (6.5ms) NMS
+3 fires, Done. (355.6ms) Inference, (8.6ms) NMS
+3 fires, Done. (293.8ms) Inference, (3.1ms) NMS
+4 fires, Done. (337.6ms) Inference, (4.3ms) NMS
+3 fires, Done. (318.8ms) Inference, (2.9ms) NMS
+4 fires, Done. (307.4ms) Inference, (3.8ms) NMS
+3 fires, Done. (297.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (314.3ms) Inference, (2.0ms) NMS
+3 fires, Done. (289.3ms) Inference, (2.5ms) NMS
+3 fires, Done. (300.0ms) Inference, (2.9ms) NMS
+3 fires, Done. (289.0ms) Inference, (3.7ms) NMS
+3 fires, Done. (297.6ms) Inference, (3.7ms) NMS
+2 fires, Done. (293.2ms) Inference, (2.5ms) NMS
+3 fires, Done. (293.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (293.6ms) Inference, (2.5ms) NMS
+3 fires, Done. (292.1ms) Inference, (2.2ms) NMS
+3 fires, Done. (286.7ms) Inference, (2.7ms) NMS
+3 fires, Done. (297.3ms) Inference, (4.0ms) NMS
+3 fires, Done. (326.5ms) Inference, (3.5ms) NMS
+2 fires, Done. (314.0ms) Inference, (3.4ms) NMS
+2 fires, Done. (285.2ms) Inference, (2.1ms) NMS
+3 fires, Done. (303.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (287.2ms) Inference, (2.2ms) NMS
+3 fires, Done. (265.9ms) Inference, (2.4ms) NMS
+1 fire, Done. (288.2ms) Inference, (2.7ms) NMS
+3 fires, Done. (288.6ms) Inference, (2.8ms) NMS
+2 fires, Done. (335.4ms) Inference, (2.9ms) NMS
+3 fires, Done. (324.7ms) Inference, (2.7ms) NMS
+2 fires, Done. (335.6ms) Inference, (3.2ms) NMS
+3 fires, Done. (344.6ms) Inference, (3.4ms) NMS
+2 fires, Done. (349.5ms) Inference, (2.4ms) NMS
+3 fires, Done. (322.7ms) Inference, (2.3ms) NMS
+2 fires, Done. (333.0ms) Inference, (2.0ms) NMS
+3 fires, Done. (332.2ms) Inference, (2.4ms) NMS
+1 fire, Done. (316.4ms) Inference, (3.9ms) NMS
+3 fires, Done. (307.0ms) Inference, (2.9ms) NMS
+1 fire, Done. (349.1ms) Inference, (4.3ms) NMS
+3 fires, Done. (321.4ms) Inference, (4.0ms) NMS
+1 fire, Done. (342.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (321.6ms) Inference, (2.9ms) NMS
+1 fire, Done. (294.5ms) Inference, (2.4ms) NMS
+3 fires, Done. (285.0ms) Inference, (2.5ms) NMS
+1 fire, Done. (347.8ms) Inference, (2.7ms) NMS
+3 fires, Done. (346.7ms) Inference, (2.8ms) NMS
+1 fire, Done. (345.1ms) Inference, (2.7ms) NMS
+3 fires, Done. (326.7ms) Inference, (2.9ms) NMS
+1 fire, Done. (334.1ms) Inference, (2.2ms) NMS
+3 fires, Done. (326.2ms) Inference, (2.4ms) NMS
+1 fire, Done. (301.7ms) Inference, (2.9ms) NMS
+3 fires, Done. (285.0ms) Inference, (3.3ms) NMS
+1 fire, Done. (301.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (286.0ms) Inference, (2.4ms) NMS
+1 fire, Done. (291.7ms) Inference, (3.7ms) NMS
+3 fires, Done. (281.7ms) Inference, (3.2ms) NMS
+1 fire, Done. (292.5ms) Inference, (2.6ms) NMS
+3 fires, Done. (275.6ms) Inference, (2.5ms) NMS
+1 fire, Done. (285.9ms) Inference, (2.3ms) NMS
+3 fires, Done. (270.4ms) Inference, (2.2ms) NMS
+1 fire, Done. (283.7ms) Inference, (2.1ms) NMS
+3 fires, Done. (266.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (296.9ms) Inference, (2.6ms) NMS
+1 fire, Done. (312.9ms) Inference, (3.2ms) NMS
+1 fire, Done. (295.2ms) Inference, (2.8ms) NMS
+3 fires, Done. (295.6ms) Inference, (2.5ms) NMS
+1 fire, Done. (315.4ms) Inference, (2.2ms) NMS
+3 fires, Done. (305.4ms) Inference, (2.0ms) NMS
+1 fire, Done. (320.3ms) Inference, (2.3ms) NMS
+3 fires, Done. (305.0ms) Inference, (2.2ms) NMS
+1 fire, Done. (315.9ms) Inference, (2.0ms) NMS
+3 fires, Done. (298.5ms) Inference, (2.3ms) NMS
+1 fire, Done. (308.4ms) Inference, (2.5ms) NMS
+3 fires, Done. (292.3ms) Inference, (2.1ms) NMS
+1 fire, Done. (287.8ms) Inference, (2.2ms) NMS
+3 fires, Done. (268.6ms) Inference, (2.0ms) NMS
+1 fire, Done. (285.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (276.9ms) Inference, (2.3ms) NMS
+1 fire, Done. (292.7ms) Inference, (3.0ms) NMS
+3 fires, Done. (275.3ms) Inference, (3.4ms) NMS
+3 fires, Done. (289.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (272.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (290.9ms) Inference, (2.6ms) NMS
+3 fires, Done. (290.7ms) Inference, (2.5ms) NMS
+3 fires, Done. (289.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (289.2ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (285.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (288.2ms) Inference, (2.0ms) NMS
+3 fires, Done. (287.4ms) Inference, (2.4ms) NMS
+3 fires, Done. (310.0ms) Inference, (2.7ms) NMS
+3 fires, Done. (309.8ms) Inference, (2.7ms) NMS
+2 fires, Done. (286.9ms) Inference, (2.2ms) NMS
+3 fires, Done. (286.8ms) Inference, (2.3ms) NMS
+2 fires, Done. (285.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (275.7ms) Inference, (2.2ms) NMS
+3 fires, Done. (285.3ms) Inference, (2.8ms) NMS
+3 fires, Done. (275.2ms) Inference, (3.5ms) NMS
+2 fires, Done. (285.0ms) Inference, (2.4ms) NMS
+3 fires, Done. (284.9ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (273.9ms) Inference, (2.2ms) NMS
+2 fires, Done. (284.1ms) Inference, (1.9ms) NMS
+3 fires, Done. (274.1ms) Inference, (2.1ms) NMS
+2 fires, Done. (318.1ms) Inference, (3.0ms) NMS
+3 fires, Done. (307.6ms) Inference, (3.7ms) NMS
+3 fires, Done. (292.1ms) Inference, (2.4ms) NMS
+3 fires, Done. (268.4ms) Inference, (2.4ms) NMS
+2 fires, Done. (287.7ms) Inference, (2.6ms) NMS
+3 fires, Done. (287.7ms) Inference, (2.3ms) NMS
+3 fires, Done. (274.9ms) Inference, (3.4ms) NMS
+2 fires, Done. (291.6ms) Inference, (3.4ms) NMS
+3 fires, Done. (277.9ms) Inference, (1.9ms) NMS
+3 fires, Done. (289.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (286.6ms) Inference, (2.2ms) NMS
+5 fires, Done. (286.7ms) Inference, (2.4ms) NMS
+3 fires, Done. (290.2ms) Inference, (2.2ms) NMS
+5 fires, Done. (278.0ms) Inference, (2.5ms) NMS
+3 fires, Done. (284.1ms) Inference, (2.0ms) NMS
+5 fires, Done. (272.2ms) Inference, (2.4ms) NMS
+3 fires, Done. (290.7ms) Inference, (2.9ms) NMS
+6 fires, Done. (289.6ms) Inference, (2.3ms) NMS
+3 fires, Done. (286.5ms) Inference, (2.8ms) NMS
+5 fires, Done. (269.7ms) Inference, (2.6ms) NMS
+2 fires, Done. (290.1ms) Inference, (3.5ms) NMS
+3 fires, Done. (292.9ms) Inference, (3.2ms) NMS
+3 fires, Done. (290.6ms) Inference, (2.5ms) NMS
+3 fires, Done. (280.0ms) Inference, (2.2ms) NMS
+3 fires, Done. (284.7ms) Inference, (2.3ms) NMS
+4 fires, Done. (285.2ms) Inference, (2.1ms) NMS
+3 fires, Done. (289.8ms) Inference, (2.3ms) NMS
+4 fires, Done. (279.7ms) Inference, (2.1ms) NMS
+3 fires, Done. (286.8ms) Inference, (2.5ms) NMS
+5 fires, Done. (284.4ms) Inference, (2.8ms) NMS
+3 fires, Done. (288.4ms) Inference, (2.2ms) NMS
+5 fires, Done. (273.5ms) Inference, (2.1ms) NMS
+3 fires, Done. (298.0ms) Inference, (2.7ms) NMS
+5 fires, Done. (291.3ms) Inference, (2.7ms) NMS
+3 fires, Done. (346.2ms) Inference, (2.6ms) NMS
+5 fires, Done. (334.6ms) Inference, (2.5ms) NMS
+4 fires, Done. (281.8ms) Inference, (2.3ms) NMS
+3 fires, Done. (300.5ms) Inference, (2.3ms) NMS
+3 fires, Done. (302.4ms) Inference, (2.5ms) NMS
+4 fires, Done. (302.4ms) Inference, (2.8ms) NMS
+3 fires, Done. (288.2ms) Inference, (2.5ms) NMS
+4 fires, Done. (284.9ms) Inference, (1.9ms) NMS
+3 fires, Done. (287.9ms) Inference, (2.5ms) NMS
+3 fires, Done. (288.3ms) Inference, (2.2ms) NMS
+3 fires, Done. (283.3ms) Inference, (2.1ms) NMS
+3 fires, Done. (283.4ms) Inference, (2.1ms) NMS
+3 fires, Done. (289.5ms) Inference, (2.2ms) NMS
+4 fires, Done. (289.5ms) Inference, (2.4ms) NMS
+3 fires, Done. (287.2ms) Inference, (2.3ms) NMS
+4 fires, Done. (285.3ms) Inference, (2.4ms) NMS
+5 fires, Done. (144.4ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.3ms) Inference, (1.5ms) NMS
+4 fires, Done. (147.7ms) Inference, (1.6ms) NMS
+4 fires, Done. (150.0ms) Inference, (1.6ms) NMS
+5 fires, Done. (182.9ms) Inference, (1.5ms) NMS
+5 fires, Done. (178.3ms) Inference, (2.8ms) NMS
+5 fires, Done. (176.8ms) Inference, (1.6ms) NMS
+5 fires, Done. (177.4ms) Inference, (3.3ms) NMS
+5 fires, Done. (161.9ms) Inference, (2.4ms) NMS
+4 fires, Done. (148.4ms) Inference, (1.5ms) NMS
+5 fires, Done. (142.9ms) Inference, (1.7ms) NMS
+4 fires, Done. (145.9ms) Inference, (1.6ms) NMS
+5 fires, Done. (148.1ms) Inference, (1.6ms) NMS
+5 fires, Done. (142.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (145.8ms) Inference, (1.5ms) NMS
+5 fires, Done. (147.1ms) Inference, (1.5ms) NMS
+4 fires, Done. (145.3ms) Inference, (2.0ms) NMS
+3 fires, Done. (142.7ms) Inference, (1.5ms) NMS
+4 fires, Done. (146.9ms) Inference, (1.5ms) NMS
+4 fires, Done. (142.9ms) Inference, (1.5ms) NMS
+3 fires, Done. (146.0ms) Inference, (1.5ms) NMS
+2 fires, Done. (143.3ms) Inference, (2.0ms) NMS
+Done. (146.3ms) Inference, (0.4ms) NMS
+Done. (146.5ms) Inference, (0.3ms) NMS
+Done. (145.6ms) Inference, (0.3ms) NMS
+Done. (143.5ms) Inference, (0.3ms) NMS
+Done. (149.1ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (147.2ms) Inference, (0.3ms) NMS
+Done. (145.4ms) Inference, (0.3ms) NMS
+Done. (143.2ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (145.4ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (143.4ms) Inference, (0.3ms) NMS
+Done. (146.1ms) Inference, (0.3ms) NMS
+Done. (148.5ms) Inference, (0.3ms) NMS
+Done. (148.3ms) Inference, (0.3ms) NMS
+Done. (146.4ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (147.9ms) Inference, (0.3ms) NMS
+Done. (145.5ms) Inference, (0.3ms) NMS
+Done. (144.6ms) Inference, (0.3ms) NMS
+Done. (144.9ms) Inference, (0.3ms) NMS
+Done. (150.0ms) Inference, (0.4ms) NMS
+Done. (147.7ms) Inference, (0.3ms) NMS
+Done. (146.8ms) Inference, (0.3ms) NMS
+Done. (146.9ms) Inference, (0.3ms) NMS
+Done. (143.9ms) Inference, (0.3ms) NMS
+Done. (145.4ms) Inference, (0.2ms) NMS
+Done. (145.4ms) Inference, (0.3ms) NMS
+Done. (145.0ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (145.9ms) Inference, (0.3ms) NMS
+Done. (147.0ms) Inference, (0.3ms) NMS
+Done. (144.0ms) Inference, (0.3ms) NMS
+Done. (145.4ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.2ms) NMS
+Done. (145.6ms) Inference, (0.3ms) NMS
+Done. (145.5ms) Inference, (0.3ms) NMS
+Done. (145.8ms) Inference, (0.3ms) NMS
+Done. (143.6ms) Inference, (0.3ms) NMS
+Done. (158.2ms) Inference, (0.3ms) NMS
+Done. (158.2ms) Inference, (0.3ms) NMS
+Done. (145.7ms) Inference, (0.3ms) NMS
+Done. (143.1ms) Inference, (0.2ms) NMS
+Done. (147.9ms) Inference, (0.3ms) NMS
+Done. (160.8ms) Inference, (0.3ms) NMS
+Done. (150.2ms) Inference, (0.3ms) NMS
+Done. (146.3ms) Inference, (0.3ms) NMS
+Done. (147.0ms) Inference, (0.3ms) NMS
+Done. (142.7ms) Inference, (0.3ms) NMS
+Done. (145.5ms) Inference, (0.3ms) NMS
+Done. (145.8ms) Inference, (0.3ms) NMS
+Done. (144.0ms) Inference, (0.3ms) NMS
+Done. (154.8ms) Inference, (0.3ms) NMS
+Done. (158.4ms) Inference, (0.3ms) NMS
+Done. (151.1ms) Inference, (0.3ms) NMS
+Done. (173.5ms) Inference, (0.3ms) NMS
+Done. (164.5ms) Inference, (0.3ms) NMS
+Done. (163.7ms) Inference, (0.3ms) NMS
+Done. (167.1ms) Inference, (0.3ms) NMS
+Done. (155.3ms) Inference, (0.3ms) NMS
+1 fire, Done. (149.6ms) Inference, (1.6ms) NMS
+1 fire, Done. (146.4ms) Inference, (1.6ms) NMS
+1 fire, Done. (148.1ms) Inference, (1.7ms) NMS
+1 fire, Done. (147.9ms) Inference, (2.0ms) NMS
