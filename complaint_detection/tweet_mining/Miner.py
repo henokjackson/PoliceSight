@@ -7,7 +7,7 @@ import configparser
 def TweetMiner(limit):
 	#Setting up key config file parser
 	config=configparser.RawConfigParser()
-	config.read(r"tweet_mining/apiconfig.ini")
+	config.read(r"complaint_detection/tweet_mining/apiconfig.ini")
 
 	#Setting up API keys
 	#api_key=config['Twitter']['API_KEY']

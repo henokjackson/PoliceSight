@@ -1,8 +1,8 @@
-from tweet_mining.miner import TweetMiner
-from complaint_detection.lstm import load_lstm
-from complaint_detection.bert import load_bert
-from tweet_preprocessing.preprocessor import Tweet_Preprocess
+from complaint_detection.LSTM import load_lstm
+from complaint_detection.BERT import load_bert
+from complaint_detection.tweet_mining.Miner import TweetMiner
 from complaint_detection.Complaint_Detection import Detect_Complaint
+from complaint_detection.tweet_preprocessing.TweetPreprocessor import Tweet_Preprocess
 
 if __name__=='__main__':
 	limit=int(input("Number of Tweets : "))

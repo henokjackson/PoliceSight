@@ -14,7 +14,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 def Tweet_Preprocess(tweetlist):
 
     #Setting up CSV file
-    csvfile=csv.writer(open('tweet_preprocessing/tweets.csv','w'))
+    csvfile=csv.writer(open('complaint_detection/tweet_preprocessing/tweets.csv','w'))
     csvfields=['Raw Tweets','Preprocessed Tweets']
     csvfile.writerow(csvfields)
     csvrows=[]
