@@ -1,0 +1,85 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #663399;
+    padding: 20px;
+    color: #fff;
+}
+
+.header-left {
+    width: 50%;
+    text-align: center;
+}
+
+.header-right {
+    width: 50%;
+    text-align: center;
+}
+
+/* Content container styles */
+.content-container {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* Calculate height of viewport minus header height */
+    overflow: hidden;
+}
+
+/* Tweets section styles */
+#tweets-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    /* Set the width of the section */
+    overflow: auto;
+}
+
+
+
+/* Tweet styles */
+.tweet {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tweet p {
+    margin: 0;
+}
+
+.tweet .username {
+    font-weight: bold;
+}
+
+.tweet .timestamp {
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Video section styles */
+#video-section {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+#video-section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}

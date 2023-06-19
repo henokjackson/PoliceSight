@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tweets</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Tweets</h1>
+        </div>
+        <div class="header-right">
+            <h1>Incidents</h1>
+        </div>
+    </header>
+    <div class="content-container">
+        <section id="tweets-section">
+            <ul id="tweets-list">
+                <!-- Tweets will be displayed here -->
+            </ul>
+        </section>
+        <section id="incident-section">
+            <h2 id="incident-type">Latest Incident: {{ incident_data.incident_type }}</h2>
+            <img id="incident-frame" src="data:image/jpeg;base64,{{ incident_data.incident_frame }}" alt="Incident Frame" width="640" height="360">
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.get('tweet.txt', function (data) {
+                var tweets = data.split('\n').filter(function (tweet) {
+                    return tweet.trim() !== '';
+                });
+                var tweetsList = $('#tweets-list');
+                tweets.forEach(function (tweet) {
+                    var tweetListItem = $('<li>').text(tweet);
+                    tweetsList.append(tweetListItem);
+                });
+            });
+        });
+        
+        var defaultIncidentData = {
+            incident_frame: "{{ incident_data.incident_frame }}",
+            incident_type: "None"
+        };
+        var incidentData = defaultIncidentData;
+        var lastUpdateTime = 0;
+        
+        function updateIncident() {
+            fetch('/incident_data')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.timestamp > lastUpdateTime) {
+                        // New incident data found
+                        incidentData = data;
+                        lastUpdateTime = data.timestamp;
+                    } else if (Date.now()/1000 - lastUpdateTime > 10) {
+                        // No new incident data for 30 seconds
+                        incidentData = defaultIncidentData;
+                    }
+                    document.getElementById('incident-type').textContent = "Latest Incident: " + incidentData.incident_type;
+                    document.getElementById('incident-frame').src = "data:image/jpeg;base64," + incidentData.incident_frame;
+                });
+        }
+        
+        updateIncident();  // update immediately
+        setInterval(updateIncident, 1000);  // update every second
+    </script>
+</body>
+
+</html>
