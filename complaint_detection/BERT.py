@@ -1,6 +1,7 @@
+import os
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
-
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 def load_bert():
     # Load the model and tokenizer
     model_path = "./complaint_detection/model/"

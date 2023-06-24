@@ -138,8 +138,8 @@ def detect(dataset,model,half,device,fps,size,sav_path,video_buffer):
         for frame in video_buffer:
             _,buffer=cv.imencode('.jpg',frame)
             frame_base64=base64.b64encode(buffer).decode()
-            data={"incident_frame":frame_base64,"incident_type":"fire"}
-            host='http://192.168.225.128:5001/update'
+            data={"type":"Incident",'tweet': '',"incident_frame":frame_base64,"incident_type":"Fire","timestamp":""}
+            host='http://127.0.0.1:5000/update'
             response=requests.post(url=host,json=data)
             print(response)
 

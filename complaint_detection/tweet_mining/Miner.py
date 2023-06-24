@@ -10,11 +10,16 @@ def TweetMiner(limit):
 	config.read(r"complaint_detection/tweet_mining/apiconfig.ini")
 
 	#Setting up API keys
-	#api_key=config['Twitter']['API_KEY']
-	#api_key_secret=config['Twitter']['API_KEY_SECRET']
+	api_key=config['Twitter']['API_KEY']
+	api_key_secret=config['Twitter']['API_KEY_SECRET']
 	bearer_token=config['Twitter']['BEARER_TOKEN']
-	#access_token=config['Twitter']['ACCESS_TOKEN']
-	#access_token_secret=config['Twitter']['ACCESS_TOKEN_SECRET']
+	access_token=config['Twitter']['ACCESS_TOKEN']
+	access_token_secret=config['Twitter']['ACCESS_TOKEN_SECRET']
+
+	auth = tp.OAuthHandler(api_key, api_key_secret)
+	auth.set_access_token(access_token, access_token_secret)
+
+	api = tp.API(auth)
 
 	#Setting up output files
 	#file=open("tweets.txt",'w')
@@ -32,11 +37,12 @@ def TweetMiner(limit):
 
 	#Setting up search queries
 	user='PoliceSight'
-	id=client.get_user(username=user).data.id
+	#id=api.get_user(username=user).data.id
 
 	#Extracting Tweets
 	#tweets=api.user_timeline(screen_name=username,count=limit,tweet_mode='extended')
-	tweets=client.get_users_mentions(id,max_results=limit)
+	#tweets=api.get_users_mentions(id,max_results=limit)
+	tweets=client.search_recent_tweets(query="Police",tweet_fields=['context_annotations','created_at'],max_results=10)
 	tweetlist=[]
 	#print(tweets)
 	for i,tweet in enumerate(tweets.data):

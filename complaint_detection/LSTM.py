@@ -1,10 +1,11 @@
+import os
 import re
 import nltk
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 def clean_text(text):
   stopwords = nltk.corpus.stopwords.words('english')
   text_cleaning_re = "@\S+|https?:\S+|http?:\S|[^A-Za-z0-9]+"

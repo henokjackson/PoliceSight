@@ -11,7 +11,7 @@ from utils.general import check_img_size,non_max_suppression,scale_coords,strip_
 
 class opt:
     img_size=640
-    conf_thres=0.25
+    conf_thres=0.7
     iou_thres=0.45
     device=''
     view_img=False
@@ -130,7 +130,7 @@ def detect(dataset,model,half,device,fps,size,sav_path,video_buffer):
             file.write(str(f'{s}Done. ({(1E3 * (t2 - t1)):.1f}ms) Inference, ({(1E3 * (t3 - t2)):.1f}ms) NMS\n'))
             #'''
 
-    if (frame_counter/len(dataset))>=0.5:
+    if (frame_counter>0):
         #Call VideoWriter Here
         #vid_write_thread=threading.Thread(target=Video_Write,name='Video Writer',args=(fps,dataset,size,sav_path))
         #vid_write_thread.start()
@@ -138,7 +138,7 @@ def detect(dataset,model,half,device,fps,size,sav_path,video_buffer):
         for frame in video_buffer:
             _,buffer=cv.imencode('.jpg',frame)
             frame_base64=base64.b64encode(buffer).decode()
-            data={"incident_frame":frame_base64,"incident_type":"fire"}
+            data={"type":"Incident",'tweet': '',"incident_frame":frame_base64,"incident_type":"Accident","timestamp":""}
             host='http://192.168.225.128:5001/update'
             response=requests.post(url=host,json=data)
             print(response)
