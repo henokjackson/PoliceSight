@@ -4,8 +4,8 @@ import cv2 as cv
 import numpy as np
 from time import time,sleep
 from utils.datasets import letterbox
-from detect import YOLODetect,Load_YOLO,Initialize
-from DenseOpticalFlow_Video import VideoSetup,VideoFrameExtract,DenseOpticalFlow
+from Detect import YOLODetect,Load_YOLO,Initialize
+from DenseOpticalFlow import VideoSetup,VideoFrameExtract,DenseOpticalFlow
 global w1
 global w2
 global half

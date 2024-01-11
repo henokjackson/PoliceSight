@@ -11,7 +11,7 @@ from utils.general import check_img_size,non_max_suppression,scale_coords,strip_
 
 class opt:
     img_size=640
-    conf_thres=0.7
+    conf_thres=0.75
     iou_thres=0.45
     device=''
     view_img=False
