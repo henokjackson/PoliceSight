@@ -6,3 +6,4 @@ fire_detection/dataset/test/7.mp4
 accident_detection/models/best.pt
 accident_detection/traced_model.pt
 complaint_detection/model/pytorch_model.bin
+.vscode
