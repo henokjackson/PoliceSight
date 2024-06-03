@@ -7,3 +7,7 @@ accident_detection/models/best.pt
 accident_detection/traced_model.pt
 complaint_detection/model/pytorch_model.bin
 .vscode
+/flask/__pycache__
+/fire_detection/__pycache__
+/complaint_detection/__pycache__
+/accident_detection/__pycache__
